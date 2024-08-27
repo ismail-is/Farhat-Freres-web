@@ -50,8 +50,9 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, handle
                                 <div className="header-style2 flex justify-space align-center">
                                     {/* Logo Box */}
                                     <div className="logo-box flex">
-                                        <div className="logo"><Link href="/"><img src="/assets/images/All imgs/Logo.jpg" alt="Logo" /></Link></div>
+                                        <div className="logo"><Link href="/"><img src="https://motorx-six.vercel.app/assets/images/slide/car.png" alt="Logo" /></Link></div>
                                     </div>
+                                    
                                     <div className="nav-outer flex align-center">
                                         {/* Main Menu */}
                                         <nav className="main-menu show navbar-expand-md">

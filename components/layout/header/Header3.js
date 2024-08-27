@@ -50,7 +50,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, handle
                                 <div className="header-style2 flex justify-space align-center">
                                     {/* Logo Box */}
                                     <div className="logo-box flex">
-                                        <div className="logo"><Link href="/"><img src="/assets/images/logo/logo2@.png" alt="Logo" /></Link></div>
+                                        <div className="logo"><Link href="/"><img src="/assets/images/All imgs/Logo.jpg" alt="Logo" /></Link></div>
                                     </div>
                                     <div className="nav-outer flex align-center">
                                         {/* Main Menu */}

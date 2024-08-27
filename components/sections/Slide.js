@@ -45,7 +45,7 @@ export default function Slide() {
                                     <span>off</span>
                                 </div>
                                 <div className="box-car">
-                                    <img src="/assets/images/slide/car.png" alt="" />
+                                    <img src="https://motorx-six.vercel.app/assets/images/slide/car.png" alt="" />
                                     <div className="dot-car">
                                         <div className="dot">
                                             <i className={isToggled ? "icon-Vector-5  active" : " icon-Vector-5 "} onClick={handleToggle}>

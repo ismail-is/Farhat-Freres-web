@@ -7,8 +7,8 @@ export default function IconBox() {
             <div className="widget-icon-box mt--115">
                 <div className="themesflat-container">
                     <div className="heading-section t-al-center mb-30">
-                        <span className="sub-title mb-6 wow fadeInUp">Find your car by car brand</span>
-                        <h2 className="title wow fadeInUp">Browse by Brands</h2>
+                        <span className="sub-title mb-6 wow fadeInUp">Trouvez la marque de votre choix</span>
+                        <h2 className="title wow fadeInUp">Nos Marques </h2>
                     </div>
                     <div className="row">
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
@@ -16,7 +16,7 @@ export default function IconBox() {
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/partner/1.png" alt="" />
                                 </div>
-                                <span className="title-icon">Acura</span>
+                                <span className="title-icon">Honda</span>
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -27,7 +27,7 @@ export default function IconBox() {
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/partner/2.png" alt="" />
                                 </div>
-                                <span className="title-icon">Ford</span>
+                                <span className="title-icon">Chevrolet</span>
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -38,7 +38,7 @@ export default function IconBox() {
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/partner/3.png" alt="" />
                                 </div>
-                                <span className="title-icon">Bentley</span>
+                                <span className="title-icon">Foton</span>
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -49,7 +49,7 @@ export default function IconBox() {
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/partner/4.png" alt="" />
                                 </div>
-                                <span className="title-icon">Cheavrolet</span>
+                                <span className="title-icon">Kaiyi</span>
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -60,7 +60,7 @@ export default function IconBox() {
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/partner/5.png" alt="" />
                                 </div>
-                                <span className="title-icon">Ferrari</span>
+                                <span className="title-icon">Honda Bikes</span>
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -71,7 +71,7 @@ export default function IconBox() {
                                 <div className="image-box-wrap">
                                     <img src="/assets/images/partner/6.png" alt="" />
                                 </div>
-                                <span className="title-icon">Mercedes</span>
+                                <span className="title-icon"></span>
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>

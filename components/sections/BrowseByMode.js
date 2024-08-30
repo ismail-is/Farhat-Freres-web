@@ -8,8 +8,8 @@ export default function BrowseByMode() {
                 <div className="themesflat-container">
                     <div className="browse-by-mode">
                         <div className="heading-section">
-                            <span className="sub-title mb-6 wow fadeInUp">Trusted Car Delaer Service</span>
-                            <h2 className="title mb-40 wow fadeInUp">Browse By Body</h2>
+                            {/* <span className="sub-title mb-6 wow fadeInUp">Trusted Car Delaer Service</span> */}
+                            <h2 className="title mb-40 wow fadeInUp">Recherche par catégories de véhicules</h2>
                             <p className="description wow fadeInUp">For 15 years, we raising the standard of used car
                                 retailing with
                                 one of the most innovative and reliable used vehicle
@@ -35,7 +35,7 @@ export default function BrowseByMode() {
                                     <div className="image-box-wrap">
                                         <img src="/assets/images/partner/c2.png" alt="" />
                                     </div>
-                                    <span className="title-icon">Cuv</span>
+                                    <span className="title-icon">SUV</span>
                                     <div className="btn-con-box">
                                         <i className="icon-arrow-right2" />
                                     </div>
@@ -44,7 +44,7 @@ export default function BrowseByMode() {
                                     <div className="image-box-wrap">
                                         <img src="/assets/images/partner/c3.png" alt="" />
                                     </div>
-                                    <span className="title-icon">cabriolet</span>
+                                    <span className="title-icon">Vans </span>
                                     <div className="btn-con-box">
                                         <i className="icon-arrow-right2" />
                                     </div>
@@ -53,7 +53,7 @@ export default function BrowseByMode() {
                                     <div className="image-box-wrap">
                                         <img src="/assets/images/partner/c4.png" alt="" />
                                     </div>
-                                    <span className="title-icon">Pickup</span>
+                                    <span className="title-icon">Bikes </span>
                                     <div className="btn-con-box">
                                         <i className="icon-arrow-right2" />
                                     </div>
@@ -62,7 +62,7 @@ export default function BrowseByMode() {
                                     <div className="image-box-wrap">
                                         <img src="/assets/images/partner/c5.png" alt="" />
                                     </div>
-                                    <span className="title-icon">Supercar</span>
+                                    <span className="title-icon">Motors </span>
                                     <div className="btn-con-box">
                                         <i className="icon-arrow-right2" />
                                     </div>

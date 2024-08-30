@@ -10,27 +10,28 @@ export default function FeaturesCar() {
                     <div className="feature-car">
                         <div className="feature-car-content">
                             <div className="heading-section">
-                                <span className="sub-title mb-6 wow fadeInUp">Trusted Car Delaer Service</span>
-                                <h2 className="title mb-40 wow fadeInUp">Frequently Questions &amp; Asking Zone..</h2>
-                                <p className="description wow fadeInUp">For 15 years, we raising the standard of used car
-                                    retailing with
-                                    we raising the
-                                    standard of used car ret one of the most innovative and reliable
+                                <span className="sub-title mb-6 wow fadeInUp">Un concessionnaire automobile de confiance</span>
+                                <h2 className="title mb-40 wow fadeInUp">Questions Fréquemment Posées</h2>
+                                <p className="description wow fadeInUp">Nous nous engageons à vous aider à trouver la voiture idéale qui correspond à votre style et à vos besoins.
                                 </p>
                             </div>
                             <div className="list-icon-check">
                                 <ul>
                                     <li>
                                         <i className="icon-Vector-32" />
-                                        <p>we are the best car provider agency with great service</p>
+                                        <p>Nous fournissons les meilleurs services après-vente pendant le plus grand nombre d'années possible.</p>
                                     </li>
                                     <li>
                                         <i className="icon-Vector-32" />
-                                        <p>Get Best Super servicing for car &amp; Rental Service</p>
+                                        <p>Nous avons un excellent mécanicien dans notre garage. </p>
                                     </li>
                                     <li>
                                         <i className="icon-Vector-32" />
-                                        <p>Expert Mechanic for fiitings and servicing car &amp; Rental</p>
+                                        <p>Nous proposons des essais de conduite pour tous nos véhicules.</p>
+                                    </li>
+                                    <li>
+                                        <i className="icon-Vector-32" />
+                                        <p>Toutes les voitures sont couvertes par une garantie complète.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -42,7 +43,7 @@ export default function FeaturesCar() {
                         </div>
                         <div className="feature-car-video video-wrap">
                             <img src="./assets/images/page/video.jpg" alt="" />
-                            <VideoPopup style={1}/>
+                            {/* <VideoPopup style={1}/> */}
                         </div>
                     </div>
                 </div>

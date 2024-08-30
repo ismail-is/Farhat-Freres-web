@@ -40,6 +40,164 @@ export default function MobileMenu() {
                     </ul>
                     <div className="dropdown2-btn" />
                 </li>
+                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us">About </Link></li>
+                {/* <p style={{textAlign:'center',fontWeight:"bolder",color:"red"}}>Brand</p> */}
+                <li className={isActive.key == 5 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(5)}>
+                    <Link href="/#">Honda </Link>
+                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>CR-V</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> HR-V</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>PILOT</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> ACCORD</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> CIVIC</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> CITY </figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <div className="dropdown2-btn" />
+                </li>
+
+
+                <li className={isActive.key == 6 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(6)}>
+                    <Link href="/#">Chevrolet  </Link>
+                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Captiva</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Groove</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
+                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>N400</figcaption>
+                                  </figure></Link></li>
+                        
+                    </ul>
+                    <div className="dropdown2-btn" />
+                </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
+                    <Link href="/#">Cars</Link>
+                    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
+                        <li className={pathname == "/car-list" ? "current" : ""}><Link href="/car-list">Car Listings</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">Listings Details</Link></li>
+                    </ul>
+                    <div className="dropdown2-btn" />
+                </li>
                 <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
                     <Link href="/#">Cars</Link>
                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
@@ -65,6 +223,23 @@ export default function MobileMenu() {
                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                         <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li>
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">Blog Detail</Link></li>
+                    </ul>
+                    <div className="dropdown2-btn" />
+                </li>
+                <li className={isActive.key == 5 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(5)}>
+                    <Link href="/#">Brand </Link>
+                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
+                        <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li>
+                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
+                        <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                    //   style={imgStyles}
+                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Honda</figcaption>
+                                  </figure></Link></li>
+                        
                     </ul>
                     <div className="dropdown2-btn" />
                 </li>

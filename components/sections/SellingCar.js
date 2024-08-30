@@ -14,8 +14,8 @@ export default function SellingCar() {
                 <div className="themesflat-container">
                     <div className="selling-car-wrap">
                         <div className="heading-section t-al-center mb-60">
-                            <span className="sub-title mb-6 wow fadeInUp">Find your car by car brand</span>
-                            <h2 className="title wow fadeInUp">Best selling Cars</h2>
+                            <span className="sub-title mb-6 wow fadeInUp">Les meilleurs concessionnaires automobiles</span>
+                            <h2 className="title wow fadeInUp">Voiture la plus vendue </h2>
                         </div>
                         <div className="selling-car">
                             <div className="selling-carpart">

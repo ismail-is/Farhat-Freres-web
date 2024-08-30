@@ -20,19 +20,21 @@ export default function Home() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <Slide />
-                <SlideSearchCar />
+                {/* <SlideSearchCar /> */}
                 <IconBox />
-                <TabCarService />
-                <BrowseByMode />
-                <Logo />
-                <CarListV2 />
-                <Quote />
-                <SellingCar />
+                {/* <TabCarService /> */}
+                {/* <BrowseByMode /> */}
+                {/* <Logo /> */}
+                {/* <CarListV2 /> */}
+                {/* <Quote /> */}
+                {/* <SellingCar /> */}
                 <CounterCar />
-                <TestimonialCar />
+                {/* <TestimonialCar /> */}
                 <FeaturesCar />
-                <CarBannerV1 />
-                <CarBlogV1 />
+                <BrowseByMode/>
+                <SellingCar/>
+                {/* <CarBannerV1 /> */}
+                {/* <CarBlogV1 /> */}
             </Layout>
         </>
     )

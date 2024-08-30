@@ -2757,8 +2757,10 @@ ul.social-icon li a i:hover {
   height: 2px;
 }
 .widget-tf-slider .slider-wrap .tf-slide-item .slide-item-content .slide-content .title-slide {
-  font-size: 76px;
-  line-height: 83px;
+  /* font-size: 76px;
+  line-height: 83px; */
+  font-size: 56px;
+  line-height: 63px;
   text-transform: capitalize !important;
   color: #ffffff;
   margin-bottom: 28px;

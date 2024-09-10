@@ -7,7 +7,10 @@ export default function Menu() {
     return (
         <>
             <ul className="navigation clearfix">
-                <li className="dropdown2">
+            <li>
+                            <Link href="/">Home </Link>
+                          </li>
+                {/* <li className="dropdown2">
                     <Link href="/#">Home</Link>
                     <ul>
                         <li className={pathname == "/" ? "current" : ""}>
@@ -20,7 +23,7 @@ export default function Menu() {
                         <li className={pathname == "/home05" ? "current" : ""}><Link href="/home05">Home Page 05</Link></li>
                         <li className={pathname == "/home06" ? "current" : ""}><Link href="/home06">Home Page 06</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 <li className="dropdown2">
                     <Link href="/#">Cars</Link>
                     <ul>

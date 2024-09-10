@@ -15,6 +15,12 @@ export default function Header3({
 }) {
   // State to manage hover effect
   const [hoverHonda, setHoverHonda] = useState(false);
+  const [hoverHonda1, setHoverHonda1] = useState(false);
+  const [hoverHonda2, setHoverHonda2] = useState(false);
+  const [hoverHonda3, setHoverHonda3] = useState(false);
+  const [hoverHonda4, setHoverHonda4] = useState(false);
+  const [hoverHonda5, setHoverHonda5] = useState(false);
+  const [hoverHonda6, setHoverHonda6] = useState(false);
 
   // Inline styles for the image card
  // Inline styles for the image card
@@ -118,7 +124,10 @@ const imageCardStyles = {
                         id="navbarSupportedContent"
                       >
                         <ul className="navigation clearfix">
-                          <li className="dropdown2 current">
+                        <li>
+                            <Link href="/">Home </Link>
+                          </li>
+                          {/* <li className="dropdown2 current">
                             <Link href="/#">Home</Link>
                             <ul>
                               <li className="current">
@@ -140,7 +149,7 @@ const imageCardStyles = {
                                 <Link href="/home06">Home Page 06</Link>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                           <li className="dropdown2">
                             <Link href="/#">Cars</Link>
                             <ul>
@@ -154,7 +163,7 @@ const imageCardStyles = {
                           </li>
                           <li className="dropdown2">
                             <Link href="/#">Brand</Link>
-                            <ul style={{ display: "flex", gap: "10px", width: "1200%" }}>
+                            <ul style={{ display: "flex", gap: "10px", width: "1100%" }}>
                               <li
                                 onMouseEnter={() => setHoverHonda(true)}
                                 onMouseLeave={() => setHoverHonda(false)}
@@ -162,66 +171,318 @@ const imageCardStyles = {
                                 <Link href="/car-list">Honda</Link>
                                 {hoverHonda && (
                                   <div style={imageCardStyles}>
+                                    <Link href="/car-list">
                                   <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
                                       style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      src="/assets/images/All imgs/Brands/CR-V 2024.png"
                                       alt="Honda"
                                     />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Honda</figcaption>
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>CR-V 2024</figcaption>
+                                  </figure></Link>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/HR-V 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>HR-V 2024</figcaption>
                                   </figure>
                                   <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
                                       style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
                                       alt="Honda"
                                     />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Honda</figcaption>
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>ACCORD 2024</figcaption>
                                   </figure>
                                   <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
                                       style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      src="./assets/images/All imgs/Brands/PILOT 2024.png"
                                       alt="Honda"
                                     />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Honda</figcaption>
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>PILOT 2024</figcaption>
                                   </figure>
                                   <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
                                       style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      src="./assets/images/All imgs/Brands/CIVIC 2024.png"
                                       alt="Honda"
                                     />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Honda</figcaption>
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>CIVIC 2024</figcaption>
                                   </figure>
                                   <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
                                       style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      src="./assets/images/All imgs/Brands/CITY 2024.png"
                                       alt="Honda"
                                     />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Honda</figcaption>
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>CITY 2024</figcaption>
                                   </figure>
                                 </div>
                                 
                                 
                                 )}
                               </li>
-                              <li>
-                                <Link href="/listing-details">Chevrolet</Link>
+                                <li
+                                onMouseEnter={() => setHoverHonda2(true)}
+                                onMouseLeave={() => setHoverHonda2(false)}
+                              >
+                                <Link href="/car-list">Chevrolet </Link>
+                                {hoverHonda2 && (
+                                  <div style={imageCardStyles}>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="/assets/images/All imgs/Brands/Captiva1.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Captiva</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/Groove.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Groove</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/N400.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> N400 </figcaption>
+                                  </figure>
+                                
+                                  
+                                  
+                                </div>
+                                
+                                
+                                )}
                               </li>
-                              <li>
-                                <Link href="/listing-details">Kaiyi</Link>
+                                <li
+                                onMouseEnter={() => setHoverHonda3(true)}
+                                onMouseLeave={() => setHoverHonda3(false)}
+                              >
+                                <Link href="/car-list">Kaiyi</Link>
+                                {hoverHonda3 && (
+                                  <div style={imageCardStyles}>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="/assets/images/All imgs/Brands/Captiva.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>X3</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>X3 Pro</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> X7 </figcaption>
+                                  </figure>
+                                
+                                  
+                                  
+                                </div>
+                                
+                                
+                                )}
                               </li>
-                              <li>
-                                <Link href="/listing-details">Foton</Link>
+                             
+
+
+
+
+                              
+                              
+
+
+
+                              <li
+                                onMouseEnter={() => setHoverHonda4(true)}
+                                onMouseLeave={() => setHoverHonda4(false)}
+                              >
+                                <Link href="/car-list">Foton </Link>
+                                {hoverHonda4 && (
+                                  <div style={imageCardStyles}>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="/assets/images/All imgs/Brands/Captiva.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Tunland - G7</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Tunland - E5</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> Foton View -C2</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> CS2</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> Foton TM</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Foton Tohano</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> Aumark</figcaption>
+                                  </figure>
+                                
+                                  
+                                  
+                                </div>
+                                
+                                
+                                )}
                               </li>
-                              <li>
-                                <Link href="/listing-details">Honda Bikes</Link>
+
+
+
+
+                              
+                              <li
+                                onMouseEnter={() => setHoverHonda5(true)}
+                                onMouseLeave={() => setHoverHonda5(false)}
+                              >
+                                <Link href="/car-list">Honda Bikes </Link>
+                                {hoverHonda5 && (
+                                  <div style={imageCardStyles}>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="/assets/images/All imgs/Brands/Captiva.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>XL125</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>ACE110</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> ACE125</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> ACE125 TUFF</figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> Wave 110</figcaption>
+                                  </figure>
+                                
+                                  
+                                  
+                                </div>
+                                
+                                
+                                )}
                               </li>
-                              <li>
-                                <Link href="/listing-details">Honda Engines</Link>
+
+
+
+
+                              
+                              <li
+                                onMouseEnter={() => setHoverHonda6(true)}
+                                onMouseLeave={() => setHoverHonda6(false)}
+                              >
+                                <Link href="/car-list">Honda Engines</Link>
+                                {hoverHonda6 && (
+                                  <div style={imageCardStyles}>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="/assets/images/All imgs/Brands/Captiva.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>2 Generators </figcaption>
+                                  </figure>
+                                  <figure style={{ display: 'inline-block', margin: '10px' }}>
+                                    <img
+                                      style={imgStyles}
+                                      src="./assets/images/All imgs/Brands/ACCORD 2024.png"
+                                      alt="Honda"
+                                    />
+                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>2 Water pumps </figcaption>
+                                  </figure>
+                               
+                                
+                                  
+                                  
+                                </div>
+                                
+                                
+                                )}
                               </li>
+
+
                             </ul>
                           </li>
                           <li className="dropdown2">

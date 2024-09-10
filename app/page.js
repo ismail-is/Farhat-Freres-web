@@ -31,7 +31,7 @@ export default function Home() {
                 <CounterCar />
                 {/* <TestimonialCar /> */}
                 <FeaturesCar />
-                <BrowseByMode/>
+                {/* <BrowseByMode/> */}
                 <SellingCar/>
                 {/* <CarBannerV1 /> */}
                 {/* <CarBlogV1 /> */}

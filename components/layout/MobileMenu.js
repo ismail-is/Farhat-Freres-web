@@ -50,7 +50,7 @@ export default function MobileMenu() {
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
                                     //   style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      src="./assets/images/All imgs/Brands/CR-V 2024.png"
                                       alt="Honda"
                                     />
                                     <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>CR-V</figcaption>
@@ -63,7 +63,7 @@ export default function MobileMenu() {
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
                                     //   style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
+                                      src="./assets/images/All imgs/Brands/HR-V 2024.png"
                                       alt="Honda"
                                     />
                                     <figcaption style={{ textAlign: 'center', marginTop: '5px' }}> HR-V</figcaption>

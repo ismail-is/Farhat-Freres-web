@@ -14,7 +14,7 @@ export default function IconBox() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/#" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="/assets/images/partner/1.png" alt="" />
+                                    <img src="assets/images/All imgs/1.png" alt=""  />
                                 </div>
                                 <span className="title-icon">Honda</span>
                                 <div className="btn-con-box">
@@ -25,7 +25,7 @@ export default function IconBox() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/#" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="/assets/images/partner/2.png" alt="" />
+                                    <img src="assets/images/All imgs/2.png" alt="" />
                                 </div>
                                 <span className="title-icon">Chevrolet</span>
                                 <div className="btn-con-box">
@@ -36,7 +36,7 @@ export default function IconBox() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/#" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="/assets/images/partner/3.png" alt="" />
+                                    <img src="assets/images/All imgs/3.png" alt="" />
                                 </div>
                                 <span className="title-icon">Foton</span>
                                 <div className="btn-con-box">
@@ -47,7 +47,7 @@ export default function IconBox() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/#" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="/assets/images/partner/4.png" alt="" />
+                                    <img src="assets/images/All imgs/4.png" alt="" />
                                 </div>
                                 <span className="title-icon">Kaiyi</span>
                                 <div className="btn-con-box">
@@ -58,7 +58,7 @@ export default function IconBox() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/#" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="/assets/images/partner/5.png" alt="" />
+                                    <img src="assets/images/All imgs/5.png" alt="" />
                                 </div>
                                 <span className="title-icon">Honda Bikes</span>
                                 <div className="btn-con-box">
@@ -69,9 +69,9 @@ export default function IconBox() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/#" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="/assets/images/partner/6.png" alt="" />
+                                    <img src="assets/images/All imgs/6.png" alt="" />
                                 </div>
-                                <span className="title-icon"></span>
+                                <span className="title-icon">Honda Engines</span>
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>

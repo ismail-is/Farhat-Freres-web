@@ -3803,7 +3803,7 @@ ul.social-icon li a i:hover {
 }
 .icon-box .image-box-wrap img {
   width: auto;
-  height: auto;
+  height: 100px;
 }
 .icon-box .title-icon {
   font-size: 20px;

@@ -79,50 +79,50 @@ const imgStyles = {
 
 const imageData = {
   Honda: [
-    { id: "honda1", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CR-V", url: "/crv" },
+    { id: "honda1", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CR-V", url: "/crv" },
     { id: "honda2", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "HR-V", url: "/hrv" },
-    { id: "honda3", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "PILOT", url: "/pilot" },
+    { id: "honda3", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "PILOT", url: "/pilot" },
     { id: "honda4", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "ACCORD", url: "/listing-details" },
-    { id: "honda5", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/listing-details" },
+    { id: "honda5", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/listing-details" },
     { id: "honda6", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "CITY", url: "/listing-details" },
   ],
   Chevrolet: [
     { id: "chevrolet", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Captiva" },
-    { id: "chevrolet", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Groove" },
-    { id: "chevrolet", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "N400" },
+    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Groove" },
+    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "N400" },
     // Add other Chevrolet images here
   ],
   Kaiyi: [
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "X3" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X3 Pro" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X7" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X3 Pro" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X7" },
     // Add other Chevrolet images here
   ],
   Foton : [
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Tunland - G7" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland - E5" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton View -C2" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "CS2" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton TM" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton Tohano" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland - E5" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton View -C2" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "CS2" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton TM" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton Tohano" },
     // Add other Chevrolet images here
   ], 
   HondaBikes : [
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "XL125" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE110" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125 TUFF" },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Wave 110" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE110" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125 TUFF" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Wave 110" },
     // Add other Chevrolet images here
   ], HondaEngines: [
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators " },
-    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps " },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps " },
     // Add other Chevrolet images here
   ], 
 };
 const usedCar = {
   Captiva: [
-    { src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "CR-V", url: "/crv" },
+    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "CR-V", url: "/crv" },
     { src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Captiva HR-V 2024", caption: "HR-V", url: "/listing-details" },
     { src: "./assets/images/All imgs/Brands/Accord 2024.png", alt: "Captiva Accord 2024", caption: "Accord", url: "/listing-details" },
   ],

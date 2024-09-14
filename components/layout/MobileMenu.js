@@ -42,7 +42,7 @@ export default function MobileMenu() {
                 </li> */}
                 <li className={pathname == "/" ? "current" : ""}><Link href="/">Accueil
                 </Link></li>
-                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us">A propos de nous
+                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/about">A propos de nous
                 </Link></li>
                 {/* <p style={{textAlign:'center',fontWeight:"bolder",color:"red"}}>Brand</p> */}
                 {/* <li className={isActive.key == 5 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(5)}>

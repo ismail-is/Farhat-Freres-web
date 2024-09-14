@@ -10,6 +10,7 @@ import Logo from "@/components/sections/Logo"
 import Quote from "@/components/sections/Quote"
 import SellingCar from "@/components/sections/SellingCar"
 import Slide from "@/components/sections/Slide"
+import SlideForm from "@/components/sections/SlideForm"
 import SlideSearchCar from "@/components/sections/SlideSearchCar"
 import TabCarService from "@/components/sections/TabCarService"
 import TestimonialCar from "@/components/sections/TestimonialCar"
@@ -19,7 +20,8 @@ export default function Home() {
         <>
 
             <Layout headerStyle={3} footerStyle={1}>
-                <Slide />
+                <SlideForm/>
+                {/* <Slide /> */}
                 {/* <SlideSearchCar /> */}
                 <IconBox />
                 {/* <TabCarService /> */}

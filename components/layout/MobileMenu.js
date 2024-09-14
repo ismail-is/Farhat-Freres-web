@@ -25,7 +25,7 @@ export default function MobileMenu() {
     return (
         <>
             <ul className="navigation clearfix">
-                <li className={isActive.key == 1 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(1)}>
+                {/* <li className={isActive.key == 1 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(1)}>
                     <Link href="/#">Home</Link>
                     <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                         <li className={pathname == "/" ? "current" : ""}>
@@ -39,17 +39,18 @@ export default function MobileMenu() {
                         <li className={pathname == "/home06" ? "current" : ""}><Link href="/home06">Home Page 06</Link></li>
                     </ul>
                     <div className="dropdown2-btn" />
-                </li>
-                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us">About </Link></li>
+                </li> */}
+                <li className={pathname == "/" ? "current" : ""}><Link href="/">Accueil
+                </Link></li>
+                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us">A propos de nous
+                </Link></li>
                 {/* <p style={{textAlign:'center',fontWeight:"bolder",color:"red"}}>Brand</p> */}
-                <li className={isActive.key == 5 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(5)}>
+                {/* <li className={isActive.key == 5 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(5)}>
                     <Link href="/#">Honda </Link>
                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
-                                    //   style={imgStyles}
                                       src="./assets/images/All imgs/Brands/CR-V 2024.png"
                                       alt="Honda"
                                     />
@@ -58,11 +59,9 @@ export default function MobileMenu() {
                         
                     </ul>
                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
-                                    //   style={imgStyles}
                                       src="./assets/images/All imgs/Brands/HR-V 2024.png"
                                       alt="Honda"
                                     />
@@ -71,11 +70,9 @@ export default function MobileMenu() {
                         
                     </ul>
                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
-                                    //   style={imgStyles}
                                       src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
                                       alt="Honda"
                                     />
@@ -84,11 +81,9 @@ export default function MobileMenu() {
                         
                     </ul>
                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
-                                    //   style={imgStyles}
                                       src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
                                       alt="Honda"
                                     />
@@ -97,11 +92,9 @@ export default function MobileMenu() {
                         
                     </ul>
                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
-                                    //   style={imgStyles}
                                       src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
                                       alt="Honda"
                                     />
@@ -113,7 +106,6 @@ export default function MobileMenu() {
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
                         <figure style={{ display: 'inline-block', margin: '10px' }}>
                                     <img
-                                    //   style={imgStyles}
                                       src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
                                       alt="Honda"
                                     />
@@ -122,52 +114,10 @@ export default function MobileMenu() {
                         
                     </ul>
                     <div className="dropdown2-btn" />
-                </li>
+                </li> */}
 
 
-                <li className={isActive.key == 6 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(6)}>
-                    <Link href="/#">Chevrolet  </Link>
-                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
-                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
-                        <figure style={{ display: 'inline-block', margin: '10px' }}>
-                                    <img
-                                    //   style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
-                                      alt="Honda"
-                                    />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Captiva</figcaption>
-                                  </figure></Link></li>
-                        
-                    </ul>
-                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
-                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
-                        <figure style={{ display: 'inline-block', margin: '10px' }}>
-                                    <img
-                                    //   style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
-                                      alt="Honda"
-                                    />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Groove</figcaption>
-                                  </figure></Link></li>
-                        
-                    </ul>
-                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                        {/* <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li> */}
-                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
-                        <figure style={{ display: 'inline-block', margin: '10px' }}>
-                                    <img
-                                    //   style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
-                                      alt="Honda"
-                                    />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>N400</figcaption>
-                                  </figure></Link></li>
-                        
-                    </ul>
-                    <div className="dropdown2-btn" />
-                </li>
+             
 
 
 
@@ -191,10 +141,14 @@ export default function MobileMenu() {
 
 
                 <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
-                    <Link href="/#">Cars</Link>
+                    <Link href="/#">Honda</Link>
                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                        <li className={pathname == "/car-list" ? "current" : ""}><Link href="/car-list">Car Listings</Link></li>
-                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">Listings Details</Link></li>
+                        <li className={pathname == "/car-list" ? "current" : ""}><Link href="/crv">Honda CR-V</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/hrv">Honda HR-V</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">PILOT</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">ACCORD</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">CIVIC</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/hrv">CITY</Link></li>
                     </ul>
                     <div className="dropdown2-btn" />
                 </li>
@@ -206,7 +160,7 @@ export default function MobileMenu() {
                     </ul>
                     <div className="dropdown2-btn" />
                 </li>
-                <li className={isActive.key == 3 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(3)}>
+                {/* <li className={isActive.key == 3 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(3)}>
                     <Link href="/#">Page</Link>
                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                         <li className={pathname == "/dashboard" ? "current" : ""}><Link href="/dashboard">Dashboard</Link></li>
@@ -217,32 +171,16 @@ export default function MobileMenu() {
                         <li className={pathname == "/404" ? "current" : ""}><Link href="/404">404</Link></li>
                     </ul>
                     <div className="dropdown2-btn" />
-                </li>
-                <li className={isActive.key == 4 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(4)}>
+                </li> */}
+                {/* <li className={isActive.key == 4 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(4)}>
                     <Link href="/#">News </Link>
                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                         <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li>
                         <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">Blog Detail</Link></li>
                     </ul>
                     <div className="dropdown2-btn" />
-                </li>
-                <li className={isActive.key == 5 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(5)}>
-                    <Link href="/#">Brand </Link>
-                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                        <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li>
-                        <li className={pathname == "/blog-single" ? "current" : ""}><Link href="/blog-single">
-                        <figure style={{ display: 'inline-block', margin: '10px' }}>
-                                    <img
-                                    //   style={imgStyles}
-                                      src="https://madebydesignesia.com/themes/autoev/images/misc/m3.webp"
-                                      alt="Honda"
-                                    />
-                                    <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>Honda</figcaption>
-                                  </figure></Link></li>
-                        
-                    </ul>
-                    <div className="dropdown2-btn" />
-                </li>
+                </li> */}
+              
                 <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us">Contact us </Link>
                 </li>
             </ul>

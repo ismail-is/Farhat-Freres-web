@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function IconBox() {
     return (
         <>
-            <div className="widget-icon-box mt--115">
+            <div className="widget-icon-box mt--15">
                 <div className="themesflat-container">
                     <div className="heading-section t-al-center mb-30">
                         <span className="sub-title mb-6 wow fadeInUp">Trouvez la marque de votre choix</span>

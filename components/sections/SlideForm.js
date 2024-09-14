@@ -12,13 +12,13 @@ export default function SlideForm() {
             <div className="tf-slide-form">
                 <div className="themesflat-container">
                     <div className="slide-form t-al-center">
-                        <span className="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2000ms">Save up to <span className="text-red">15%</span></span>
-                        <h1 className="wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">Find <span className="text-red">Perfect</span> Car. Let’s Go!</h1>
-                        <p className="wow fadeInUp" data-wow-delay="600ms" data-wow-duration="2000ms">Unlimited mileage · No
-                            hidden fees · Free cancellation</p>
+                        {/* <span className="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2000ms">Save up to <span className="text-red">15%</span></span> */}
+                        <h1 className="wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">Votre destination de <span className="text-red">confiance </span> pour des voitures de<span className="text-red">qualité.  </span></h1>
+                        {/* <p className="wow fadeInUp" data-wow-delay="600ms" data-wow-duration="2000ms">Unlimited mileage · No
+                            hidden fees · Free cancellation</p> */}
                     </div>
                     {/* Tab */}
-                    <div className="search-form-widget">
+                    {/* <div className="search-form-widget">
                         <ul className="nav nav-tabs" id="myTab" role="tablist">
                             <li className="nav-item" onClick={() => handleOnClick(1)}>
                                 <button className={activeIndex == 1 ? "nav-link active" : "nav-link"}>All Cars</button>
@@ -78,7 +78,7 @@ export default function SlideForm() {
                                                     <p className="price-range">Price</p>
                                                 </div>
                                                 <RangeSlider />
-                                            </div>{/* /.widget_price */}
+                                            </div>
                                         </div>
                                         <div className="form-group">
                                             <button type="submit" className="button-search-listing">
@@ -134,7 +134,7 @@ export default function SlideForm() {
                                                     <p className="price-range">Price</p>
                                                 </div>
                                                 <RangeSlider />
-                                            </div>{/* /.widget_price */}
+                                            </div>
                                         </div>
                                         <div className="form-group">
                                             <button type="submit" className="button-search-listing">
@@ -190,7 +190,7 @@ export default function SlideForm() {
                                                     <p className="price-range">Price</p>
                                                 </div>
                                                 <RangeSlider />
-                                            </div>{/* /.widget_price */}
+                                            </div>
                                         </div>
                                         <div className="form-group">
                                             <button type="submit" className="button-search-listing">
@@ -202,7 +202,7 @@ export default function SlideForm() {
                                 </form >
                             </div >
                         </div >
-                    </div >
+                    </div > */}
                     {/* Tab */}
                 </div >
             </div >

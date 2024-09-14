@@ -5,60 +5,64 @@ export default function Footer1() {
             <footer id="footer" className="clearfix bg-footer2 pd-t81 re-hi">
                 <div className="themesflat-container">
                     <div className="row footer-top">
-                        <div className="col-lg-6 col-md-12 col-12 pd-r80 ">
-                            <h2 className="title-footer-top">Do you Have <span className="red-title">something</span> to sell
-                                through us?</h2>
+                        <div className="col-lg-8 col-md-12 col-12 pd-r80 ">
+                            <h2 className="title-footer-top">Visitez notre <span className="red-title"> showroom  </span> et Découvrez les Voitures</h2>
                             {/* <img className="icon-ft" src="/assets/images/page/shape-footer.png" alt="" /> */}
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12 t-al-right pt-20">
+                        {/* <div className="col-lg-12 col-md-12 col-12 t-al-right ">
                             <Link href="/#" className="btn-sell">Sell your car today</Link>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="row footer-main">
-                        <div className="col-lg-3 col-md-6 col-12">
+                        <div className="col-lg-4 col-md-6 col-12">
                             <div className="widget widget-info">
-                                <img src="/assets/images/logo/logo2.png" alt="Logo Footer" />
-                                <p>The world’s first and largest digital market for crypto collectibles and non-fungible
-                                    (NFTs). Buy</p>
+                                <img src="./assets/images/All imgs/footerlogo.png" alt="Logo Footer" />
+                                <p> nous sommes un concessionnaire automobile de confiance offrant une large sélection de voitures de qualité, un service exceptionnel et la satisfaction du client.
+                                </p>
                                 <ul>
+                               
                                     <li>
-                                        <i className="icon-Vector1" />
-                                        <p>14 New South Head Rd,Triple 3148London, UK</p>
+                                        <i className="icon-Group-2" />
+                                        <a href="tel:+2250707666660"  style={{color:'white'}}> +225 07 07 66 66 60</a>
                                     </li>
                                     <li>
                                         <i className="icon-Group-1" />
-                                        <p>needhelp@company.com</p>
+                                        <a href="mailto:Info@farhatfreres.com" style={{color:'white'}}>Info@farhatfreres.com</a>
                                     </li>
+                                    <li>
+                                        <i className="icon-Vector1" />
+                                        <p>Rue Thomas Edison - Zone 4, Abidja</p>
+                                    </li>
+                                 
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-12">
+                        <div className="col-lg-4 col-md-6 col-12">
                             <div className="widget widget-menu pl-60">
-                                <h3>Quick Links</h3>
+                                <h3>Page principale</h3>
                                 <ul className="box-menu">
-                                    <li><Link href="/#">Dealer Locator</Link></li>
-                                    <li><Link href="/#">Service Locator</Link></li>
-                                    <li><Link href="/#">Pre-owned</Link></li>
-                                    <li><Link href="/#">Accessori Originali</Link></li>
-                                    <li><Link href="/#">Spare Parts</Link></li>
-                                    <li><Link href="/#"> Services</Link></li>
+                                    <li><Link href="/#">Accueil </Link></li>
+                                    <li><Link href="/about">A propos de nous   </Link></li>
+                                    <li><Link href="/#">Notre marque</Link></li>
+                                    <li><Link href="/contact-us">Contactez nous</Link></li>
+                                    
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-12">
+                        <div className="col-lg-4 col-md-6 col-12">
                             <div className="widget widget-menu pl-30">
-                                <h3>Research</h3>
+                                <h3>Nos marques</h3>
                                 <ul className="box-menu">
-                                    <li><Link href="/#">Build &amp; Price A Vehicle</Link></li>
-                                    <li><Link href="/#">Compare Models</Link></li>
-                                    <li><Link href="/#"> Warranty</Link></li>
-                                    <li><Link href="/#">Download a Brochure</Link></li>
-                                    <li><Link href="/#">Sign-Up for Updates</Link></li>
-                                    <li><Link href="/#">Mail Me a Brochure</Link></li>
+                                    <li><Link href="/#">Honda </Link></li>
+                                    <li><Link href="/#">Chevrolet </Link></li>
+                                    <li><Link href="/#"> Kaiyi</Link></li>
+                                    <li><Link href="/#">Foton </Link></li>
+                                    <li><Link href="/#">Honda Bikes</Link></li>
+                                    <li><Link href="/#">Honda Engines</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-12">
+                        {/* <div className="col-lg-3 col-md-6 col-12">
                             <div className="widget widget-menu widget-form">
                                 <h3>Newsletter</h3>
                                 <form method="post" className="email-footer-form form-submit" action="#" acceptCharset="utf-8">
@@ -79,11 +83,11 @@ export default function Footer1() {
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="row footer-bottom">
-                        <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-                            <p className="coppy-right">Made with ❤️ by <Link href="/#">Themesflat</Link></p>
+                        <div className="col-12 col-md- col-lg- col-xl-8 col-xxl-4">
+                            <p className="coppy-right">© 2024 Farhat Freres  Designed By  <Link href="https://brightmedia.tech/" style={{color:'red '}} target="blank">Bright Media</Link></p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                             <ul className="social-icon">
@@ -101,13 +105,13 @@ export default function Footer1() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-12 col-lg-12 col-xl-4 col-xxl-4">
+                        {/* <div className="col-md-12 col-lg-12 col-xl-4 col-xxl-4">
                             <ul className="bottom-bar-menu">
                                 <li><Link href="/#">Privacy &amp; Policy</Link></li>
                                 <li><Link href="/#">Licensing</Link></li>
                                 <li><Link href="/#">Instruction</Link></li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <img src="/assets/images/page/ft-left.png" alt="left" className="shape-left" />

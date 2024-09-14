@@ -14,6 +14,7 @@ export default function Header3({
   isToggled3,
 }) {
   // State to manage hover effect
+  
   const [hoverHonda, setHoverHonda] = useState(false);
   const [hoverHonda1, setHoverHonda1] = useState(false);
   const [hoverHonda2, setHoverHonda2] = useState(false);
@@ -21,29 +22,112 @@ export default function Header3({
   const [hoverHonda4, setHoverHonda4] = useState(false);
   const [hoverHonda5, setHoverHonda5] = useState(false);
   const [hoverHonda6, setHoverHonda6] = useState(false);
+ 
+    // const [selectedBrand, setSelectedBrand] = useState(null);
+  
+    // const handleClick = (brand) => {
+    //   setSelectedBrand(brand);
+    // };
+    const [selectedBrand, setSelectedBrand] = useState("Honda");
 
+    const handleClick = (brand) => {
+      setSelectedBrand(brand);
+    };
+
+    const [currentBrand, setCurrentBrand] = useState("Captiva");
+
+    const selectBrand = (brand) => {
+      setCurrentBrand(brand);
+    };
   // Inline styles for the image card
  // Inline styles for the image card
-const imageCardStyles = {
-    position: "absolute",
-    top: "50px", // Adjust based on where you want the card to appear
-    left: "0",
-    width: "330px", // Adjust width to fit the grid layout
-    padding: "10px",
-    backgroundColor: "white",
-    border: "1px solid #ccc",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-    zIndex: "100",
-    display: "grid",
-    gridTemplateColumns: "1fr 1fr 1fr", // Create a 3x3 grid
-    gap: "10px", // Space between grid items
-  };
+ const imageCardStyles = {
+  position: "absolute",
+  top: "10px",
+  left: "150px",
+  width: "fit-content",
+  padding: "10px",
+  backgroundColor: "white",
+  borderRadius: "1%",
+  // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+  display: "grid",
+  gridTemplateColumns: "repeat(3, 2fr)",  // This creates 1 row with 4 images
+  gap: "10px",
+  zIndex: 100, // Ensure image card appears above other elements
   
-  const imgStyles = {
-    width: "100%",
-    height: "auto",
-  };
-  
+};
+
+const imgStyles = {
+  width: "100px",
+  height: "auto",
+ 
+  // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+  zIndex: -1, // This moves the image behind other content
+  transition: "border 0.6s ease-in-out" // Smooth transition effect
+};
+
+
+// const imageCardStyles = {
+//   display: 'flex',
+//   flexWrap: 'wrap',
+// };
+
+// const imgStyles = {
+//   width: '100px',
+//   height: 'auto',
+// };
+
+const imageData = {
+  Honda: [
+    { id: "honda1", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CR-V", url: "/crv" },
+    { id: "honda2", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "HR-V", url: "/hrv" },
+    { id: "honda3", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "PILOT", url: "/pilot" },
+    { id: "honda4", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "ACCORD", url: "/listing-details" },
+    { id: "honda5", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/listing-details" },
+    { id: "honda6", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "CITY", url: "/listing-details" },
+  ],
+  Chevrolet: [
+    { id: "chevrolet", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Captiva" },
+    { id: "chevrolet", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Groove" },
+    { id: "chevrolet", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "N400" },
+    // Add other Chevrolet images here
+  ],
+  Kaiyi: [
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "X3" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X3 Pro" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X7" },
+    // Add other Chevrolet images here
+  ],
+  Foton : [
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Tunland - G7" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland - E5" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton View -C2" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "CS2" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton TM" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton Tohano" },
+    // Add other Chevrolet images here
+  ], 
+  HondaBikes : [
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "XL125" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE110" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125 TUFF" },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Wave 110" },
+    // Add other Chevrolet images here
+  ], HondaEngines: [
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators " },
+    { id: "Kaiyi", src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps " },
+    // Add other Chevrolet images here
+  ], 
+};
+const usedCar = {
+  Captiva: [
+    { src: "/assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "CR-V", url: "/crv" },
+    { src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Captiva HR-V 2024", caption: "HR-V", url: "/listing-details" },
+    { src: "./assets/images/All imgs/Brands/Accord 2024.png", alt: "Captiva Accord 2024", caption: "Accord", url: "/listing-details" },
+  ],
+};
+
 
   
   return (
@@ -125,7 +209,10 @@ const imageCardStyles = {
                       >
                         <ul className="navigation clearfix">
                         <li>
-                            <Link href="/">Home </Link>
+                            <Link href="/">Accueil </Link>
+                          </li>
+                        <li>
+                            <Link href="/about">A propos de nous </Link>
                           </li>
                           {/* <li className="dropdown2 current">
                             <Link href="/#">Home</Link>
@@ -150,7 +237,7 @@ const imageCardStyles = {
                               </li>
                             </ul>
                           </li> */}
-                          <li className="dropdown2">
+                          {/* <li className="dropdown2">
                             <Link href="/#">Cars</Link>
                             <ul>
                               <li>
@@ -160,10 +247,261 @@ const imageCardStyles = {
                                 <Link href="/listing-details">Listings Details</Link>
                               </li>
                             </ul>
-                          </li>
-                          <li className="dropdown2">
-                            <Link href="/#">Brand</Link>
-                            <ul style={{ display: "flex", gap: "10px", width: "1100%" }}>
+                          </li> */}
+
+<li className="dropdown2">
+      <Link href="/#">Nos Marques</Link>
+      <ul style={{ gap: "10px", width: "470%" }}>
+        {Object.keys(imageData).map((brand) => (
+          <li
+            key={brand}
+            onClick={() => handleClick(brand)}
+            style={{ color: selectedBrand === brand ? 'red' : 'black',cursor: 'pointer',  }} // Apply color based on selected brand
+          >
+            <p>{brand}</p>
+          </li>
+        ))}
+
+        {/* Conditionally render the image section outside of the brand loop */}
+        {selectedBrand && (
+          <div style={imageCardStyles} >
+            {imageData[selectedBrand].map((image, index) => (
+              <figure
+                key={index}
+                style={{ marginLeft: "60px", marginTop: "-90px", margin: "2px" }}
+              >
+                {image.url ? (
+                  <Link href={image.url}>
+                    <img
+                      style={imgStyles}
+                      src={image.src}
+                      alt={image.alt}
+                      onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                      onMouseLeave={(e) => (e.target.style.border = 'none')}
+                    />
+                  </Link>
+                ) : (
+                  <img
+                    style={imgStyles}
+                    src={image.src}
+                    alt={image.alt}
+                    onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                    onMouseLeave={(e) => (e.target.style.border = 'none')}
+                  />
+                )}
+                <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>
+                  {image.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+      </ul>
+    </li>
+
+
+    <li className="dropdown2">
+      <Link href="/#">Voitures d'occasion</Link>
+      <ul style={{ gap: "10px", width: "1%" ,marginLeft:"-200px",marginTop:"-30px",backgroundColor:"none"}}>
+        {Object.keys(usedCar).map((brand) => (
+          <li
+            key={brand}
+            onClick={() => selectBrand(brand)}
+            style={{ color: currentBrand === brand ? 'red' : 'black', cursor: 'pointer' }}
+          >
+            {currentBrand && (
+          <div style={imageCardStyles}>
+            {usedCar[currentBrand].map((image, index) => (
+              <figure
+                key={index}
+                style={{ margin: "2px" }}
+              >
+                {image.url ? (
+                  <Link href={image.url}>
+                    <img
+                      style={imgStyles}
+                      src={image.src}
+                      alt={image.alt}
+                      onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                      onMouseLeave={(e) => (e.target.style.border = '1px solid transparent')}
+                    />
+                  </Link>
+                ) : (
+                  <img
+                    style={imgStyles}
+                    src={image.src}
+                    alt={image.alt}
+                    onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                    onMouseLeave={(e) => (e.target.style.border = '1px solid transparent')}
+                  />
+                )}
+                <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>
+                  {image.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+          </li>
+        ))}
+
+        {/* Conditionally render the image section based on currentBrand */}
+        
+      </ul>
+    </li>
+
+    <li className="dropdown2">
+      <Link href="/#">location De Voitures</Link>
+      <ul style={{ gap: "10px", width: "1%" ,marginLeft:"-200px",marginTop:"-30px",backgroundColor:"none"}}>
+        {Object.keys(usedCar).map((brand) => (
+          <li
+            key={brand}
+            onClick={() => selectBrand(brand)}
+            style={{ color: currentBrand === brand ? 'red' : 'black', cursor: 'pointer' }}
+          >
+            {currentBrand && (
+          <div style={imageCardStyles}>
+            {usedCar[currentBrand].map((image, index) => (
+              <figure
+                key={index}
+                style={{ margin: "2px" }}
+              >
+                {image.url ? (
+                  <Link href={image.url}>
+                    <img
+                      style={imgStyles}
+                      src={image.src}
+                      alt={image.alt}
+                      onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                      onMouseLeave={(e) => (e.target.style.border = '1px solid transparent')}
+                    />
+                  </Link>
+                ) : (
+                  <img
+                    style={imgStyles}
+                    src={image.src}
+                    alt={image.alt}
+                    onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                    onMouseLeave={(e) => (e.target.style.border = '1px solid transparent')}
+                  />
+                )}
+                <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>
+                  {image.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+          </li>
+        ))}
+
+        {/* Conditionally render the image section based on currentBrand */}
+        
+      </ul>
+    </li>
+
+
+    {/* use fulll */}
+    {/* <li className="dropdown2">
+      <Link href="/#">Voitures d'occasion</Link>
+      <ul style={{ gap: "10px", width: "470%" ,backgroundColor:'transparent',marginLeft:'-200px'}}>
+        {Object.keys(imageData).map((brand) => (
+          <li
+            key={brand}
+            onClick={() => handleClick(brand)}
+            style={{ color: selectedBrand === brand ? 'red' : 'black' }} // Apply color based on selected brand
+          >
+            <p>{brand}</p>
+          </li>
+        ))}
+
+        {selectedBrand && (
+          <div style={imageCardStyles} >
+            {usedCar[selectedBrand].map((image, index) => (
+              <figure
+                key={index}
+                style={{ marginLeft: "60px", marginTop: "-90px", margin: "2px" }}
+              >
+                {image.url ? (
+                  <Link href={image.url}>
+                    <img
+                      style={imgStyles}
+                      src={image.src}
+                      alt={image.alt}
+                      onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                      onMouseLeave={(e) => (e.target.style.border = 'none')}
+                    />
+                  </Link>
+                ) : (
+                  <img
+                    style={imgStyles}
+                    src={image.src}
+                    alt={image.alt}
+                    onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                    onMouseLeave={(e) => (e.target.style.border = 'none')}
+                  />
+                )}
+                <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>
+                  {image.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+      </ul>
+    </li> */}
+
+
+
+
+
+
+    {/* <li className="dropdown2">
+      <Link href="/#">location De Voitures</Link>
+      <ul style={{ gap: "10px", width: "470%" ,backgroundColor:'transparent',marginLeft:'-200px'}}>
+       
+
+        {selectedBrand && (
+          <div style={imageCardStyles} >
+            {usedCar[selectedBrand].map((image, index) => (
+              <figure
+                key={index}
+                style={{ marginLeft: "60px", marginTop: "-90px", margin: "2px" }}
+              >
+                {image.url ? (
+                  <Link href={image.url}>
+                    <img
+                      style={imgStyles}
+                      src={image.src}
+                      alt={image.alt}
+                      onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                      onMouseLeave={(e) => (e.target.style.border = 'none')}
+                    />
+                  </Link>
+                ) : (
+                  <img
+                    style={imgStyles}
+                    src={image.src}
+                    alt={image.alt}
+                    onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
+                    onMouseLeave={(e) => (e.target.style.border = 'none')}
+                  />
+                )}
+                <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>
+                  {image.caption}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+      </ul>
+    </li> */}
+
+
+{/* old drop down */}
+                          {/* <li className="dropdown2">
+                            <Link href="/#">Notre marque</Link>
+                            <ul style={{ gap: "10px", width: "800%" }}>
                               <li
                                 onMouseEnter={() => setHoverHonda(true)}
                                 onMouseLeave={() => setHoverHonda(false)}
@@ -264,6 +602,7 @@ const imageCardStyles = {
                                 
                                 )}
                               </li>
+
                                 <li
                                 onMouseEnter={() => setHoverHonda3(true)}
                                 onMouseLeave={() => setHoverHonda3(false)}
@@ -310,7 +649,6 @@ const imageCardStyles = {
 
                               
                               
-
 
 
                               <li
@@ -388,7 +726,6 @@ const imageCardStyles = {
 
 
 
-                              
                               <li
                                 onMouseEnter={() => setHoverHonda5(true)}
                                 onMouseLeave={() => setHoverHonda5(false)}
@@ -448,7 +785,6 @@ const imageCardStyles = {
 
 
 
-                              
                               <li
                                 onMouseEnter={() => setHoverHonda6(true)}
                                 onMouseLeave={() => setHoverHonda6(false)}
@@ -484,8 +820,22 @@ const imageCardStyles = {
 
 
                             </ul>
-                          </li>
-                          <li className="dropdown2">
+                          </li> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          
+                          {/* <li className="dropdown2">
                             <Link href="/#">Page</Link>
                             <ul>
                               <li>
@@ -507,8 +857,8 @@ const imageCardStyles = {
                                 <Link href="/404">404</Link>
                               </li>
                             </ul>
-                          </li>
-                          <li className="dropdown2">
+                          </li> */}
+                          {/* <li className="dropdown2">
                             <Link href="/#">News </Link>
                             <ul>
                               <li>
@@ -518,7 +868,7 @@ const imageCardStyles = {
                                 <Link href="/blog-single">Blog Detail</Link>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="/contact-us">Contact us </Link>
                           </li>
@@ -571,7 +921,7 @@ const imageCardStyles = {
               <div className="menu-outer">
                 <MobileMenu />
               </div>
-              <div className="help-bar-mobie login-box">
+              {/* <div className="help-bar-mobie login-box">
                 <a
                   data-bs-toggle="modal"
                   onClick={handleToggle1}
@@ -581,25 +931,25 @@ const imageCardStyles = {
                   <i className="icon-user" />
                   Login
                 </a>
-              </div>
-              <div className="help-bar-mobie search">
+              </div> */}
+              {/* <div className="help-bar-mobie search">
                 <Link href="/#" className="fw-7 font-2">
                   <i className="icon-loupe-1" />
                   Search
                 </Link>
-              </div>
-              <div className="help-bar-mobie compare">
+              </div> */}
+              {/* <div className="help-bar-mobie compare">
                 <Link href="/#" className="fw-7 font-2">
                   <i className="icon-shuffle-2-1" />
                   Compare
                 </Link>
-              </div>
-              <div className="help-bar-mobie cart">
+              </div> */}
+              {/* <div className="help-bar-mobie cart">
                 <Link href="/#" className="fw-7 font-2">
                   <i className="icon-Vector" />
                   Cart
                 </Link>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>

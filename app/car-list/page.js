@@ -38,7 +38,7 @@ export default function CarList() {
                     <div className="widget-banner-car-listing banner-car-listing-list">
                         <div className="themesflat-container full">
                             <div className="banner-car-listing">
-                                <span className="sub-title">Save up to 15%</span>
+                                {/* <span className="sub-title">Save up to 15%</span> */}
                                 <h1 className="title text-white">Autohix <span className="text-red">Rental</span> Car</h1>
                             </div>
                         </div>
@@ -47,163 +47,14 @@ export default function CarList() {
                     <div className="widget-car-listing-list">
                         <div className="themesflat-container">
                             <div className="row car-listing-list">
-                                <div className="col-md-12 col-lg-3">
-                                    <div className="search-filter-listing-car">
-                                        <div className="filter-header-list">
-                                            <h6 className="title-filter">Search by Filter</h6>
-                                            <div className="btn-filter">
-                                                <i className="icon-Grid-view" onClick={handleToggle} />
-                                            </div>
-                                        </div>
-                                        <form id="filter-list-car-side-bar" className="list-filter" style={{ display: `${isToggled ? "block" : "none"}` }}>
-                                            <div className="form-group">
-                                                <div className="input-search-list">
-                                                    <input type="search" className="form-control" placeholder="Search here..." />
-                                                    <span className="input-group-text " id="search-addon">
-                                                        <i className="icon-Vector-1" />
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="widget widget-price ">
-                                                    <div className="caption flex-two">
-                                                        <p className="price-range">Price</p>
-                                                    </div>
-                                                    <RangeSlider />
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="group-select">
-
-                                                    <select className="nice-select">
-                                                        <option data-value className="option selected">Used</option>
-                                                        <option data-value="New" className="option">New</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="group-select">
-
-                                                    <select className="nice-select">
-                                                        <option data-value className="option selected">SUV</option>
-                                                        <option data-value="Crossover" className="option">Crossover</option>
-                                                        <option data-value="Compact" className="option">Compact</option>
-                                                        <option data-value="Convertible" className="option">Convertible</option>
-                                                        <option data-value="Hatchback" className="option">Hatchback</option>
-                                                        <option data-value="Sedan" className="option">Sedan</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="group-select">
-
-                                                    <select className="nice-select">
-                                                        <option data-value className="option selected">BMV</option>
-                                                        <option data-value="Acura" className="option">Acura</option>
-                                                        <option data-value="Audi" className="option">Audi</option>
-                                                        <option data-value="Bentley" className="option">Bentley</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="group-select">
-
-                                                    <select className="nice-select">
-                                                        <option data-value className="option selected">X5</option>
-                                                        <option data-value="3 Series" className="option">3 Series</option>
-                                                        <option data-value="718 Boxster T" className="option">718 Boxster T</option>
-                                                        <option data-value="718 Cayman" className="option">718 Cayman</option>
-                                                        <option data-value="911 Carrera 4" className="option">911 Carrera 4</option>
-                                                        <option data-value="A4" className="option">A4</option>
-                                                        <option data-value="Bentayga" className="option">Bentayga</option>
-                                                        <option data-value="Bentayga Azure" className="option">Bentayga Azure</option>
-                                                        <option data-value="Bentayga Technology" className="option">Bentayga
-                                                            Technology</option>
-                                                        <option data-value="C Class" className="option">C Class</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="group-select">
-
-                                                    <select className="nice-select">
-                                                        <option data-value className="option selected">Petrol</option>
-                                                        <option data-value="Diesel" className="option">Diesel</option>
-                                                        <option data-value="Electric" className="option">Electric</option>
-                                                        <option data-value="Gasoline" className="option">Gasoline</option>
-                                                        <option data-value="Hybrid" className="option">Hybrid</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="group-select">
-
-                                                    <select className="nice-select">
-                                                        <option data-value className="option selected">Manual Transmission</option>
-                                                        <option data-value="Auto" className="option">Auto</option>
-                                                        <option data-value="CVT" className="option">CVT</option>
-                                                        <option data-value="DCT" className="option">DCT</option>
-                                                        <option data-value="MT" className="option">MT</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="form-group-wrap">
-                                                <div className="form-group">
-                                                    <div className="group-select">
-
-                                                        <select className="nice-select">
-                                                            <option data-value className="option selected">2024</option>
-                                                            <option data-value={2023} className="option">2023</option>
-                                                            <option data-value={2022} className="option">2022</option>
-                                                            <option data-value={2021} className="option">2021</option>
-                                                            <option data-value={2020} className="option">2020</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div className="form-group">
-                                                    <div className="group-select">
-
-                                                        <select className="nice-select">
-                                                            <option data-value className="option selected">RWD</option>
-                                                            <option data-value="FWD" className="option">FWD</option>
-                                                            <option data-value="AWD" className="option">AWD</option>
-                                                            <option data-value="4WD" className="option">4WD</option>
-                                                            <option data-value="2WD" className="option" />
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <input type="text" id="Mileage" className="form-control" name="mileage" defaultValue={2500} />
-                                            </div>
-                                            <div className="form-group">
-                                                <div className="group-select">
-
-                                                    <select className="nice-select">
-                                                        <option data-value className="option selected">Black</option>
-                                                        <option data-value="Red" className="option">Red</option>
-                                                        <option data-value="White" className="option">White</option>
-                                                        <option data-value="Yellow" className="option">Yellow</option>
-                                                        <option data-value="Blue" className="option">Blue</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <input type="text" id="engine-size" className="form-control" name="mileage" defaultValue="Enter Engine Size" />
-                                            </div>
-                                            <div className="form-group">
-                                                <input type="text" id="location" className="form-control" name="mileage" defaultValue="Enter Location" />
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div className="col-md-12 col-lg-9 listing-list-car-wrap">
+                               
+                                <div className="col-md-12 col-lg-12 listing-list-car-wrap ">
                                     <form action="/" className="tf-my-listing-search">
                                         <div className="row">
-                                            <div className="col-md-6">
+                                            {/* <div className="col-md-6">
                                                 <p className="showing">Showing 1–12 of <span className="text-red">54</span> results</p>
-                                            </div>
-                                            <div className="col-md-6 toolbar-search-list">
+                                            </div> */}
+                                            {/* <div className="col-md-6 toolbar-search-list">
                                                 <div className="group-select-recently">
 
                                                     <select className="nice-select">
@@ -212,10 +63,10 @@ export default function CarList() {
                                                         <option data-value="Recently Added" className="option">Recently Added</option>
                                                     </select>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="tab-listing-all">
-                                            <div className="condition-tab-wrap tf-search-condition-tab">
+                                            {/* <div className="condition-tab-wrap tf-search-condition-tab">
                                                 <div className="nav" id="nav-tab" role="tablist">
                                                     <a className={activeIndex == 1 ? "btn-condition-filter active" : "btn-condition-filter"} onClick={() => handleOnClick(1)}>
                                                         All <span className="number-list">(100)</span>
@@ -227,7 +78,7 @@ export default function CarList() {
                                                         Used <span className="number-list">(29)</span>
                                                     </a>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                             <div className="toolbar-list">
                                                 <div className="form-group">
                                                     <a className="btn-display-listing-grid active">
@@ -3914,7 +3765,7 @@ export default function CarList() {
                                                 </div>
                                             </div>
                                             <div className="tf-pagination">
-                                                <a className="prev page-numbers" href="#">
+                                                {/* <a className="prev page-numbers" href="#">
                                                     <i className="icon-3" />
                                                 </a>
                                                 <a className="page-numbers" href="#">1</a>
@@ -3923,7 +3774,7 @@ export default function CarList() {
                                                 <a className="page-numbers" href="#">...</a>
                                                 <a className="next page-numbers" href="#">
                                                     <i className="icon--1" />
-                                                </a>
+                                                </a> */}
                                             </div>
                                         </div>
                                     </div>

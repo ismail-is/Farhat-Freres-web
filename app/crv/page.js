@@ -35,7 +35,7 @@ const swiperOptions = {
         },
     },
 }
-export default function ListingDetails() {
+export default function crv() {
     const [isToggled4, setToggled4] = useState(false)
     const handleToggle4 = () => setToggled4(!isToggled4)
     const [isToggled5, setToggled5] = useState(false)
@@ -61,31 +61,32 @@ export default function ListingDetails() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>HONDA <span style={{color:"red"}}>CR-V</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
-                                        {/* <div className="box-1">
+                                        <div className="box-1">
                                             <div className="icon-box-info flex">
-                                                <div className="info-sale">
+                                                {/* <div className="info-sale">
                                                     <span className="sale">-34%</span>
-                                                </div>
-                                                <div className="info flex">
+                                                </div> */}
+                                                {/* <div className="info flex">
                                                     <span>Make:</span>
-                                                    <span className="fw-4">Toyota</span>
-                                                </div>
-                                                <div className="info flex">
+                                                    <span className="fw-4">HONDA</span>
+                                                </div> */}
+                                                {/* <div className="info flex">
                                                     <span>Model:</span>
                                                     <span className="fw-4">XC60</span>
                                                 </div>
                                                 <div className="info flex">
                                                     <span>Body:</span>
                                                     <span className="fw-4">Sedan</span>
-                                                </div>
+                                                </div> */}
                                             </div>
-                                            <div className="title-heading">Chevrolet Suburban 2021</div>
-                                            <div className="text-address">
+                                            {/* <div className="title-heading" >CR-V </div> */}
+                                            {/* <div className="text-address">
                                                 <i className="icon-map-1-1" />
                                                 <p>Boston, MA, United States</p>
-                                            </div>
-                                        </div> */}
+                                            </div> */}
+                                        </div>
                                         {/* <div className="box-2 t-al-right">
                                             <div className="icon-boxs flex">
                                                 <Link href="/#">
@@ -112,28 +113,15 @@ export default function ListingDetails() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row">
-                                <div className="col-lg-8 col-md-12">
+                            <div className="row" style={{marginTop:"-40px"}}>
+                                <div className="col-lg-8 col-md-12 " >
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
-                                            <h4 className="title">Description</h4>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but majority have
-                                                suffered teration in some form, by injected humour, or randomised words which
-                                                don't look even slight believable. If you are going to use a passa There
-                                                are many variations of passages of Lorem Ipsum available, but majority have
-                                                suffered teration in some form look even
-                                                by injected humour, or randomised There are many variations of passages of Lorem
-                                                Ipsum available, but majority
-                                                have suffered teration in some form, by injected humour, or randomised words
-                                                which don't look even slight believable.
-                                                If you are going to use a passa There are many variations of passages of Lorem
-                                                Ipsum available, but majority
-                                                have suffered teration in some form, by injected humour, or randomised many
-                                                variations of passages of Lorem Ipsum available, but majority There are many
-                                                variations of passages of </p>
+                                            <h4 className="title">Description </h4>
+                                            <p>Le Honda CR-V 2024 combine des options de moteur turbo ou hybride avec un intérieur spacieux et technologique et des caractéristiques de sécurité avancées. Son design élégant, sa capacité de chargement accrue et sa transmission intégrale en font le compagnon idéal pour les trajets en ville et les escapades en plein air</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
-                                            <h4 className="title">Car Overview</h4>
+                                            <h4 className="title">Vue d'ensemble de la voiture   </h4>
                                             <div className="listing-info">
                                                 <div className="row">
                                                     <div className="col-xl-6 col-md-6 item">
@@ -143,7 +131,7 @@ export default function ListingDetails() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Condition:</span>
-                                                                <p className="listing-info-value">New</p>
+                                                                <p className="listing-info-value">Nouveau</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -153,12 +141,12 @@ export default function ListingDetails() {
                                                                 <i className="icon-Group-1000002834" />
                                                             </div>
                                                             <div className="content-listing-info">
-                                                                <span className="listing-info-title">Cylinders: </span>
-                                                                <p className="listing-info-value">6</p>
+                                                                <span className="listing-info-title">Cylindres: </span>
+                                                                <p className="listing-info-value">4</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className=" icon-Vector-13" />
@@ -168,19 +156,19 @@ export default function ListingDetails() {
                                                                 <p className="listing-info-value">N8990</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-Group5" />
                                                             </div>
                                                             <div className="content-listing-info">
-                                                                <span className="listing-info-title">Fuel Type:</span>
-                                                                <p className="listing-info-value">Petrol</p>
+                                                                <span className="listing-info-title">Type de carburant:</span>
+                                                                <p className="listing-info-value">essence</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-Vector-13" />
@@ -190,14 +178,14 @@ export default function ListingDetails() {
                                                                 <p className="listing-info-value">84HKFI792KJDC</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-Group-15" />
                                                             </div>
                                                             <div className="content-listing-info">
-                                                                <span className="listing-info-title">Doors:</span>
+                                                                <span className="listing-info-title">Portes:</span>
                                                                 <p className="listing-info-value">4</p>
                                                             </div>
                                                         </div>
@@ -208,12 +196,12 @@ export default function ListingDetails() {
                                                                 <i className="icon-Vector-13" />
                                                             </div>
                                                             <div className="content-listing-info">
-                                                                <span className="listing-info-title">Year:</span>
-                                                                <p className="listing-info-value">2023</p>
+                                                                <span className="listing-info-title">Année:</span>
+                                                                <p className="listing-info-value">2024</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-Format-color-fill" />
@@ -223,15 +211,15 @@ export default function ListingDetails() {
                                                                 <p className="listing-info-value">Black</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-dashboard-2" />
                                                             </div>
                                                             <div className="content-listing-info">
-                                                                <span className="listing-info-title">Mileage: </span>
-                                                                <p className="listing-info-value">28,000 miles</p>
+                                                                <span className="listing-info-title">Kilométrage: </span>
+                                                                <p className="listing-info-value">12 - 19.5 kmpl</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -241,7 +229,7 @@ export default function ListingDetails() {
                                                                 <i className="icon-Group-22" />
                                                             </div>
                                                             <div className="content-listing-info">
-                                                                <span className="listing-info-title">Seats:</span>
+                                                                <span className="listing-info-title">Sièges:</span>
                                                                 <p className="listing-info-value">5</p>
                                                             </div>
                                                         </div>
@@ -253,11 +241,11 @@ export default function ListingDetails() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Transmission :</span>
-                                                                <p className="listing-info-value">Automatic</p>
+                                                                <p className="listing-info-value">Automatique</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-Group-31" />
@@ -267,19 +255,19 @@ export default function ListingDetails() {
                                                                 <p className="listing-info-value">18</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-engine-1" />
                                                             </div>
                                                             <div className="content-listing-info">
-                                                                <span className="listing-info-title">Engine Size:</span>
-                                                                <p className="listing-info-value">4.8L</p>
+                                                                <span className="listing-info-title">Taille du moteur</span>
+                                                                <p className="listing-info-value">1.5  </p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-Group-31" />
@@ -289,8 +277,8 @@ export default function ListingDetails() {
                                                                 <p className="listing-info-value">28</p>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    </div> */}
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-steering-wheel-1" />
@@ -300,62 +288,50 @@ export default function ListingDetails() {
                                                                 <p className="listing-info-value">2WD</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="wrap-car-feature wrap-style">
-                                            <h4 className="title">Features</h4>
+                                        {/* <div className="wrap-car-feature wrap-style">
+                                            <h4 className="title">Caractéristiques</h4>
                                             <div className="tf-listing-info">
                                                 <div id="tf-features">
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Safety</h5>
+                                                        <h5 className="features-type-title">Sécurité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage central</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
+                                                        </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div>
+                                                    </div>
+                                                    <div className="features-item">
+                                                        <h5 className="features-type-title">Extérieur</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Essuie-glaces à détecteur de pluie</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Aileron arrière</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Toit ouvrant
+                                                        </div>
+                                                    </div>
+                                                    <div className="features-item">
+                                                        <h5 className="features-type-title">Intérieur</h5>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />A/C:
                                                             Front</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Central
-                                                            locking</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Leather
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en cuir
                                                         </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sports
-                                                            package</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Exterior</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Front
-                                                            fog light</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Rain
-                                                            sensing wipe</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Rear
-                                                            Spoilers</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sun roof
-                                                        </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div>
-                                                    </div>
-                                                    <div className="features-item">
-                                                        <h5 className="features-type-title">Interior</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />A/C:
-                                                            Front</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Child
-                                                            safety locks</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Leather
-                                                        </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Driver
-                                                            air bags</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div>
-                                                    </div>
-                                                    <div className="features-item">
-                                                        <h5 className="features-type-title">Convenience</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Power
-                                                            steering</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vanity
-                                                            mirror</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Trunk
-                                                            Light</div>
+                                                        <h5 className="features-type-title">Commodité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Miroir de courtoisie</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feu de coffre</div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         {/* <div className="wrap-car-location wrap-style">
                                             <h4 className="title">Features</h4>
                                             <div className="listing-address">
@@ -634,7 +610,7 @@ export default function ListingDetails() {
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-12">
-                                    <div className="driver-price-wrap mb-40">
+                                    {/* <div className="driver-price-wrap mb-40">
                                         <a className="test-driver mb-16" data-bs-toggle="modal" onClick={handleToggle4} role="button">
                                             Schedule Test Driver
                                             <i className="icon-steering-wheel-1" />
@@ -643,9 +619,9 @@ export default function ListingDetails() {
                                             Make An Offer Price
                                             <i className="icon-Group-12" />
                                         </a>
-                                    </div>
+                                    </div> */}
                                     <div className="author-contact-listing-wrap">
-                                        <div className="author-contact-wrap">
+                                        {/* <div className="author-contact-wrap">
                                             <div className="author-contact-avatar">
                                                 <img src="./assets/images/avatar/avt-admin.png" title="image" />
                                             </div>
@@ -657,7 +633,7 @@ export default function ListingDetails() {
                                                     +1900 67 xxx (show)
                                                 </span>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <form action="/" method="post" className="form-contact-admin" aria-label="Contact form">
                                             <div className="group-form">
                                                 <input className="admin-form" aria-required="true" aria-invalid="false" placeholder="Your Name" type="text" />
@@ -680,13 +656,130 @@ export default function ListingDetails() {
                                     </div>
                                 </div>
                             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <div className="row" style={{marginBottom:"-120px"}}>
+                                <div className="col-12 col-md-12 col-lg-12">
+                                    <div className="post-property">
+                                      
+                                        
+                                        <div className="wrap-car-feature wrap-style">
+                                            <h4 className="title">Caractéristiques</h4>
+                                            <div className="tf-listing-info">
+                                                <div id="tf-features">
+                                                    <div className="features-item">
+                                                        <h5 className="features-type-title">Sécurité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage central</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
+                                                        </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div>
+                                                    </div>
+                                                    <div className="features-item">
+                                                        <h5 className="features-type-title">Extérieur</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Essuie-glaces automatiques</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Aileron arrière</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Toit ouvrant
+                                                        </div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
+                                                    </div>
+                                                    <div className="features-item">
+                                                        <h5 className="features-type-title">Intérieur</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />A/C:
+                                                            Front</div>
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en cuir
+                                                            </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants</div>
+                                                       
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
+                                                    </div>
+                                                    <div className="features-item">
+                                                        <h5 className="features-type-title">Commodité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Miroir de courtoisie</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feu de coffre</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-12">
+                                    {/* <div className="driver-price-wrap mb-40">
+                                        <a className="test-driver mb-16" data-bs-toggle="modal" onClick={handleToggle4} role="button">
+                                            Schedule Test Driver
+                                            <i className="icon-steering-wheel-1" />
+                                        </a>
+                                        <a className="offer-price" data-bs-toggle="modal" onClick={handleToggle5} role="button">
+                                            Make An Offer Price
+                                            <i className="icon-Group-12" />
+                                        </a>
+                                    </div> */}
+                                    <div className="author-contact-listing-wrap">
+                                        {/* <div className="author-contact-wrap">
+                                            <div className="author-contact-avatar">
+                                                <img src="./assets/images/avatar/avt-admin.png" title="image" />
+                                            </div>
+                                            <div className="author-contact-info">
+                                                <h4 className="name"> Admin </h4>
+                                                <p className="desc">Owner of listing</p>
+                                                <span className="number-phone">
+                                                    <i className=" icon-Group-14" />
+                                                    +1900 67 xxx (show)
+                                                </span>
+                                            </div>
+                                        </div> */}
+                                        {/* <form action="/" method="post" className="form-contact-admin" aria-label="Contact form">
+                                            <div className="group-form">
+                                                <input className="admin-form" aria-required="true" aria-invalid="false" placeholder="Your Name" type="text" />
+                                                <i className="icon-user-1-1" />
+                                            </div>
+                                            <div className="group-form">
+                                                <input className="admin-form" aria-required="true" aria-invalid="false" placeholder="Email" type="email" />
+                                                <i className="icon-Group2" />
+                                            </div>
+                                            <div className="group-form">
+                                                <input className="admin-form" aria-invalid="false" placeholder="Enter Phone" type="text" />
+                                                <i className="icon-Group-14" />
+                                            </div>
+                                            <div className="group-form">
+                                                <textarea className="admin-form" aria-invalid="false" defaultValue={""} />
+                                                <i className="icon-edit-1" />
+                                            </div>
+                                            <button type="submit"> Send Message </button>
+                                        </form> */}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {/* property-detail */}
                     {/* related-single-listing */}
                     <div className="widget-related-single-listing">
                         <div className="themesflat-container">
+                            
                             <div className="related-single-listing swiper">
+                                
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide className="listing-grid-item swiper-slide">
                                         <div className="listing-item-image">
@@ -726,7 +819,7 @@ export default function ListingDetails() {
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
                                                 <h6 className="title"><Link href="/listing-details" /><Link href="/listing-details">Mercedez benz - c class</Link></h6>
-                                                <div className="review-wrap">
+                                                {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
                                                         <i className="icon-Vector3" />
@@ -735,7 +828,7 @@ export default function ListingDetails() {
                                                         <i className="icon-Vector3" />
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
-                                                </div>
+                                                </div> */}
                                                 <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
@@ -777,10 +870,10 @@ export default function ListingDetails() {
                                                 </ul>
                                             </div>
                                             <div className="bottom-price-wrap">
-                                                <div className="price-wrap">
+                                                {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
-                                                </div>
+                                                </div> */}
                                                 <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
@@ -828,7 +921,7 @@ export default function ListingDetails() {
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
                                                 <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
-                                                <div className="review-wrap">
+                                                {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
                                                         <i className="icon-Vector3" />
@@ -837,7 +930,7 @@ export default function ListingDetails() {
                                                         <i className="icon-Vector3" />
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
-                                                </div>
+                                                </div> */}
                                                 <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
@@ -879,10 +972,10 @@ export default function ListingDetails() {
                                                 </ul>
                                             </div>
                                             <div className="bottom-price-wrap">
-                                                <div className="price-wrap">
+                                                {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
-                                                </div>
+                                                </div> */}
                                                 <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
@@ -930,7 +1023,7 @@ export default function ListingDetails() {
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
                                                 <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
-                                                <div className="review-wrap">
+                                                {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
                                                         <i className="icon-Vector3" />
@@ -939,7 +1032,7 @@ export default function ListingDetails() {
                                                         <i className="icon-Vector3" />
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
-                                                </div>
+                                                </div> */}
                                                 <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
@@ -981,10 +1074,10 @@ export default function ListingDetails() {
                                                 </ul>
                                             </div>
                                             <div className="bottom-price-wrap">
-                                                <div className="price-wrap">
+                                                {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
-                                                </div>
+                                                </div> */}
                                                 <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
@@ -1032,7 +1125,7 @@ export default function ListingDetails() {
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
                                                 <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
-                                                <div className="review-wrap">
+                                                {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
                                                         <i className="icon-Vector3" />
@@ -1041,7 +1134,7 @@ export default function ListingDetails() {
                                                         <i className="icon-Vector3" />
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
-                                                </div>
+                                                </div> */}
                                                 <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
@@ -1083,10 +1176,10 @@ export default function ListingDetails() {
                                                 </ul>
                                             </div>
                                             <div className="bottom-price-wrap">
-                                                <div className="price-wrap">
+                                                {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
-                                                </div>
+                                                </div> */}
                                                 <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
@@ -1134,7 +1227,7 @@ export default function ListingDetails() {
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
                                                 <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
-                                                <div className="review-wrap">
+                                                {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
                                                         <i className="icon-Vector3" />
@@ -1143,7 +1236,7 @@ export default function ListingDetails() {
                                                         <i className="icon-Vector3" />
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
-                                                </div>
+                                                </div> */}
                                                 <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
@@ -1185,10 +1278,10 @@ export default function ListingDetails() {
                                                 </ul>
                                             </div>
                                             <div className="bottom-price-wrap">
-                                                <div className="price-wrap">
+                                                {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
-                                                </div>
+                                                </div> */}
                                                 <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>

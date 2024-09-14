@@ -7,7 +7,7 @@ import 'swiper/css/thumbs'
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-export default function ThumbSlider() {
+export default function HrvSlider() {
     const [thumbsSwiper, setThumbsSwiper] = useState(null)
 
     return (
@@ -23,27 +23,27 @@ export default function ThumbSlider() {
                     }}
                     className="swiper-wrapper">
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 2.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 2.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 3.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 3.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 4.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 4.webp" alt="Image" />
                     </SwiperSlide>
                     
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 5.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 5.webp" alt="Image" />
                     </SwiperSlide>
                    
                     
                   
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <img src="./assets/images/cvr/crv 6.webp" alt="Image" />
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
                 <div className="swiper-button-next" />
                 <div className="swiper-button-prev" />
@@ -69,23 +69,23 @@ export default function ThumbSlider() {
                     }}
                     className="swiper-wrapper">
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 2.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 2.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 3.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 3.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 4.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 4.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 5.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/Hrv/HRV 5.webp" alt="Image" />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <img src="./assets/images/cvr/crv 6.webp" alt="Image" />
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     
                     
                     {/* <SwiperSlide>

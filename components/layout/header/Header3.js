@@ -124,7 +124,7 @@ const usedCar = {
   Captiva: [
     { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "CR-V", url: "/crv" },
     { src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Captiva HR-V 2024", caption: "HR-V", url: "/listing-details" },
-    { src: "./assets/images/All imgs/Brands/Accord 2024.png", alt: "Captiva Accord 2024", caption: "Accord", url: "/listing-details" },
+    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva Accord 2024", caption: "Accord", url: "/listing-details" },
   ],
 };
 

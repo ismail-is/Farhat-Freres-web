@@ -10,7 +10,7 @@ export default function SellingCar() {
   };
     return (
         <>
-            <div className="widget-selling-car">
+            <div className="widget-selling-car" style={{marginTop:"-120px"}}>
                 <div className="themesflat-container">
                     <div className="selling-car-wrap">
                         <div className="heading-section t-al-center mb-60">

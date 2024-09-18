@@ -3,8 +3,6 @@
 import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
-import HrvSlider from "@/components/slider/HrvSlider"
-import PilotSlider from "@/components/slider/PilotSlider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
 import Link from "next/link"
 import { useState } from "react"
@@ -37,7 +35,7 @@ const swiperOptions = {
         },
     },
 }
-export default function crv() {
+export default function accord() {
     const [isToggled4, setToggled4] = useState(false)
     const handleToggle4 = () => setToggled4(!isToggled4)
     const [isToggled5, setToggled5] = useState(false)
@@ -63,7 +61,7 @@ export default function crv() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>HONDA <span style={{color:"red"}}>PILOT </span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>HONDA <span style={{color:"red"}}>ACCORD </span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -111,7 +109,7 @@ export default function crv() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <PilotSlider />
+                                        <ThumbSlider />
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +118,7 @@ export default function crv() {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>Le Honda Pilot 2024 est conçu pour les aventures familiales, offrant des sièges spacieux pouvant accueillir jusqu'à huit passagers, un puissant moteur V6 et des caractéristiques de sécurité avancées. Avec son intérieur confortable, son espace de chargement polyvalent et sa performance fiable, il est parfait pour les voyages et la conduite de tous les jours</p>
+                                            <p>La Honda Accord 2024 allie un design élégant, une technologie de pointe et un moteur puissant pour une expérience de conduite raffinée.Avec un intérieur spacieux et haut de gamme, des dispositifs de sécurité avancés et un rendement énergétique impressionnant, elle offre l'équilibre parfait entre confort, style et performance pour les conducteurs modernes.</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -144,7 +142,7 @@ export default function crv() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Cylindres: </span>
-                                                                <p className="listing-info-value">6</p>
+                                                                <p className="listing-info-value">4</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -221,7 +219,7 @@ export default function crv() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Kilométrage: </span>
-                                                                <p className="listing-info-value">29 miles/gal</p>
+                                                                <p className="listing-info-value">10.7 - 23.1 kmpl</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -232,7 +230,7 @@ export default function crv() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Sièges:</span>
-                                                                <p className="listing-info-value">8</p>
+                                                                <p className="listing-info-value">5</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -265,7 +263,7 @@ export default function crv() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Taille du moteur</span>
-                                                                <p className="listing-info-value">3.5 L</p>
+                                                                <p className="listing-info-value">1.5  </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -676,7 +674,7 @@ export default function crv() {
 
 
                             <div className="row" style={{marginBottom:"-120px"}}>
-                                <div className="col-lg-12 col-md-12">
+                                <div className="col-12 col-md-12 col-lg-12">
                                     <div className="post-property">
                                       
                                         
@@ -686,42 +684,29 @@ export default function crv() {
                                                 <div id="tf-features">
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur V-6 de 285 chevaux</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Contrôle de la descente en côte</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de traction intégrale i-VTM4 (disponible)</div>
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />10-speed Automatic Transmission with Shift-By-Wire and Paddle Shifters</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de traction intégrale i-VTM4 (disponible)
-                                                        </div> */}
-                                                       
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbocompressé de 192 chevaux</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission à variation continue</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant à jambes de force MacPherson
+                                                        </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension arrière multibras</div>
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges avant chauffants</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Siège conducteur à réglage électrique</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système audio à 7 haut-parleurs de 240 watts</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Hidden Storage Well
-                                                        </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Jantes en alliage de 17 pouces</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Phares entièrement LED</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Coffre à ouverture automatique</div>
+                                                       
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Intérieur</h5>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en tissu</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en cuir
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système audio à 4 haut-parleurs de 180 watts
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système audio à 4 haut-parleurs de 180 watts</div>
-                                                       
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Contrôle automatique de la température</div>
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
-                                                    </div>
-                                                    <div className="features-item">
-                                                        <h5 className="features-type-title">Technologie</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Compatibilité Apple CarPlay</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Compatibilité Android Auto</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio en continu Bluetooth</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Écran tactile couleur de 7 pouces</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Ports USB à l'avant et dans la console centrale</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Démarrage par bouton-poussoir</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio en continu Bluetooth</div>
+                                                       
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Dossier arrière rabattable
+                                                        </div>
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Sécurité et alertes</h5>
@@ -729,8 +714,6 @@ export default function crv() {
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'atténuation des déviations routières</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Caméra de recul multiangle</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse adaptatif avec suivi à basse vitesse</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'aide au maintien de la voie</div>
-                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -786,8 +769,6 @@ export default function crv() {
                                     </div>
                                 </div>
                             </div>
-
-                            
                         </div>
                     </div>
                     {/* property-detail */}

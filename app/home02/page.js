@@ -19,7 +19,7 @@ export default function Home2() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={3} footerStyle={1}>
                 <SlideV2 />
                 <SearchForm />
                 <BookingCar />

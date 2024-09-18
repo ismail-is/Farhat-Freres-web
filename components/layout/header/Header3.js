@@ -82,8 +82,8 @@ const imageData = {
     { id: "honda1", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CR-V", url: "/crv" },
     { id: "honda2", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "HR-V", url: "/hrv" },
     { id: "honda3", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "PILOT", url: "/pilot" },
-    { id: "honda4", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "ACCORD", url: "/listing-details" },
-    { id: "honda5", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/listing-details" },
+    { id: "honda4", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "ACCORD", url: "/accord" },
+    { id: "honda5", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/civic" },
     { id: "honda6", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "CITY", url: "/listing-details" },
   ],
   Chevrolet: [

@@ -8,8 +8,8 @@ export default function Blog() {
     return (
         <>
 
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="À propos de nous" s>
-<div style={{marginTop:'40px'}}> <TestimonialV2/>
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="À propos de nous" >
+<div style={{marginTop:'-60px'}}> <TestimonialV2/>
 <IconBox/>
 </div>
                

@@ -12,7 +12,7 @@ export default function IconBox() {
                     </div>
                     <div className="row">
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/#" className="icon-box border-line">
+                            <Link href="/honda" className="icon-box border-line">
                                 <div className="image-box-wrap">
                                     <img src="assets/images/All imgs/1.png" alt=""  />
                                 </div>
@@ -23,7 +23,7 @@ export default function IconBox() {
                             </Link>
                         </div>
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/#" className="icon-box border-line">
+                            <Link href="/Chevrolet " className="icon-box border-line">
                                 <div className="image-box-wrap">
                                     <img src="assets/images/All imgs/2.png" alt="" />
                                 </div>
@@ -34,20 +34,9 @@ export default function IconBox() {
                             </Link>
                         </div>
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/#" className="icon-box border-line">
+                            <Link href="/Kaiyi" className="icon-box border-line">
                                 <div className="image-box-wrap">
                                     <img src="assets/images/All imgs/3.png" alt="" />
-                                </div>
-                                <span className="title-icon">Foton</span>
-                                <div className="btn-con-box">
-                                    <i className="icon-arrow-right2" />
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/#" className="icon-box border-line">
-                                <div className="image-box-wrap">
-                                    <img src="assets/images/All imgs/4.png" alt="" />
                                 </div>
                                 <span className="title-icon">Kaiyi</span>
                                 <div className="btn-con-box">
@@ -56,7 +45,18 @@ export default function IconBox() {
                             </Link>
                         </div>
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/#" className="icon-box border-line">
+                            <Link href="/Foton" className="icon-box border-line">
+                                <div className="image-box-wrap">
+                                    <img src="assets/images/All imgs/4.png" alt="" />
+                                </div>
+                                <span className="title-icon">Foton</span>
+                                <div className="btn-con-box">
+                                    <i className="icon-arrow-right2" />
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-6 col-md-4 col-lg-4 col-xl-2">
+                            <Link href="/Honda-Bikes" className="icon-box border-line">
                                 <div className="image-box-wrap">
                                     <img src="assets/images/All imgs/5.png" alt="" />
                                 </div>
@@ -67,7 +67,7 @@ export default function IconBox() {
                             </Link>
                         </div>
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
-                            <Link href="/#" className="icon-box border-line">
+                            <Link href="/Honda-Engines" className="icon-box border-line">
                                 <div className="image-box-wrap">
                                     <img src="assets/images/All imgs/6.png" alt="" />
                                 </div>

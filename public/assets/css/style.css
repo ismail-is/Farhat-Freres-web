@@ -2963,13 +2963,31 @@ ul.social-icon li a i:hover {
 
 /*------------ Slider form ---------------- */
 .tf-slide-form {
-  padding: 147px 0 193px 0;
+  padding: 173px 0 297px 0;
+  background-image:  url(./../images/Home/homebanner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+
+
+
+
+
+
+
+  /* padding: 147px 0 193px 0;
   background-image: url(./../images/Home/homebanner.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  /* animation: shrink 7s infinite alternate; */
+  height: 130vh; 
+  width: 100%; 
+  max-width: 100vw; 
+  box-sizing: border-box;  */
 }
+
 .tf-slide-form .slide-form > span {
   font-size: 16px;
   font-weight: 700;
@@ -3092,12 +3110,13 @@ ul.social-icon li a i:hover {
 /*------------ Slider form V2---------------- */
 /*------------ Slider form V3---------------- */
 .tf-slider-v3 {
-  padding: 173px 0 297px 0;
-  background-image: url(./../images/page/bg6.jpg);
+  padding: 73px 0 197px 0;
+  background-image:  url(./../images/Home/homebanner.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+  width: 100%;
 }
 .tf-slider-v3::before {
   content: "";
@@ -5619,7 +5638,7 @@ ul.social-icon li a i:hover {
 /*------------ Widget browse-by-mode car ---------------- */
 /*------------ Widget icon-box ---------------- */
 .widget-icon-box {
-  padding-top: 240px;
+  padding-top: 80px;
   padding-bottom: 84px;
   background-color: #F2F5FB;
 }

@@ -9,13 +9,22 @@ export default function SlideForm() {
     }
     return (
         <>
-            <div className="tf-slide-form" >
-                <div className="themesflat-container">
-                    <div className="slide-form t-al-center">
-                        {/* <span className="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2000ms">Save up to <span className="text-red">15%</span></span> */}
-                        <h1 className="wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms"> Voitures de <span className="text-red"> qualité  </span> garantie</h1>
-                        <p className="wow fadeInUp" data-wow-delay="600ms" data-wow-duration="2000ms">Nous proposons une gamme de voitures qui s'adaptent parfaitement à votre style de vie. </p>
-                    </div>
+            <div className="tf-slide-form">
+    <div className="themesflat-container">
+        <div className="slide-form t-al-center">
+            {/* Optional promotional message */}
+            {/* <span className="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="2000ms">Save up to <span className="text-red">15%</span></span> */}
+            
+            <h1 className="wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
+                Voitures de <span className="text-red">qualité</span> garantie
+            </h1>
+            <p className="wow fadeInUp" data-wow-delay="600ms" data-wow-duration="2000ms">
+                Nous proposons une gamme de voitures qui s'adaptent parfaitement à votre style de vie.
+            </p>
+        </div>
+    </div>
+</div>
+
                     {/* Tab */}
                     {/* <div className="search-form-widget">
                         <ul className="nav nav-tabs" id="myTab" role="tablist">
@@ -203,8 +212,8 @@ export default function SlideForm() {
                         </div >
                     </div > */}
                     {/* Tab */}
-                </div >
-            </div >
+                {/* </div >
+            </div > */}
         </>
     )
 }

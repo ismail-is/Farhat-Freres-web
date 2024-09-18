@@ -84,7 +84,7 @@ const imageData = {
     { id: "honda3", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "PILOT", url: "/pilot" },
     { id: "honda4", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "ACCORD", url: "/accord" },
     { id: "honda5", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/civic" },
-    { id: "honda6", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "CITY", url: "/listing-details" },
+    { id: "honda6", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "CITY", url: "/city" },
   ],
   Chevrolet: [
     { id: "chevrolet", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Captiva" },

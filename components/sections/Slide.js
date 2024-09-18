@@ -12,7 +12,7 @@ export default function Slide() {
                 <div className="slider-wrap swiper-wrapper">
                     <div className="tf-slide-item swiper-slide">
                         <div className="slide-item-image">
-                            <img src="./assets/images/All imgs/Home/homebanner.webp" alt="" />
+                            <img src="./assets/images/All imgs/Home/homebanner.webp" alt="" z/>
                             <div className="overlay" />
                         </div>
                         <div className="slide-item-content">

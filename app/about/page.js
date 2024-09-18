@@ -9,7 +9,8 @@ export default function Blog() {
         <>
 
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="À propos de nous" >
-<div style={{marginTop:'-60px'}}> <TestimonialV2/>
+<div> 
+    <TestimonialV2/>
 <IconBox/>
 </div>
                

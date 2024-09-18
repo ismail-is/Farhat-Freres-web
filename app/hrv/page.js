@@ -696,7 +696,7 @@ export default function crv() {
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Jantes en alliage de 17 pouces</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de freinage à LED</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Roofline Spoiler</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Rétroviseurs extérieurs électriques, chauffants et de couleur de la carrosserie
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Rétroviseurs électriques chauffants
                                                         </div>
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
@@ -705,9 +705,9 @@ export default function crv() {
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en tissu</div>
                                                             <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en cuir
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système audio à 4 haut-parleurs de 180 watts</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio 180W à 4 haut-parleurs</div>
                                                        
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Contrôle automatique de la température</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Climatisation automatique</div>
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
@@ -715,12 +715,12 @@ export default function crv() {
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Compatibilité Apple CarPlay</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Compatibilité Android Auto</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio en continu Bluetooth</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Écran tactile couleur de 7 pouces</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Ports USB à l'avant et dans la console centrale</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Écran tactile couleur de 7 pouces</div> */}
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Ports USB à l'avant et dans la console centrale</div> */}
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Démarrage par bouton-poussoir</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio en continu Bluetooth</div>
                                                     </div>
-                                                    <div className="features-item">
+                                                    {/* <div className="features-item">
                                                         <h5 className="features-type-title">Sécurité et alertes</h5>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de freinage à atténuation de collision</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'atténuation des déviations routières</div>
@@ -728,7 +728,7 @@ export default function crv() {
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse adaptatif avec suivi à basse vitesse</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'aide au maintien de la voie</div>
                                                         
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

@@ -33,7 +33,7 @@ export default function honda() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={3} footerStyle={1}>
                 <div>
                     <div className="widget-banner-car-listing banner-car-listing-list">
                         <div className="themesflat-container full">

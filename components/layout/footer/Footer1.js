@@ -53,12 +53,12 @@ export default function Footer1() {
                             <div className="widget widget-menu pl-30">
                                 <h3>Nos marques</h3>
                                 <ul className="box-menu">
-                                    <li><Link href="/#">Honda </Link></li>
-                                    <li><Link href="/#">Chevrolet </Link></li>
-                                    <li><Link href="/#"> Kaiyi</Link></li>
-                                    <li><Link href="/#">Foton </Link></li>
-                                    <li><Link href="/#">Honda Bikes</Link></li>
-                                    <li><Link href="/#">Honda Engines</Link></li>
+                                    <li><Link href="/honda">Honda </Link></li>
+                                    <li><Link href="/Chevrolet">Chevrolet </Link></li>
+                                    <li><Link href="/Kaiyi"> Kaiyi</Link></li>
+                                    <li><Link href="/Foton">Foton </Link></li>
+                                    <li><Link href="/Honda-Bikes">Honda Bikes</Link></li>
+                                    <li><Link href="/Honda-Engines">Honda Engines</Link></li>
                                 </ul>
                             </div>
                         </div>

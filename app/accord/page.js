@@ -684,9 +684,9 @@ export default function accord() {
                                                 <div id="tf-features">
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbocompressé de 192 chevaux</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission à variation continue</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant à jambes de force MacPherson
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbo de 192 ch</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission CV</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant MacPherson
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension arrière multibras</div>
                                                     </div>
@@ -701,19 +701,19 @@ export default function accord() {
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Intérieur</h5>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en tissu</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système audio à 4 haut-parleurs de 180 watts
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio 180W, 4 haut-parleurs
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Contrôle automatique de la température</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Climatisation automatique</div>
                                                        
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Dossier arrière rabattable
                                                         </div>
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Sécurité et alertes</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de freinage à atténuation de collision</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'atténuation des déviations routières</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Freins à atténuation de collision</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de sécurité routière</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Caméra de recul multiangle</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse adaptatif avec suivi à basse vitesse</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Croisière adaptative à basse vitesse</div>
                                                     </div>
                                                 </div>
                                             </div>

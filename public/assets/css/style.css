@@ -6991,6 +6991,7 @@ a.mapboxgl-ctrl-logo {
   gap: 20px;
   flex-wrap: wrap;
   align-items: center;
+  display: none;
 }
 .listing-list-car-wrap .tab-listing-all .btn-condition-filter {
   font-size: 16px;
@@ -7032,6 +7033,7 @@ a.mapboxgl-ctrl-logo {
   border: solid 1px #F1F1F1;
   background-color: #ffffff;
   overflow: hidden;
+  /* height: 330px; */
 }
 .listing-grid-item:hover {
   box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.06);
@@ -7079,8 +7081,9 @@ a.mapboxgl-ctrl-logo {
   padding: 13px 30px 18px 21px;
 }
 .listing-grid-item .listing-item-content .title {
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   color: #26232A;
+  text-align: center;
 }
 .listing-grid-item .listing-item-content .review-wrap {
   display: flex;
@@ -9290,7 +9293,7 @@ a.mapboxgl-ctrl-logo {
     margin-bottom: 50px;
   }
   .post-property .wrap-car-feature .tf-listing-info #tf-features {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
   }
   .listing-list-car-grid.listing-list-car-list .listing-grid-item .listing-item-content .listing-top-content .description .listing-information .inner span {
     display: none;
@@ -9607,7 +9610,7 @@ a.mapboxgl-ctrl-logo {
 }
 @media only screen and (max-width: 575px) {
   .listing-list-car-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns:  1fr;
   }
   .col-12:not(:last-child) .tf-car-service-v2 {
     margin-bottom: 30px;

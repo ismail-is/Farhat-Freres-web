@@ -87,9 +87,9 @@ const imageData = {
     { id: "honda6", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "CITY", url: "/city" },
   ],
   Chevrolet: [
-    { id: "chevrolet", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Captiva" },
-    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Groove" },
-    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "N400" },
+    { id: "chevrolet", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Captiva", url: "/Captiva" },
+    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Groove" , url: "/Groove"},
+    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "N400" , url: "/N400"},
     // Add other Chevrolet images here
   ],
   Kaiyi: [
@@ -122,9 +122,9 @@ const imageData = {
 };
 const usedCar = {
   Captiva: [
-    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "CR-V", url: "/crv" },
-    { src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Captiva HR-V 2024", caption: "HR-V", url: "/listing-details" },
-    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva Accord 2024", caption: "Accord", url: "/listing-details" },
+    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "Captiva ", url: "/crv" },
+    { src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Captiva HR-V 2024", caption: "CR-V ", url: "/listing-details" },
+    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva Accord 2024", caption: "Accord ", url: "/listing-details" },
   ],
 };
 

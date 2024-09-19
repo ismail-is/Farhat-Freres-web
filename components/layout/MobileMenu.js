@@ -42,7 +42,13 @@ export default function MobileMenu() {
                 </li> */}
                 <li className={pathname == "/" ? "current" : ""}><Link href="/">Accueil
                 </Link></li>
-                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/about" target="_target">A propos de nous
+                <li className={pathname == "/about" ? "current" : ""}><Link href="/about" target="_target">A propos de nous
+                </Link></li>
+                <li className={pathname == "/Brands" ? "current" : ""}><Link href="/Brands" target="_target">Nos Marques
+                </Link></li>
+                <li className={pathname == "/userCar" ? "current" : ""}><Link href="/userCar" target="_target">Voitures d'occasion
+                </Link></li>
+                <li className={pathname == "/carRental" ? "current" : ""}><Link href="/carRental" target="_target">location De Voitures
                 </Link></li>
                 {/* <li className={pathname == "/about" ? "current" : ""}><Link href="/about" target="_target">A propos de nous
                 </Link></li> */}
@@ -142,7 +148,24 @@ export default function MobileMenu() {
 
 
 
+                {/* <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
+                    <Link href="/#">Brand</Link>
+                    <div className="dropdown2-btn" />
                 <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
+                    <Link href="/#">Honda</Link> 
+                    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
+                        <li className={pathname == "/car-list" ? "current" : ""}><Link href="/crv">Honda CR-V</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/hrv">Honda HR-V</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">PILOT</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">ACCORD</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">CIVIC</Link></li>
+                        <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/hrv">CITY</Link></li>
+                    </ul>
+                    
+                    <div className="dropdown2-btn" />
+                </li>
+                </li> */}
+                {/* <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
                     <Link href="/#">Honda</Link>
                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                         <li className={pathname == "/car-list" ? "current" : ""}><Link href="/crv">Honda CR-V</Link></li>
@@ -153,15 +176,15 @@ export default function MobileMenu() {
                         <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/hrv">CITY</Link></li>
                     </ul>
                     <div className="dropdown2-btn" />
-                </li>
-                <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
+                </li> */}
+                {/* <li className={isActive.key == 2 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(2)}>
                     <Link href="/#">Cars</Link>
                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                         <li className={pathname == "/car-list" ? "current" : ""}><Link href="/car-list">Car Listings</Link></li>
                         <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">Listings Details</Link></li>
                     </ul>
                     <div className="dropdown2-btn" />
-                </li>
+                </li> */}
                 {/* <li className={isActive.key == 3 ? "dropdown2 current" : "dropdown2"} onClick={() => handleClick(3)}>
                     <Link href="/#">Page</Link>
                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>

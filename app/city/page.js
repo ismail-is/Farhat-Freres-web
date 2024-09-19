@@ -3,6 +3,7 @@
 import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
+import CitySlider from "@/components/slider/CitySlider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
 import Link from "next/link"
 import { useState } from "react"
@@ -109,7 +110,7 @@ export default function city() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <ThumbSlider />
+                                        <CitySlider />
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +119,7 @@ export default function city() {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>Le Honda CR-V 2024 combine des options de moteur turbo ou hybride avec un intérieur spacieux et technologique et des caractéristiques de sécurité avancées. Son design élégant, sa capacité de chargement accrue et sa transmission intégrale en font le compagnon idéal pour les trajets en ville et les escapades en plein air</p>
+                                            <p>La Honda City 2024 allie sophistication et performance, avec un design élégant, des technologies de sécurité avancées et un intérieur spacieux et luxueux. Avec son moteur efficace et son système d'infodivertissement de pointe, elle offre une expérience de conduite raffinée qui allie confort, style et praticité</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -219,7 +220,7 @@ export default function city() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Kilométrage: </span>
-                                                                <p className="listing-info-value">12 - 19.5 kmpl</p>
+                                                                <p className="listing-info-value">18.4 kmpl</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -263,7 +264,7 @@ export default function city() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Taille du moteur</span>
-                                                                <p className="listing-info-value">1.5  </p>
+                                                                <p className="listing-info-value">1.5L   </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -683,39 +684,38 @@ export default function city() {
                                             <div className="tf-listing-info">
                                                 <div id="tf-features">
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Sécurité</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage central</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
+                                                        <h5 className="features-type-title">Performance</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur de 150 chevaux</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission CV</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />LED DRLs et feux de position</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Phares entièrement LED</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Essuie-glaces automatiques</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Aileron arrière</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Toit ouvrant
-                                                        </div>
+                                                      
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />A/C:
-                                                            Front</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en cuir
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Doublure du couvercle du coffre</div>
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Poignée de porte chromée
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Écran tactile Audio</div>
                                                        
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Commodité</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Miroir de courtoisie</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feu de coffre</div>
+                                                        <h5 className="features-type-title">Technologie</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Frein à atténuation de collision</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse adaptatif</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'aide au maintien de la voie</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>
                                                 </div>
                                             </div>

@@ -3,7 +3,7 @@
 import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
-import CivicSlider from "@/components/slider/CivicSlider"
+import CitySlider from "@/components/slider/CitySlider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
 import Link from "next/link"
 import { useState } from "react"
@@ -36,7 +36,7 @@ const swiperOptions = {
         },
     },
 }
-export default function civic() {
+export default function Captiva() {
     const [isToggled4, setToggled4] = useState(false)
     const handleToggle4 = () => setToggled4(!isToggled4)
     const [isToggled5, setToggled5] = useState(false)
@@ -62,7 +62,7 @@ export default function civic() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>HONDA <span style={{color:"red"}}>CIVIC </span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Chevrolet <span style={{color:"red"}}>Captiva</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -110,7 +110,7 @@ export default function civic() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CivicSlider />
+                                        <CitySlider />
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ export default function civic() {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>La Honda Civic 2024 offre un moteur turbocompressé, des caractéristiques de sécurité avancées comme le régulateur de vitesse adaptatif et le freinage à atténuation de collision, ainsi qu'un intérieur technologique avec Apple CarPlay/Android Auto. Élégante, efficace et confortable, elle est conçue pour une conduite moderne et confiante.</p>
+                                            <p>Le Chevrolet Captiva 2024 allie un design élégant à des performances polyvalentes. Il dispose d'un intérieur spacieux et moderne, de systèmes de sécurité avancés et de groupes motopropulseurs efficaces pour une expérience de conduite en douceur. Idéal pour les familles et les aventuriers, le Captiva offre confort, technologie et style dans un SUV robuste</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -220,7 +220,7 @@ export default function civic() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Kilométrage: </span>
-                                                                <p className="listing-info-value">16.5 - 28.1 kmpl</p>
+                                                                <p className="listing-info-value"> 12.12 to 14.6 kmpl</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -231,7 +231,7 @@ export default function civic() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Sièges:</span>
-                                                                <p className="listing-info-value">5</p>
+                                                                <p className="listing-info-value">7</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -264,7 +264,7 @@ export default function civic() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Taille du moteur</span>
-                                                                <p className="listing-info-value"> 2.0L   </p>
+                                                                <p className="listing-info-value">1.5L   </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -685,37 +685,45 @@ export default function civic() {
                                                 <div id="tf-features">
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur de 150 chevaux</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission CV</div>
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants */}
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbo 1.5L avec 144 CV</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission automatique (CVT)</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée électrique</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant Mcpherson</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div>
-                                                    </div> */}
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
+                                                    </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Roues de 16 pouces</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Phares entièrement LED</div>
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Aileron arrière</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Toit ouvrant
-                                                        </div> */}
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux LED DRL</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Projecteurs halogènes</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Antenne de toit requin</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant et arrière</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Luggage Rack</div>
+                                                      
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en tissu</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio 160W à 4 haut-parleurs
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Intérieur en tissu beige</div>
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Contrôle automatique de la température</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Télédéverrouillage</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vitres électriques </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volant réglable  </div>
                                                        
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Dossier arrière rabattable</div> */}
-                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Technology</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Compatibilité Apple CarPlay</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Compatibilité Android Auto™</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Audio en continu Bluetooth</div>
+                                                        <h5 className="features-type-title">Sûreté et sécurité </h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Booster de freinage à dépression</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage électrique de la direction </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteur de stationnement avant </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte (HSA) </div>
+                                                        
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -790,7 +798,7 @@ export default function civic() {
                                                             <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -803,16 +811,16 @@ export default function civic() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
@@ -829,7 +837,7 @@ export default function civic() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -853,8 +861,8 @@ export default function civic() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div>
-                                                <ul className="list-controller">
+                                                </div> */}
+                                                {/* <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -867,19 +875,19 @@ export default function civic() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -892,7 +900,7 @@ export default function civic() {
                                                             <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -905,11 +913,11 @@ export default function civic() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -931,7 +939,7 @@ export default function civic() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -955,8 +963,8 @@ export default function civic() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div>
-                                                <ul className="list-controller">
+                                                </div> */}
+                                                {/* <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -969,19 +977,19 @@ export default function civic() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -994,7 +1002,7 @@ export default function civic() {
                                                             <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -1007,16 +1015,16 @@ export default function civic() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
@@ -1033,7 +1041,7 @@ export default function civic() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -1057,8 +1065,8 @@ export default function civic() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div>
-                                                <ul className="list-controller">
+                                                </div> */}
+                                                {/* <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -1071,19 +1079,19 @@ export default function civic() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -1096,7 +1104,7 @@ export default function civic() {
                                                             <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -1109,11 +1117,11 @@ export default function civic() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -1135,7 +1143,7 @@ export default function civic() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -1159,8 +1167,8 @@ export default function civic() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div>
-                                                <ul className="list-controller">
+                                                </div> */}
+                                                {/* <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -1173,19 +1181,19 @@ export default function civic() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -1198,7 +1206,7 @@ export default function civic() {
                                                             <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -1211,11 +1219,11 @@ export default function civic() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -1237,7 +1245,7 @@ export default function civic() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -1261,8 +1269,8 @@ export default function civic() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div>
-                                                <ul className="list-controller">
+                                                </div> */}
+                                                {/* <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -1275,19 +1283,19 @@ export default function civic() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>

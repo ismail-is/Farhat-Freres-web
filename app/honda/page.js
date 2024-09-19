@@ -36,7 +36,7 @@ export default function honda() {
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
                     <div className="widget-banner-car-listing banner-car-listing-list">
-                        <div className="themesflat-container full">
+                        <div className="themesflat-container full" style={{marginTop:'30px'}}>
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}
                                 {/* <h1 className="title text-white">HONDA <span className="text-red">Rental</span> Car</h1> */}
@@ -45,7 +45,7 @@ export default function honda() {
                         </div>
                     </div>
                     {/* car-listing-list */}
-                    <div className="widget-car-listing-list" style={{marginTop:'-120px'}}>
+                    <div className="widget-car-listing-list" >
                         <div className="themesflat-container">
                             <div className="row car-listing-list">
                                
@@ -97,21 +97,21 @@ export default function honda() {
                                     <div className="tab-content" id="nav-listing-car">
                                         <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <div className="listing-list-car-grid ">
-                                                <div className="listing-grid-item">
+                                                <div className="listing-grid-item" >
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="https://motorx-six.vercel.app/assets/images/car-list/car11.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
-                                                                </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                </div> */}
+                                                                {/* <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">
@@ -119,22 +119,23 @@ export default function honda() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
-                                                    <div className="listing-item-content">
+                                                    <div className="listing-item-content" >
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="/crv" /><a href="#">Honda CR-V 2024</a></h6>
+                                                            <h6 className="title"><Link href="/crv" >Honda CR-V 2024</Link></h6>
+                                                            {/* <Link href="/crv">   <h6 className="title">Honda CR-V 2024</h6></Link> */}
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -145,7 +146,7 @@ export default function honda() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -169,7 +170,7 @@ export default function honda() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> */}
                                                             <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
@@ -185,18 +186,18 @@ export default function honda() {
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                        <div className="bottom-price-wrap">
-                                                            {/* <div className="price-wrap">
+                                                        {/* <div className="bottom-price-wrap">
+                                                            <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
-                                                            </div> */}
+                                                            </div>
                                                             <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                                 <div className="listing-grid-item">
@@ -208,7 +209,7 @@ export default function honda() {
                                                                         <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
@@ -221,22 +222,22 @@ export default function honda() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="/hrv">HR-V 2024</a></h6>
+                                                            <h6 className="title"><Link href="/hrv" >HR-V 2024</Link></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -247,7 +248,7 @@ export default function honda() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -271,8 +272,8 @@ export default function honda() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
-                                                            <ul className="list-controller">
+                                                            </div> */}
+                                                            {/* <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
                                                                         <i className="icon-heart-1-1" />
@@ -285,19 +286,19 @@ export default function honda() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                         <div className="bottom-price-wrap">
                                                             {/* <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -310,12 +311,12 @@ export default function honda() {
                                                                         <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
-                                                                </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                </div> */}
+                                                                {/* <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">
@@ -323,22 +324,22 @@ export default function honda() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#">PILOT 2024</a></h6>
+                                                            <h6 className="title"><Link href="/pilot" >PILOT 2024</Link></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -349,7 +350,7 @@ export default function honda() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -373,8 +374,8 @@ export default function honda() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
-                                                            <ul className="list-controller">
+                                                            </div> */}
+                                                            {/* <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
                                                                         <i className="icon-heart-1-1" />
@@ -387,19 +388,19 @@ export default function honda() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                         <div className="bottom-price-wrap">
                                                             {/* <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -417,7 +418,7 @@ export default function honda() {
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">
@@ -425,11 +426,11 @@ export default function honda() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -440,7 +441,7 @@ export default function honda() {
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#">ACCORD 2024</a></h6>
+                                                            <h6 className="title"> <Link href="/accord" >ACCORD 2024  </Link></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -451,7 +452,7 @@ export default function honda() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -489,20 +490,20 @@ export default function honda() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
-                                                        <div className="bottom-price-wrap">
-                                                            {/* <div className="price-wrap">
+                                                        {/* <div className="bottom-price-wrap">
+                                                            <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
-                                                            </div> */}
+                                                            </div>
                                                             <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                                 <div className="listing-grid-item">
@@ -519,7 +520,7 @@ export default function honda() {
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">
@@ -527,22 +528,22 @@ export default function honda() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#">CIVIC 2024</a></h6>
+                                                            <h6 className="title"> <Link href="/civic" >CIVIC 2024 </Link></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -553,7 +554,7 @@ export default function honda() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -577,8 +578,8 @@ export default function honda() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
-                                                            <ul className="list-controller">
+                                                            </div> */}
+                                                            {/* <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
                                                                         <i className="icon-heart-1-1" />
@@ -591,22 +592,28 @@ export default function honda() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
-                                                        <div className="bottom-price-wrap">
-                                                            {/* <div className="price-wrap">
+                                                        {/* <div className="bottom-price-wrap">
+                                                            <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
-                                                            </div> */}
+                                                            </div>
                                                             <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
+
+
+
+
+
+
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
@@ -616,12 +623,12 @@ export default function honda() {
                                                                         <img src="./assets/images/car-list/car21.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
-                                                                </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                </div> */}
+                                                                {/* <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">
@@ -629,22 +636,21 @@ export default function honda() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                   
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#">CITY 2024</a></h6>
+                                                            <h6 className="title"> <Link href="/city" >CITY 2024  </Link></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -655,7 +661,7 @@ export default function honda() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -679,8 +685,8 @@ export default function honda() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
-                                                            <ul className="list-controller">
+                                                            </div> */}
+                                                            {/* <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
                                                                         <i className="icon-heart-1-1" />
@@ -693,19 +699,19 @@ export default function honda() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                         <div className="bottom-price-wrap">
                                                             {/* <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>

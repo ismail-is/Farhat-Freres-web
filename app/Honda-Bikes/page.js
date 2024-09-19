@@ -33,10 +33,10 @@ export default function HondaBikes () {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={3} footerStyle={1}>
                 <div>
                     <div className="widget-banner-car-listing banner-car-listing-list">
-                        <div className="themesflat-container full">
+                        <div className="themesflat-container full" style={{marginTop:'30px'}}>
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}
                                 <h1 className="title text-white"> <span className="text-red">Honda </span> Bikes</h1>
@@ -45,7 +45,7 @@ export default function HondaBikes () {
                         </div>
                     </div>
                     {/* car-listing-list */}
-                    <div className="widget-car-listing-list" style={{marginTop:'-120px'}}>
+                    <div className="widget-car-listing-list" >
                         <div className="themesflat-container">
                             <div className="row car-listing-list">
                                

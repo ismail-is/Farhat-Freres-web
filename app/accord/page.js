@@ -3,6 +3,7 @@
 import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
+import AccordSlider from "@/components/slider/AccordSlider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
 import Link from "next/link"
 import { useState } from "react"
@@ -109,7 +110,7 @@ export default function accord() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <ThumbSlider />
+                                        <AccordSlider />
                                     </div>
                                 </div>
                             </div>

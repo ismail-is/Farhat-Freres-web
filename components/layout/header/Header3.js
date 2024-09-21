@@ -93,30 +93,30 @@ const imageData = {
     // Add other Chevrolet images here
   ],
   Kaiyi: [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "X3" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X3 Pro" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X7" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "X3",url: "/x3" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X3 Pro",url: "/X3Pro"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X7",url: "/X7"  },
     // Add other Chevrolet images here
   ],
   Foton : [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Tunland - G7" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland - E5" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton View -C2" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Tunland - G7" ,url: "/G7"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland - E5",url: "/TunlandE5" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton View -C2",url: "/ViewC2" },
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "CS2" },
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton TM" },
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton Tohano" },
     // Add other Chevrolet images here
   ], 
   HondaBikes : [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "XL125" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE110" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125 TUFF" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Wave 110" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "XL125",url: "/XL125"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE110",url: "/ACE110"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125" ,url: "/ACE125" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125 TUFF",url: "/ACE125TUFF"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Wave 110" ,url: "/Wave110" },
     // Add other Chevrolet images here
   ], HondaEngines: [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators " },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps " },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators ",url: "/Generators" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps ",url: "/WaterPumps" },
     // Add other Chevrolet images here
   ], 
 };
@@ -289,7 +289,7 @@ const usedCar = {
                     onMouseLeave={(e) => (e.target.style.border = 'none')}
                   />
                 )}
-                <figcaption style={{ textAlign: 'center', marginTop: '5px' }}>
+                <figcaption style={{ textAlign: 'center', marginTop: '5px',fontFamily:'serif',color:"black"}}>
                   {image.caption}
                 </figcaption>
               </figure>
@@ -298,6 +298,25 @@ const usedCar = {
         )}
       </ul>
     </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <li className="dropdown2">

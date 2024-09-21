@@ -97,16 +97,17 @@ export default function Kaiyi() {
                                     <div className="tab-content" id="nav-listing-car">
                                         <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <div className="listing-list-car-grid ">
+                                            <Link href='/x3'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Captiva/Captiva.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
@@ -119,22 +120,22 @@ export default function Kaiyi() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#" /><a href="#">Kaiyi X3</a></h6>
+                                                            <h6 className="title"> <Link href="/Captiva" >Kaiyi X3  </Link></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -145,7 +146,7 @@ export default function Kaiyi() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -169,8 +170,8 @@ export default function Kaiyi() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
-                                                            <ul className="list-controller">
+                                                            </div> */}
+                                                            {/* <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
                                                                         <i className="icon-heart-1-1" />
@@ -183,32 +184,34 @@ export default function Kaiyi() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                         <div className="bottom-price-wrap">
                                                             {/* <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>
+                                                </Link>
+                                                <Link href='/X3Pro'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/x3pro/X3pro 6.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
@@ -221,16 +224,16 @@ export default function Kaiyi() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
@@ -247,7 +250,7 @@ export default function Kaiyi() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -271,7 +274,7 @@ export default function Kaiyi() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> */}
                                                             <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
@@ -292,25 +295,30 @@ export default function Kaiyi() {
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>
+                                                </Link>
+                                               
+
+
+                                                <Link href='/X7'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/N400/N400 1.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
@@ -323,16 +331,16 @@ export default function Kaiyi() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
@@ -349,7 +357,7 @@ export default function Kaiyi() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -373,8 +381,8 @@ export default function Kaiyi() {
                                                                         </div>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
-                                                            <ul className="list-controller">
+                                                            </div> */}
+                                                            {/* <ul className="list-controller">
                                                                 <li>
                                                                     <a href="#">
                                                                         <i className="icon-heart-1-1" />
@@ -387,25 +395,25 @@ export default function Kaiyi() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                         <div className="bottom-price-wrap">
                                                             {/* <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>
-                                              
+                                                </Link>
                                                
-                                               
+                                                
                                                 
                                                
                                                

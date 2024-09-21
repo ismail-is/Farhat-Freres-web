@@ -4,6 +4,7 @@ import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
 import CitySlider from "@/components/slider/CitySlider"
+import N400slider from "@/components/slider/N400slider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
 import Link from "next/link"
 import { useState } from "react"
@@ -110,7 +111,7 @@ export default function N400() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CitySlider />
+                                        <N400slider />
                                     </div>
                                 </div>
                             </div>

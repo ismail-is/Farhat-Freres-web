@@ -3,9 +3,10 @@
 import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
-import CaptivaSlider from "@/components/slider/CaptivaSlider"
 import CitySlider from "@/components/slider/CitySlider"
+import Prox3Slider from "@/components/slider/Prox3Slider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
+import X3proSlider from "@/components/slider/x3proSlider"
 import Link from "next/link"
 import { useState } from "react"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
@@ -37,7 +38,7 @@ const swiperOptions = {
         },
     },
 }
-export default function Captiva() {
+export default function X3Pro() {
     const [isToggled4, setToggled4] = useState(false)
     const handleToggle4 = () => setToggled4(!isToggled4)
     const [isToggled5, setToggled5] = useState(false)
@@ -63,7 +64,7 @@ export default function Captiva() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Chevrolet <span style={{color:"red"}}>Captiva</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Kaiyi <span style={{color:"red"}}>X3 Pro</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -111,7 +112,7 @@ export default function Captiva() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CaptivaSlider />
+                                        <Prox3Slider />
                                     </div>
                                 </div>
                             </div>
@@ -720,9 +721,9 @@ export default function Captiva() {
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Sûreté et sécurité </h5>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Booster de freinage à dépression</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Électrique blocage de la direction</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage électrique de la direction </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteur de stationnement avant </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte (HSA) </div>
                                                         
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>

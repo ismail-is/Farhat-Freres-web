@@ -7,7 +7,7 @@ import 'swiper/css/thumbs'
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-export default function HrvSlider() {
+export default function Prox3Slider() {
     const [thumbsSwiper, setThumbsSwiper] = useState(null)
 
     return (
@@ -23,30 +23,29 @@ export default function HrvSlider() {
                     }}
                     className="swiper-wrapper">
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 4.webp" alt="Image" />
+                    </SwiperSlide>
+                   
+                    <SwiperSlide>
+                        <img src="./assets/images/All imgs/x3pro/X3pro 5.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 2.webp" alt="Image" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 3.webp" alt="Image" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 4.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 6.webp" alt="Image" />
                     </SwiperSlide>
                     
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 5.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 6.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 3.webp" alt="Image" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./assets/images/All imgs/x3pro/X3pro 2.webp" alt="Image" />
                     </SwiperSlide>
                    
                     
                   
-                    {/* <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 6.webp" alt="Image" />
-                    </SwiperSlide> */}
+                 
                 </Swiper>
                 <div className="swiper-button-next" />
                 <div className="swiper-button-prev" />
@@ -72,26 +71,23 @@ export default function HrvSlider() {
                     }}
                     className="swiper-wrapper">
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 4.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 2.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 5.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 3.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 6.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 4.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 5.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 3.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 6.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/x3pro/X3pro 2.webp" alt="Image" />
                     </SwiperSlide>
-                    {/* <SwiperSlide>
-                        <img src="./assets/images/cvr/crv 6.webp" alt="Image" />
-                    </SwiperSlide> */}
                     
                     
                     {/* <SwiperSlide>

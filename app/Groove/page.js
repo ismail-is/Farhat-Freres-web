@@ -4,6 +4,7 @@ import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
 import CitySlider from "@/components/slider/CitySlider"
+import Grooveslider from "@/components/slider/Grooveslider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
 import Link from "next/link"
 import { useState } from "react"
@@ -110,7 +111,7 @@ export default function Groove() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CitySlider />
+                                        <Grooveslider />
                                     </div>
                                 </div>
                             </div>
@@ -685,10 +686,10 @@ export default function Groove() {
                                                 <div id="tf-features">
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbo 1.5L avec 144 CV</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission automatique (CVT)</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />105 livres-pieds de couple</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée électrique</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant Mcpherson</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Très bonne efficacité énergétique</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant Mcpherson</div> */}
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
@@ -696,32 +697,31 @@ export default function Groove() {
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux LED DRL</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Projecteurs halogènes</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Antenne de toit requin</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant et arrière</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Luggage Rack</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Design extérieur attrayant</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Calandre sportive argentée</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de jour à LED</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Projecteurs à LED</div>
+                                                        
                                                       
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Intérieur en tissu beige</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse
-                                                            </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Télédéverrouillage</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vitres électriques </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volant réglable  </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />IIntérieur de couleur noire</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Entrée sans clé</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Allumage par bouton-poussoir</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Toit ouvrant panoramique</div>
+                                                            
                                                        
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Sûreté et sécurité </h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Booster de freinage à dépression</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage électrique de la direction </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteur de stationnement avant </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte (HSA) </div>
+                                                        <h5 className="features-type-title">Sécurité Et Sûreté </h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Écran Tactile De 8 Pouces</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Intégration Des Smartphones</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Chevrolet Infotainment </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />6 Haut-parleurs </div>
                                                         
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>

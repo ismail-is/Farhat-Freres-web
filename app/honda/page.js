@@ -97,13 +97,14 @@ export default function honda() {
                                     <div className="tab-content" id="nav-listing-car">
                                         <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <div className="listing-list-car-grid ">
+                                                <Link href='/crv'>
                                                 <div className="listing-grid-item" >
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
-                                                                    <div className="images">
-                                                                        <img src="https://motorx-six.vercel.app/assets/images/car-list/car11.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                <div className="images">
+                                                                   <img src="./assets/images/cvr/crv 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -199,14 +200,15 @@ export default function honda() {
                                                             </div>
                                                         </div> */}
                                                     </div>
-                                                </div>
+                                                </div></Link>
+                                                   <Link href='/hrv'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -301,14 +303,16 @@ export default function honda() {
                                                             </div> */}
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div></Link>
+                                                
+                                                <Link href='/pilot'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/piolet/Pilot 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -403,21 +407,23 @@ export default function honda() {
                                                             </div> */}
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div></Link>
+
+                                                <Link href='/accord'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Accord/Accord 1.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 {/* <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
@@ -435,7 +441,7 @@ export default function honda() {
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
@@ -505,21 +511,23 @@ export default function honda() {
                                                             </div>
                                                         </div> */}
                                                     </div>
-                                                </div>
+                                                </div></Link>
+
+                                                <Link href='/civic'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car17.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/civic/Civic 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 {/* <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
@@ -607,20 +615,20 @@ export default function honda() {
                                                             </div>
                                                         </div> */}
                                                     </div>
-                                                </div>
+                                                </div></Link>
 
 
 
 
 
-
+                                                <Link href='/city'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car21.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/city/City 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -714,7 +722,7 @@ export default function honda() {
                                                             </div> */}
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div></Link>
                                                 
                                                
                                                

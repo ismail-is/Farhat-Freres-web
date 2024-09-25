@@ -10,12 +10,13 @@ export default function FeaturesCar() {
                     <div className="feature-car">
                         <div className="feature-car-content">
                             <div className="heading-section">
-                                <span className="sub-title mb-6 wow fadeInUp">Un concessionnaire automobile de confiance</span>
-                                <h2 className="title mb-40 wow fadeInUp">Questions Fréquemment Posées</h2>
-                                <p className="description wow fadeInUp">Nous nous engageons à vous aider à trouver la voiture idéale qui correspond à votre style et à vos besoins.
+                                <span className="sub-title mb-6 wow fadeInUp">A propos de Farhat Frères</span>
+                                <h2 className="title mb-40 wow fadeInUp">Qui sommes-nous </h2>
+                                <p className="description wow fadeInUp " style={{color:'black',lineHeight:
+"30px",fontWeight:"600",fontSize:"18px"}}>Farhat Frères est un distributeur automobile de premier plan basé à Abidjan, en Côte d'Ivoire. Nous sommes spécialisés dans l'offre de véhicules de haute qualité de grandes marques mondiales, ainsi que dans une large sélection de voitures d'occasion et de services de location de voitures. Notre mission est d'offrir un service à la clientèle exceptionnel et de fournir une expérience d'achat de voiture transparente et personnalisée qui répond aux besoins uniques de chaque client.
                                 </p>
                             </div>
-                            <div className="list-icon-check">
+                            {/* <div className="list-icon-check">
                                 <ul>
                                     <li>
                                         <i className="icon-Vector-32" />
@@ -34,15 +35,15 @@ export default function FeaturesCar() {
                                         <p>Toutes les voitures sont couvertes par une garantie complète.</p>
                                     </li>
                                 </ul>
-                            </div>
-                            <div className="btn-main">
+                            </div> */}
+                            {/* <div className="btn-main">
                                 <Link href="/#" className="button_main_inner">
                                     <span>Get started</span>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="feature-car-video video-wrap">
-                            <img src="./assets/images/page/video.jpg" alt="" />
+                            <img src="./assets/images/All imgs/about/about.jpeg" alt="" />
                             {/* <VideoPopup style={1}/> */}
                         </div>
                     </div>

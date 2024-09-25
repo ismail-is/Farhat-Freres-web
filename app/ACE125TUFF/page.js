@@ -119,7 +119,7 @@ export default function ACE125TUFF () {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>Le Chevrolet Captiva 2024 allie un design élégant à des performances polyvalentes. Il dispose d'un intérieur spacieux et moderne, de systèmes de sécurité avancés et de groupes motopropulseurs efficaces pour une expérience de conduite en douceur. Idéal pour les familles et les aventuriers, le Captiva offre confort, technologie et style dans un SUV robuste</p>
+                                            <p>La Honda ACE125 TUFF 2024 est une moto robuste conçue pour les amateurs d'aventure. Propulsée par un moteur fiable de 125 cm3, elle est dotée d'une garde au sol élevée et de pneus larges pour des capacités tout-terrain supérieures. Avec son design durable et ses équipements pratiques, elle est parfaite pour les trajets urbains et les terrains accidentés.</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -684,11 +684,12 @@ export default function ACE125TUFF () {
                                             <div className="tf-listing-info">
                                                 <div id="tf-features">
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbo 1.5L avec 144 CV</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission automatique (CVT)</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée électrique</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant Mcpherson</div>
+                                                        <h5 className="features-type-title">Moteur et performances</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur : 125cc, refroidi par air, 4 temps, monocylindre</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Puissance : Environ 10,2 ch</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Couple : 10,5 Nm</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Boîte de vitesses : manuelle à 5 rapports</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />ystème d'alimentation en carburant : Carburateur</div>
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
@@ -696,32 +697,32 @@ export default function ACE125TUFF () {
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux LED DRL</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Projecteurs halogènes</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Antenne de toit requin</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant et arrière</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Luggage Rack</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Conception robuste et résistante avec des caractéristiques de protection</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Siège confortable et durable</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Garde au sol élevée pour des capacités tout-terrain</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Pneus larges pour une meilleure traction</div>
                                                       
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Intérieur en tissu beige</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse
+                                                        <h5 className="features-type-title">Sécurité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Freins à tambour (avant et arrière)</div>
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Cadre robuste pour une meilleure stabilité
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Télédéverrouillage</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vitres électriques </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volant réglable  </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Réflecteurs pour une meilleure visibilité</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vitres électriques </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volant réglable  </div> */}
                                                        
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Sûreté et sécurité </h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Booster de freinage à dépression</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage électrique de la direction </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteur de stationnement avant </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte (HSA) </div>
+                                                        <h5 className="features-type-title">Commodité </h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Démarrage électrique en option</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Cluster d'instrumentation analogique avec affichages essentiels </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capacité du réservoir de carburant 10 litres</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Compartiment de rangement sous la selle </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur à faible consommation de carburant pour une conduite économique</div>
                                                         
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>

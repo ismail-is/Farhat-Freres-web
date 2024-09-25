@@ -1,5 +1,8 @@
 
+import Ourbrand from "@/components/layout/header/Ourbrand"
 import Layout from "@/components/layout/Layout"
+import CategoryCar from "@/components/sections/CategoryCar"
+import FeaturesCar from "@/components/sections/FeaturesCar"
 import IconBox from "@/components/sections/IconBox"
 import TestimonialV2 from "@/components/sections/TestimonialV2"
 import Link from "next/link"
@@ -8,11 +11,14 @@ export default function Blog() {
     return (
         <>
 
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="À propos de nous" >
-<div> 
-    <TestimonialV2/>
-<IconBox/>
-</div>
+<Layout headerStyle={3} footerStyle={1} breadcrumbTitle="À propos de nous"  >
+
+    {/* <TestimonialV2/> */}
+    <FeaturesCar/>
+    <Ourbrand/>
+    <CategoryCar/>
+
+
                
                     {/* <div className="flat-blog-list main-content">
                         <div className="themesflat-container w1320">

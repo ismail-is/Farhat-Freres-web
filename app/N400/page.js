@@ -120,7 +120,7 @@ export default function N400() {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>La Honda City 2024 allie sophistication et performance, avec un design élégant, des technologies de sécurité avancées et un intérieur spacieux et luxueux. Avec son moteur efficace et son système d'infodivertissement de pointe, elle offre une expérience de conduite raffinée qui allie confort, style et praticité</p>
+                                            <p>Le Chevrolet N400 est un véhicule utilitaire compact et efficace conçu pour les petites entreprises. Il offre un large espace de chargement, des performances fiables et une grande efficacité énergétique, ce qui en fait un choix idéal pour les livraisons urbaines et les opérations quotidiennes. Parfait pour la croissance de l'entreprise !</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -214,7 +214,7 @@ export default function N400() {
                                                             </div>
                                                         </div>
                                                     </div> */}
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-dashboard-2" />
@@ -224,7 +224,7 @@ export default function N400() {
                                                                 <p className="listing-info-value">18.4 kmpl</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
@@ -685,25 +685,27 @@ export default function N400() {
                                             <div className="tf-listing-info">
                                                 <div id="tf-features">
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur de 150 chevaux</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission CV</div>
+                                                        <h5 className="features-type-title">Dimensions</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Longueur : 4 005 mm</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Largeur : 1 620 mm</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Hauteur : 1 915 mm</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Empattement : 2 700 mm</div>
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />LED DRLs et feux de position</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Phares entièrement LED</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant</div>
+                                                        <h5 className="features-type-title">Capacité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Nombre de places : 5 passagers</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volume de la cargaison : 4,3 mètres cubes</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capacité du réservoir de carburant : 45 litres</div>
                                                       
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Doublure du couvercle du coffre</div>
+                                                        <h5 className="features-type-title">Performance et sécurité :</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Freins : Disque à l'avant, tambour à l'arrière</div>
                                                             <div className="listing-feature-wrap"><i className="icon-Vector-32" />Poignée de porte chromée
                                                             </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Écran tactile Audio</div>

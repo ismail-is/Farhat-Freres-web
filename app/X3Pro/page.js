@@ -120,7 +120,7 @@ export default function X3Pro() {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>Le Chevrolet Captiva 2024 allie un design élégant à des performances polyvalentes. Il dispose d'un intérieur spacieux et moderne, de systèmes de sécurité avancés et de groupes motopropulseurs efficaces pour une expérience de conduite en douceur. Idéal pour les familles et les aventuriers, le Captiva offre confort, technologie et style dans un SUV robuste</p>
+                                            <p>Le Kaiyi X3 Pro est un SUV compact moderne qui allie style et fonctionnalité. Propulsé par un moteur 4 cylindres de 1,2 litre, il développe 85 ch pour des performances efficaces. Avec un intérieur spacieux, des sièges en cuir, des dispositifs de sécurité avancés et un système d'infodivertissement intuitif, le X3 Pro assure confort et fiabilité à chaque trajet.</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -221,7 +221,7 @@ export default function X3Pro() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Kilométrage: </span>
-                                                                <p className="listing-info-value"> 12.12 to 14.6 kmpl</p>
+                                                                <p className="listing-info-value">14.9 km/l</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -232,7 +232,7 @@ export default function X3Pro() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Sièges:</span>
-                                                                <p className="listing-info-value">7</p>
+                                                                <p className="listing-info-value">5</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -265,7 +265,7 @@ export default function X3Pro() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Taille du moteur</span>
-                                                                <p className="listing-info-value">1.5L   </p>
+                                                                <p className="listing-info-value">1.2L </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -685,11 +685,11 @@ export default function X3Pro() {
                                             <div className="tf-listing-info">
                                                 <div id="tf-features">
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbo 1.5L avec 144 CV</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission automatique (CVT)</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée électrique</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant Mcpherson</div>
+                                                        <h5 className="features-type-title">Sécurité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage central</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />ABS (système de freinage antiblocage)</div>
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
@@ -697,32 +697,32 @@ export default function X3Pro() {
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux LED DRL</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Projecteurs halogènes</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Antenne de toit requin</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant et arrière</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Luggage Rack</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Essuie-glaces à détecteur de pluie</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Aileron arrière</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Toit ouvrant</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Luggage Rack</div> */}
                                                       
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Intérieur en tissu beige</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Climatisation : avant</div>
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en cuir
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Télédéverrouillage</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vitres électriques </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volant réglable  </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges réglables</div>
                                                        
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Sûreté et sécurité </h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Booster de freinage à dépression</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage électrique de la direction </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteur de stationnement avant </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte (HSA) </div>
+                                                        <h5 className="features-type-title">Commodité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Miroir de courtoisie</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feu de coffre</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Connectivité USB </div>
                                                         
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>

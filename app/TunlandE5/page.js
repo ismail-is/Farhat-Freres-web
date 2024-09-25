@@ -4,6 +4,7 @@ import ModalOfferPrice from "@/components/elements/ModalOfferPrice"
 import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
 import CitySlider from "@/components/slider/CitySlider"
+import E5slider from "@/components/slider/E5slider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
 import Link from "next/link"
 import { useState } from "react"
@@ -110,7 +111,7 @@ export default function TunlandE5() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CitySlider />
+                                        <E5slider />
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +120,7 @@ export default function TunlandE5() {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>Le Chevrolet Captiva 2024 allie un design élégant à des performances polyvalentes. Il dispose d'un intérieur spacieux et moderne, de systèmes de sécurité avancés et de groupes motopropulseurs efficaces pour une expérience de conduite en douceur. Idéal pour les familles et les aventuriers, le Captiva offre confort, technologie et style dans un SUV robuste</p>
+                                            <p>Le Foton Tunland E5 2024 est un pick-up pratique conçu pour la polyvalence. Doté d'une cabine spacieuse, d'un système d'infodivertissement moderne et de performances robustes, il offre des capacités fiables pour le travail et les loisirs, complétées par des caractéristiques de sécurité essentielles pour une tranquillité d'esprit à chaque voyage.</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -684,11 +685,12 @@ export default function TunlandE5() {
                                             <div className="tf-listing-info">
                                                 <div id="tf-features">
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbo 1.5L avec 144 CV</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission automatique (CVT)</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée électrique</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant Mcpherson</div>
+                                                        <h5 className="features-type-title">Sécurité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage central</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur et passager</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />ABS (système de freinage antiblocage)</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Contrôle électronique de stabilité </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteurs de stationnement arrière</div>
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
@@ -696,32 +698,34 @@ export default function TunlandE5() {
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux LED DRL</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Projecteurs halogènes</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Phares halogènes</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Antenne de toit requin</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant et arrière</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Luggage Rack</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Jantes en alliage</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Hayon avec assistance au levage</div>
                                                       
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Intérieur en tissu beige</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Climatisation : climatisation manuelle</div>
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges en tissu
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Télédéverrouillage</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vitres électriques </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volant réglable  </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'infodivertissement à écran tactile</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Connectivité Bluetooth</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Sièges réglables  </div>
                                                        
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Sûreté et sécurité </h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Booster de freinage à dépression</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage électrique de la direction </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteur de stationnement avant </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte (HSA) </div>
+                                                        <h5 className="features-type-title">Commodité </h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Entrée sans clé </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Ports USB </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Porte-gobelets</div>
                                                         
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>

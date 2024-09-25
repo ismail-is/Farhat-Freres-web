@@ -119,7 +119,7 @@ export default function XL125 () {
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
-                                            <p>Le Chevrolet Captiva 2024 allie un design élégant à des performances polyvalentes. Il dispose d'un intérieur spacieux et moderne, de systèmes de sécurité avancés et de groupes motopropulseurs efficaces pour une expérience de conduite en douceur. Idéal pour les familles et les aventuriers, le Captiva offre confort, technologie et style dans un SUV robuste</p>
+                                            <p>La Honda XL125 est une moto polyvalente à double usage conçue pour les aventures sur route et hors route. Avec son moteur fiable de 125 cm3, son cadre léger, sa suspension à grand débattement et ses pneus à double usage, elle offre une excellente maniabilité et un grand confort, ce qui la rend parfaite pour les motocyclistes en quête d'aventure.</p>
                                         </div>
                                         <div className="wrap-car-overview wrap-style">
                                             <h4 className="title">Vue d'ensemble de la voiture   </h4>
@@ -684,11 +684,12 @@ export default function XL125 () {
                                             <div className="tf-listing-info">
                                                 <div id="tf-features">
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Performance</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur turbo 1.5L avec 144 CV</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission automatique (CVT)</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Direction assistée électrique</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension avant Mcpherson</div>
+                                                        <h5 className="features-type-title">Moteur et performances</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Moteur : 125cc, 4 temps, monocylindre</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Puissance : Environ 10 CV</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Couple : 10 Nm</div>
+                                                        {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Transmission : manuelle à 5 vitesses</div> */}
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système d'alimentation : Carburateur</div>
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Serrures de sécurité pour enfants
                                                         </div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div>
@@ -696,32 +697,32 @@ export default function XL125 () {
                                                     </div>
                                                     <div className="features-item">
                                                         <h5 className="features-type-title">Extérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux LED DRL</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Projecteurs halogènes</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Antenne de toit requin</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Feux de brouillard avant et arrière</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Luggage Rack</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Pneus à double usage pour une utilisation sur route et hors route</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Suspension à grand débattement</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Garde au sol élevée</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Conception classique d'un vélo de randonnée</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Cadre en acier durable</div>
                                                       
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Navigation system</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Intérieur</h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Intérieur en tissu beige</div>
-                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Régulateur de vitesse
+                                                        <h5 className="features-type-title">Sécurité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Freins à tambour avant et arrière</div>
+                                                            <div className="listing-feature-wrap"><i className="icon-Vector-32" />Échappement surélevé pour une protection tout-terrain
                                                             </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Télédéverrouillage</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Vitres électriques </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Volant réglable  </div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Barre d'appui arrière</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Protection de la chaîne </div>
                                                        
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Airbags conducteur</div>
                                                         <div className="listing-feature-wrap"><i className="icon-Vector-32" />Système de navigation</div> */}
                                                     </div>
                                                     <div className="features-item">
-                                                        <h5 className="features-type-title">Sûreté et sécurité </h5>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Booster de freinage à dépression</div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Verrouillage électrique de la direction </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capteur de stationnement avant </div>
-                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Assistance au démarrage en côte (HSA) </div>
+                                                        <h5 className="features-type-title">Commodité</h5>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Démarrage électrique et option kick-start</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Combiné d'instruments analogiques</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Siège confortable pour les longs trajets</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Capacité du réservoir de carburant : 9 litres</div>
+                                                        <div className="listing-feature-wrap"><i className="icon-Vector-32" />Léger et facile à manœuvrer</div>
                                                         
                                                         {/* <div className="listing-feature-wrap"><i className="icon-Vector-32" />Alertes au départ du wagon de tête</div> */}
                                                     </div>

@@ -32,7 +32,7 @@ export default function Home() {
                 {/* <SellingCar /> */}
                 <CounterCar />
                 {/* <TestimonialCar /> */}
-                <FeaturesCar />
+                {/* <FeaturesCar />add */}
                 {/* <BrowseByMode/> */}
                 <SellingCar/>
                 {/* <CarBannerV1 /> */}

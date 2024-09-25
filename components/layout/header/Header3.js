@@ -80,11 +80,11 @@ const imgStyles = {
 const imageData = {
   Honda: [
     { id: "honda1", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CR-V", url: "/crv" },
-    { id: "honda2", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "HR-V", url: "/hrv" },
-    { id: "honda3", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "PILOT", url: "/pilot" },
-    { id: "honda4", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "ACCORD", url: "/accord" },
-    { id: "honda5", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/civic" },
-    { id: "honda6", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Honda HR-V 2024", caption: "CITY", url: "/city" },
+    { id: "honda2", src: "./assets/images/All imgs/navbar/HRV.webp", alt: "Honda HR-V 2024", caption: "HR-V", url: "/hrv" },
+    { id: "honda3", src: "./assets/images/All imgs/navbar/Pilot.webp", alt: "Honda CR-V 2024", caption: "PILOT", url: "/pilot" },
+    { id: "honda4", src: "./assets/images/All imgs/navbar/Accord.webp", alt: "Honda HR-V 2024", caption: "ACCORD", url: "/accord" },
+    { id: "honda5", src: "./assets/images/All imgs/navbar/Civic.webp", alt: "Honda CR-V 2024", caption: "CIVIC", url: "/civic" },
+    { id: "honda6", src: "./assets/images/All imgs/navbar/City.webp", alt: "Honda HR-V 2024", caption: "CITY", url: "/city" },
   ],
   Chevrolet: [
     { id: "chevrolet", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Captiva", url: "/Captiva" },
@@ -99,12 +99,12 @@ const imageData = {
     // Add other Chevrolet images here
   ],
   Foton : [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Tunland - G7" ,url: "/G7"},
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland - E5",url: "/TunlandE5" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton View -C2",url: "/ViewC2" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "CS2" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton TM" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton Tohano" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Tunland G7" ,url: "/G7"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland E5",url: "/TunlandE5" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "FotonView C2",url: "/ViewC2" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton TM" ,url: "/TM"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton Tohano"  ,url: "/Tohano"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Aumark"  ,url: "/Aumark"},
     // Add other Chevrolet images here
   ], 
   HondaBikes : [
@@ -171,16 +171,26 @@ const usedCar = {
                       <i className="icon-4" />
                     </Link>
                   </li>
+                  {/* <li>
+                    <Link href="/#">
+                      <i className="icon-9" />
+                    </Link>
+                  </li> */}
                   <li>
+                    <Link href="/#">
+                      <i className="icon-11" />
+                    </Link>
+                  </li>
+                  {/* <li>
                     <Link href="/#">
                       <i className="icon-5" />
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/#">
                       <i className="icon-7" />
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

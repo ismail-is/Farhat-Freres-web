@@ -87,15 +87,15 @@ const imageData = {
     { id: "honda6", src: "./assets/images/All imgs/navbar/City.webp", alt: "Honda HR-V 2024", caption: "CITY", url: "/city" },
   ],
   Chevrolet: [
-    { id: "chevrolet", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Captiva", url: "/Captiva" },
-    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Groove" , url: "/Groove"},
-    { id: "chevrolet", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "N400" , url: "/N400"},
+    { id: "chevrolet", src: "./assets/images/All imgs/navbar/Captiva.webp", alt: "Chevrolet Captiva", caption: "Captiva", url: "/Captiva" },
+    { id: "chevrolet", src: "./assets/images/All imgs/navbar/Groove.webp", alt: "Chevrolet Groove", caption: "Groove" , url: "/Groove"},
+    { id: "chevrolet", src: "./assets/images/All imgs/navbar/N400.webp", alt: "Chevrolet Groove", caption: "N400" , url: "/N400"},
     // Add other Chevrolet images here
   ],
   Kaiyi: [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "X3",url: "/x3" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X3 Pro",url: "/X3Pro"  },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "X7",url: "/X7"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/X3.webp", alt: "Chevrolet Captiva", caption: "X3",url: "/x3" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/X3 Pro.webp", alt: "Chevrolet Groove", caption: "X3 Pro",url: "/X3Pro"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/X7.webp", alt: "Chevrolet Groove", caption: "X7",url: "/X7"  },
     // Add other Chevrolet images here
   ],
   Foton : [

@@ -61,12 +61,12 @@ export default function SellingCar() {
                                         <div className="inner">
                                             <div className="group-title">
                                                 <div className="title">
-                                                    Car Suspension Disc
+                                                Système de navigation
                                                 </div>
                                             </div>
-                                            <div className="description">
+                                            {/* <div className="description">
                                                 <p>Lorem ipsum dolor sit amet ectetur adipisicing elit</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </Link>
                                 </div>
@@ -88,9 +88,7 @@ export default function SellingCar() {
                             <div className="selling-content">
                                 <span className="sub-selling">Nouvelles Arrivées</span>
                                 <h4 className="title-selling"> Kaiyi X7                                </h4>
-                                <p className="des">For 15 years, we raising the standard of used car ret
-                                    with one of the most innovative and reliable used ve
-                                    programmes ever created. A comprehensive
+                                <p className="des">Le Kaiyi X7 est un SUV moderne offrant une technologie avancée, un intérieur spacieux et des performances impressionnantes.
                                 </p>
                                 {/* <div className="price-selling">
                                     <span className="price-sale">$114700</span>

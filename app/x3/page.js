@@ -5,6 +5,7 @@ import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
 import CitySlider from "@/components/slider/CitySlider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
+import X3Slider from "@/components/slider/X3Slider"
 import Link from "next/link"
 import { useState } from "react"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
@@ -110,7 +111,7 @@ export default function x3() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CitySlider />
+                                        <X3Slider />
                                     </div>
                                 </div>
                             </div>

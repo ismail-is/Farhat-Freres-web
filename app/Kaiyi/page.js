@@ -104,7 +104,7 @@ export default function Kaiyi() {
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/All imgs/Captiva/Captiva.webp" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/v3/6.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">

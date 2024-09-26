@@ -5,6 +5,7 @@ import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
 import CitySlider from "@/components/slider/CitySlider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
+import Wave110SLider from "@/components/slider/Wave110SLider"
 import Link from "next/link"
 import { useState } from "react"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
@@ -62,7 +63,7 @@ export default function Wave110 () {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Honda Bikes  <span style={{color:"red"}}>Wave 110</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Honda   <span style={{color:"red"}}>Wave 110</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -110,12 +111,12 @@ export default function Wave110 () {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CitySlider />
+                                        <Wave110SLider />
                                     </div>
                                 </div>
                             </div>
                             <div className="row" style={{marginTop:"-40px"}}>
-                                <div className="col-lg-8 col-md-12 " >
+                                <div className="col-lg-12 col-md-12 " >
                                     <div className="post-property">
                                         <div className="wrap-description wrap-style">
                                             <h4 className="title">Description </h4>
@@ -621,7 +622,7 @@ export default function Wave110 () {
                                             <i className="icon-Group-12" />
                                         </a>
                                     </div> */}
-                                    <div className="author-contact-listing-wrap">
+                                    {/* <div className="author-contact-listing-wrap"> */}
                                         {/* <div className="author-contact-wrap">
                                             <div className="author-contact-avatar">
                                                 <img src="./assets/images/avatar/avt-admin.png" title="image" />
@@ -635,7 +636,7 @@ export default function Wave110 () {
                                                 </span>
                                             </div>
                                         </div> */}
-                                        <form action="/" method="post" className="form-contact-admin" aria-label="Contact form">
+                                        {/* <form action="/" method="post" className="form-contact-admin" aria-label="Contact form">
                                             <div className="group-form">
                                                 <input className="admin-form" aria-required="true" aria-invalid="false" placeholder="Your Name" type="text" />
                                                 <i className="icon-user-1-1" />
@@ -653,8 +654,8 @@ export default function Wave110 () {
                                                 <i className="icon-edit-1" />
                                             </div>
                                             <button type="submit"> Send Message </button>
-                                        </form>
-                                    </div>
+                                        </form> */}
+                                    {/* </div> */}
                                 </div>
                             </div>
 
@@ -782,19 +783,20 @@ export default function Wave110 () {
                     </div>
                     {/* property-detail */}
                     {/* related-single-listing */}
-                    <div className="widget-related-single-listing">
+                    <div className="widget-related-single-listing" style={{marginBottom:'-70px'}}>
                         <div className="themesflat-container">
                             
                             <div className="related-single-listing swiper">
                                 
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/XL125'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/Bikes/XL 125.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -823,9 +825,11 @@ export default function Wave110 () {
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
+                                        <Link href='/XL125'>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details" /><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/XL125" /><Link href="/XL125"> Honda  XL125 </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -860,8 +864,8 @@ export default function Wave110 () {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -889,14 +893,16 @@ export default function Wave110 () {
                                                 </div> */}
                                             </div>
                                         </div>
+                                        </Link>
                                     </SwiperSlide>
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/ACE110'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/Bikes/ACE 110.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -921,13 +927,13 @@ export default function Wave110 () {
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
-                                        </div>
+                                        </div></Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/ACE110">Honda  ACE110  </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -962,8 +968,8 @@ export default function Wave110 () {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -993,12 +999,13 @@ export default function Wave110 () {
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/ACE125'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/Bikes/ACE 125.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -1027,9 +1034,10 @@ export default function Wave110 () {
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/ACE125">Honda  ACE125</Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -1064,8 +1072,8 @@ export default function Wave110 () {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -1095,12 +1103,13 @@ export default function Wave110 () {
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/ACE125TUFF'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/Bikes/ACE 125 TUFF.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -1125,13 +1134,14 @@ export default function Wave110 () {
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/ACE125TUFF">Honda  ACE125 TUFF</Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -1166,110 +1176,8 @@ export default function Wave110 () {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
-                                                    <li>
-                                                        <Link href="/#">
-                                                            <i className="icon-heart-1-1" />
-                                                            <span>Favorite</span>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/#">
-                                                            <i className="icon-shuffle-2-11" />
-                                                            <span>Compare</span>
-                                                        </Link>
-                                                    </li>
-                                                </ul> */}
-                                            </div>
-                                            <div className="bottom-price-wrap">
-                                                {/* <div className="price-wrap">
-                                                    <p className="price">$489</p>
-                                                    <p className="price-sale">$399</p>
-                                                </div> */}
-                                                {/* <div className="btn-read-more">
-                                                    <Link className="more-link" href="/#">
-                                                        <span>View details</span>
-                                                        <i className="icon-arrow-right2" />
-                                                    </Link>
-                                                </div> */}
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="listing-grid-item swiper-slide">
-                                        <div className="listing-item-image">
-                                            <div className="hover-listing-image">
-                                                <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
-                                                        <div className="images">
-                                                            <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
-                                                        </div>
-                                                    </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
-                                                        <div className="images">
-                                                            <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
-                                                        <div className="images">
-                                                            <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
-                                                            <div className="overlay-limit">
-                                                                <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
-                                                                <p>2 more photos</p>
-                                                            </div>
-                                                        </div>
-                                                    </div> */}
-                                                    <div className="bullet-hover-listing">
-                                                        <div className="bl-item active" />
-                                                        {/* <div className="bl-item" />
-                                                        <div className="bl-item" /> */}
-                                                    </div>
                                                 </div>
-                                            </div>
-                                            <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
-                                            </Link>
-                                            <span className="feature">Featured</span>
-                                        </div>
-                                        <div className="listing-item-content">
-                                            <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
-                                                {/* <div className="review-wrap">
-                                                    <div className="rating">
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                    </div>
-                                                    <span className="review">( 2 Reviews )</span>
-                                                </div> */}
-                                                {/* <div className="description">
-                                                    <ul>
-                                                        <li className="listing-information fuel">
-                                                            <i className="icon-gasoline-pump-1" />
-                                                            <div className="inner">
-                                                                <span>Fuel type</span>
-                                                                <p>Petrol</p>
-                                                            </div>
-                                                        </li>
-                                                        <li className="listing-information size-engine">
-                                                            <i className="icon-Group1" />
-                                                            <div className="inner">
-                                                                <span>Mileage</span>
-                                                                <p>90 k.m</p>
-                                                            </div>
-                                                        </li>
-                                                        <li className="listing-information transmission">
-                                                            <i className="icon-gearbox-1" />
-                                                            <div className="inner">
-                                                                <span>Transmission</span>
-                                                                <p>Auto</p>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -1298,6 +1206,11 @@ export default function Wave110 () {
                                             </div>
                                         </div>
                                     </SwiperSlide>
+                                 
+
+
+
+                                  
                                 </Swiper>
                                 <div className="swiper-pagination" />
                             </div>

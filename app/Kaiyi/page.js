@@ -135,7 +135,7 @@ export default function Kaiyi() {
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"> <Link href="/Captiva" >Kaiyi X3  </Link></h6>
+                                                            <h6 className="title"> <Link href="/x3" >Kaiyi X3  </Link></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -315,7 +315,7 @@ export default function Kaiyi() {
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/All imgs/N400/N400 1.webp" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/x7/Kaiyi x7 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">

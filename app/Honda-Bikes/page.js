@@ -97,13 +97,14 @@ export default function HondaBikes () {
                                     <div className="tab-content" id="nav-listing-car">
                                         <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <div className="listing-list-car-grid ">
+                                            <Link href='/XL125'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Bikes/XL 125.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -134,7 +135,7 @@ export default function HondaBikes () {
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#" /><a href="#"> Honda XL125</a></h6>
+                                                            <h6 className="title"><a href="/XL125" /><a href="/XL125"> Honda XL125</a></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -199,13 +200,15 @@ export default function HondaBikes () {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                </Link> 
+                                                <Link href='/ACE110'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Bikes/ACE 110.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -236,7 +239,7 @@ export default function HondaBikes () {
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#">Honda ACE110</a></h6>
+                                                            <h6 className="title"><a href="/ACE110">Honda ACE110</a></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -301,13 +304,15 @@ export default function HondaBikes () {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                </Link> 
+                                                <Link href='/ACE125'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Bikes/ACE 125.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -338,7 +343,7 @@ export default function HondaBikes () {
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#"> Honda ACE125</a></h6>
+                                                            <h6 className="title"><a href="/ACE125"> Honda ACE125</a></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -403,13 +408,16 @@ export default function HondaBikes () {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                </Link> 
+
+                                                <Link href='/ACE125TUFF'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Bikes/ACE 125 TUFF.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -440,7 +448,7 @@ export default function HondaBikes () {
                                                     </div>
                                                     <div className="listing-item-content">
                                                         <div className="listing-top-content">
-                                                            <h6 className="title"><a href="#"> Honda  ACE125 TUFF</a></h6>
+                                                            <h6 className="title"><a href="/ACE125TUFF"> Honda  ACE125 TUFF</a></h6>
                                                             {/* <div className="review-wrap">
                                                                 <div className="rating">
                                                                     <i className="icon-Vector3" />
@@ -505,13 +513,15 @@ export default function HondaBikes () {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                </Link> 
+                                                <Link href='/Wave110'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/car-list/car17.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/Bikes/wave.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -607,7 +617,7 @@ export default function HondaBikes () {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+                                                </Link> 
                                                 
                                                
                                                

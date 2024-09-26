@@ -99,20 +99,20 @@ const imageData = {
     // Add other Chevrolet images here
   ],
   Foton : [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "Tunland G7" ,url: "/G7"},
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Tunland E5",url: "/TunlandE5" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "FotonView C2",url: "/ViewC2" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton TM" ,url: "/TM"},
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Foton Tohano"  ,url: "/Tohano"},
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Aumark"  ,url: "/Aumark"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/Tunland G7.webp", alt: "Chevrolet Captiva", caption: "Tunland G7" ,url: "/G7"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/Tunland E5.webp", alt: "Chevrolet Groove", caption: "Tunland E5",url: "/TunlandE5" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/FotonView C2.webp", alt: "Chevrolet Groove", caption: "FotonView C2",url: "/ViewC2" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/TM.webp", alt: "Chevrolet Groove", caption: "Foton TM" ,url: "/TM"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/Toano.webp", alt: "Chevrolet Groove", caption: "Foton Tohano"  ,url: "/Tohano"},
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/Aumark.webp", alt: "Chevrolet Groove", caption: "Aumark"  ,url: "/Aumark"},
     // Add other Chevrolet images here
   ], 
   HondaBikes : [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "XL125",url: "/XL125"  },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE110",url: "/ACE110"  },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125" ,url: "/ACE125" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "ACE125 TUFF",url: "/ACE125TUFF"  },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "Wave 110" ,url: "/Wave110" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/XL 125.webp", alt: "Chevrolet Captiva", caption: "XL125",url: "/XL125"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/ACE110.webp", alt: "Chevrolet Groove", caption: "ACE110",url: "/ACE110"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/ACE 125.webp", alt: "Chevrolet Groove", caption: "ACE125" ,url: "/ACE125" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/ACE 125 TUFF.webp", alt: "Chevrolet Groove", caption: "ACE125 TUFF",url: "/ACE125TUFF"  },
+    { id: "Kaiyi", src: "./assets/images/All imgs/navbar/Wave 110.webp", alt: "Chevrolet Groove", caption: "Wave 110" ,url: "/Wave110" },
     // Add other Chevrolet images here
   ], HondaEngines: [
     { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators ",url: "/Generators" },
@@ -122,9 +122,9 @@ const imageData = {
 };
 const usedCar = {
   Captiva: [
-    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "Captiva ", url: "/crv" },
-    { src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Captiva HR-V 2024", caption: "CR-V ", url: "/listing-details" },
-    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva Accord 2024", caption: "Accord ", url: "/listing-details" },
+    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "Captiva "},
+    { src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Captiva HR-V 2024", caption: "CR-V "},
+    { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva Accord 2024", caption: "Accord " },
   ],
 };
 

@@ -7840,7 +7840,7 @@ a.mapboxgl-ctrl-logo {
 
 .author-contact-listing-wrap {
   padding: 45px;
-  background-color: #F8F8F8;
+  background-color: transparent;
   border-radius: 10px;
 }
 .author-contact-listing-wrap .author-contact-wrap {

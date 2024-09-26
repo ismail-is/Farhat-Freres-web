@@ -774,22 +774,23 @@ export default function accord() {
                     </div>
                     {/* property-detail */}
                     {/* related-single-listing */}
-                    <div className="widget-related-single-listing">
+                    <div className="widget-related-single-listing" style={{marginBottom:'-20px'}}>
                         <div className="themesflat-container">
                             
                             <div className="related-single-listing swiper">
                                 
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/crv'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/cvr/crv 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -802,22 +803,24 @@ export default function accord() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
+                                        <Link href='/hrv'>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details" /><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/crv" /><Link href="/crv"> CR-V </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -828,7 +831,7 @@ export default function accord() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -866,32 +869,137 @@ export default function accord() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
+                                                </div> */}
+                                            </div>
+                                        </div>
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/hrv'>
+                                        <div className="listing-item-image">
+                                            <div className="hover-listing-image">
+                                                <div className="wrap-hover-listing">
+                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                        <div className="images">
+                                                            <img src="./assets/images/All imgs/Hrv1/HRV 2024 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                        </div>
+                                                    </div>
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                        <div className="images">
+                                                            <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                        </div>
+                                                    </div>
+                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                        <div className="images">
+                                                            <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <div className="overlay-limit">
+                                                                <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                                <p>2 more photos</p>
+                                                            </div>
+                                                        </div>
+                                                    </div> */}
+                                                    <div className="bullet-hover-listing">
+                                                        <div className="bl-item active" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
+                                                    </div>
                                                 </div>
+                                            </div>
+                                            <Link href="/#" className="icon-favorite">
+                                                {/* <i className="icon-heart-1-1" /> */}
+                                            </Link>
+                                            <span className="feature">Featured</span>
+                                        </div></Link>
+                                        <div className="listing-item-content">
+                                            <div className="listing-top-content">
+                                                <h6 className="title"><Link href="/hrv">HR-V  </Link></h6>
+                                                {/* <div className="review-wrap">
+                                                    <div className="rating">
+                                                        <i className="icon-Vector3" />
+                                                        <i className="icon-Vector3" />
+                                                        <i className="icon-Vector3" />
+                                                        <i className="icon-Vector3" />
+                                                        <i className="icon-Vector3" />
+                                                    </div>
+                                                    <span className="review">( 2 Reviews )</span>
+                                                </div> */}
+                                                {/* <div className="description">
+                                                    <ul>
+                                                        <li className="listing-information fuel">
+                                                            <i className="icon-gasoline-pump-1" />
+                                                            <div className="inner">
+                                                                <span>Fuel type</span>
+                                                                <p>Petrol</p>
+                                                            </div>
+                                                        </li>
+                                                        <li className="listing-information size-engine">
+                                                            <i className="icon-Group1" />
+                                                            <div className="inner">
+                                                                <span>Mileage</span>
+                                                                <p>90 k.m</p>
+                                                            </div>
+                                                        </li>
+                                                        <li className="listing-information transmission">
+                                                            <i className="icon-gearbox-1" />
+                                                            <div className="inner">
+                                                                <span>Transmission</span>
+                                                                <p>Auto</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <ul className="list-controller">
+                                                    <li>
+                                                        <Link href="/#">
+                                                            <i className="icon-heart-1-1" />
+                                                            <span>Favorite</span>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/#">
+                                                            <i className="icon-shuffle-2-11" />
+                                                            <span>Compare</span>
+                                                        </Link>
+                                                    </li>
+                                                </ul> */}
+                                            </div>
+                                            <div className="bottom-price-wrap">
+                                                {/* <div className="price-wrap">
+                                                    <p className="price">$489</p>
+                                                    <p className="price-sale">$399</p>
+                                                </div> */}
+                                                {/* <div className="btn-read-more">
+                                                    <Link className="more-link" href="/#">
+                                                        <span>View details</span>
+                                                        <i className="icon-arrow-right2" />
+                                                    </Link>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/pilot'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/piolet/Pilot 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -904,22 +1012,23 @@ export default function accord() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/pilot">PILOT </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -930,7 +1039,7 @@ export default function accord() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -968,32 +1077,33 @@ export default function accord() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/civic'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/civic/Civic.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -1006,22 +1116,23 @@ export default function accord() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/civic">CIVIC </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -1032,7 +1143,7 @@ export default function accord() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -1070,32 +1181,37 @@ export default function accord() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </SwiperSlide>
+                                 
+
+
+
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/city'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/city/City 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
@@ -1108,22 +1224,23 @@ export default function accord() {
                                                                 <p>2 more photos</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="bullet-hover-listing">
                                                         <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
+                                                        {/* <div className="bl-item" />
+                                                        <div className="bl-item" /> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/city"> CITY </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -1134,7 +1251,7 @@ export default function accord() {
                                                     </div>
                                                     <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
+                                                {/* <div className="description">
                                                     <ul>
                                                         <li className="listing-information fuel">
                                                             <i className="icon-gasoline-pump-1" />
@@ -1172,121 +1289,19 @@ export default function accord() {
                                                             <span>Compare</span>
                                                         </Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="bottom-price-wrap">
                                                 {/* <div className="price-wrap">
                                                     <p className="price">$489</p>
                                                     <p className="price-sale">$399</p>
                                                 </div> */}
-                                                <div className="btn-read-more">
+                                                {/* <div className="btn-read-more">
                                                     <Link className="more-link" href="/#">
                                                         <span>View details</span>
                                                         <i className="icon-arrow-right2" />
                                                     </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="listing-grid-item swiper-slide">
-                                        <div className="listing-item-image">
-                                            <div className="hover-listing-image">
-                                                <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
-                                                        <div className="images">
-                                                            <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="listing-item" title="Lexus LC Hybrid 2024">
-                                                        <div className="images">
-                                                            <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
-                                                        <div className="images">
-                                                            <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
-                                                            <div className="overlay-limit">
-                                                                <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
-                                                                <p>2 more photos</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="bullet-hover-listing">
-                                                        <div className="bl-item active" />
-                                                        <div className="bl-item" />
-                                                        <div className="bl-item" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
-                                            </Link>
-                                            <span className="feature">Featured</span>
-                                        </div>
-                                        <div className="listing-item-content">
-                                            <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
-                                                {/* <div className="review-wrap">
-                                                    <div className="rating">
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                        <i className="icon-Vector3" />
-                                                    </div>
-                                                    <span className="review">( 2 Reviews )</span>
                                                 </div> */}
-                                                <div className="description">
-                                                    <ul>
-                                                        <li className="listing-information fuel">
-                                                            <i className="icon-gasoline-pump-1" />
-                                                            <div className="inner">
-                                                                <span>Fuel type</span>
-                                                                <p>Petrol</p>
-                                                            </div>
-                                                        </li>
-                                                        <li className="listing-information size-engine">
-                                                            <i className="icon-Group1" />
-                                                            <div className="inner">
-                                                                <span>Mileage</span>
-                                                                <p>90 k.m</p>
-                                                            </div>
-                                                        </li>
-                                                        <li className="listing-information transmission">
-                                                            <i className="icon-gearbox-1" />
-                                                            <div className="inner">
-                                                                <span>Transmission</span>
-                                                                <p>Auto</p>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <ul className="list-controller">
-                                                    <li>
-                                                        <Link href="/#">
-                                                            <i className="icon-heart-1-1" />
-                                                            <span>Favorite</span>
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/#">
-                                                            <i className="icon-shuffle-2-11" />
-                                                            <span>Compare</span>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="bottom-price-wrap">
-                                                {/* <div className="price-wrap">
-                                                    <p className="price">$489</p>
-                                                    <p className="price-sale">$399</p>
-                                                </div> */}
-                                                <div className="btn-read-more">
-                                                    <Link className="more-link" href="/#">
-                                                        <span>View details</span>
-                                                        <i className="icon-arrow-right2" />
-                                                    </Link>
-                                                </div>
                                             </div>
                                         </div>
                                     </SwiperSlide>

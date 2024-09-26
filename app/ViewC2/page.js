@@ -5,6 +5,7 @@ import ModalTestDriver from "@/components/elements/ModalTestDriver"
 import Layout from "@/components/layout/Layout"
 import CitySlider from "@/components/slider/CitySlider"
 import ThumbSlider from "@/components/slider/ThumbSlider"
+import V3Slider from "@/components/slider/V3Slider"
 import Link from "next/link"
 import { useState } from "react"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
@@ -62,7 +63,7 @@ export default function TunlandE5() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Foton  <span style={{color:"red"}}>View C2</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Foton  <span style={{color:"red"}}>View CS2</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -110,7 +111,7 @@ export default function TunlandE5() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="gallary-property-details">
-                                        <CitySlider />
+                                        <V3Slider />
                                     </div>
                                 </div>
                             </div>
@@ -783,19 +784,20 @@ export default function TunlandE5() {
                     </div>
                     {/* property-detail */}
                     {/* related-single-listing */}
-                    <div className="widget-related-single-listing">
+                    <div className="widget-related-single-listing" style={{marginBottom:'-70px'}}>
                         <div className="themesflat-container">
                             
                             <div className="related-single-listing swiper">
                                 
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/G7'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/G7/Foton 1.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -824,9 +826,11 @@ export default function TunlandE5() {
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
+                                        <Link href='/hrv'>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details" /><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/G7" /><Link href="/G7"> Foton G7 </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -861,8 +865,8 @@ export default function TunlandE5() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -890,14 +894,16 @@ export default function TunlandE5() {
                                                 </div> */}
                                             </div>
                                         </div>
+                                        </Link>
                                     </SwiperSlide>
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/TunlandE5'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/E5/Foton G5 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -922,13 +928,13 @@ export default function TunlandE5() {
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
-                                        </div>
+                                        </div></Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/TunlandE5">Foton Tunland - E5 </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -963,8 +969,8 @@ export default function TunlandE5() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -993,13 +999,17 @@ export default function TunlandE5() {
                                             </div>
                                         </div>
                                     </SwiperSlide>
+
+                                
+
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/TM'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car23.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/TM/Foto TM 1..webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -1028,9 +1038,10 @@ export default function TunlandE5() {
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/TM">Foton TM</Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -1065,8 +1076,8 @@ export default function TunlandE5() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -1096,12 +1107,13 @@ export default function TunlandE5() {
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/Tohano'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/Tonano/Toano 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -1126,13 +1138,14 @@ export default function TunlandE5() {
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/Tohano">Foton Tohano</Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -1167,8 +1180,8 @@ export default function TunlandE5() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />
@@ -1197,13 +1210,18 @@ export default function TunlandE5() {
                                             </div>
                                         </div>
                                     </SwiperSlide>
+                                 
+
+
+
                                     <SwiperSlide className="listing-grid-item swiper-slide">
+                                    <Link href='/Aumark'>
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="./assets/images/car-list/car8.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/Aumark/Aumark 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
@@ -1228,13 +1246,14 @@ export default function TunlandE5() {
                                                 </div>
                                             </div>
                                             <Link href="/#" className="icon-favorite">
-                                                <i className="icon-heart-1-1" />
+                                                {/* <i className="icon-heart-1-1" /> */}
                                             </Link>
                                             <span className="feature">Featured</span>
                                         </div>
+                                        </Link>
                                         <div className="listing-item-content">
                                             <div className="listing-top-content">
-                                                <h6 className="title"><Link href="/listing-details">Mercedez benz - c class</Link></h6>
+                                                <h6 className="title"><Link href="/Aumark"> Foton Aumark  </Link></h6>
                                                 {/* <div className="review-wrap">
                                                     <div className="rating">
                                                         <i className="icon-Vector3" />
@@ -1269,8 +1288,8 @@ export default function TunlandE5() {
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                </div> */}
-                                                {/* <ul className="list-controller">
+                                                </div>
+                                                <ul className="list-controller">
                                                     <li>
                                                         <Link href="/#">
                                                             <i className="icon-heart-1-1" />

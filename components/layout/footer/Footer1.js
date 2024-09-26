@@ -95,13 +95,13 @@ export default function Footer1() {
                                     <Link href="/#"><i className="icon-6" /></Link>
                                 </li>
                                 <li>
-                                    <Link href="/#"><i className="icon-4" /></Link>
+                                    <Link href="/#"><i className="icon-9" /></Link>
                                 </li>
                                 <li>
-                                    <Link href="/#"><i className="icon-5" /></Link>
+                                    <Link href="/#"><i className="icon-11" /></Link>
                                 </li>
                                 <li>
-                                    <Link href="/#"><i className="icon-7" /></Link>
+                                    <Link href="/#"><i className="icon-8" /></Link>
                                 </li>
                             </ul>
                         </div>
@@ -114,8 +114,8 @@ export default function Footer1() {
                         </div> */}
                     </div>
                 </div>
-                <img src="/assets/images/page/ft-left.png" alt="left" className="shape-left" />
-                <img src="/assets/images/page/ft-right.png" alt="right" className="shape-right" />
+                {/* <img src="/assets/images/page/ft-left.png" alt="left" className="shape-left" />
+                <img src="/assets/images/page/ft-right.png" alt="right" className="shape-right" /> */}
             </footer>
 
         </>

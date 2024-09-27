@@ -43,12 +43,13 @@ export default function Header3({
  // Inline styles for the image card
  const imageCardStyles = {
   position: "absolute",
-  top: "10px",
-  left: "150px",
-  width: "fit-content",
+  top: "100px",
+  left: "0px",
+  width: "100%",
   padding: "10px",
   backgroundColor: "white",
   borderRadius: "1%",
+  textAlign:"center",
   // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
   display: "grid",
   gridTemplateColumns: "repeat(3, 2fr)",  // This creates 1 row with 4 images
@@ -120,6 +121,15 @@ const imageData = {
     // Add other Chevrolet images here
   ], 
 };
+const brandLogos = {
+  Honda: "./assets/images/All imgs/logo/Hondalogo.webp",
+  Chevrolet: "./assets/images/All imgs/2.png",
+  Kaiyi: "./assets/images/All imgs/logo/Kaiyilogo.webp",
+  Foton: "./assets/images/All imgs/logo/Fotonlogo.webp",
+  HondaBikes: "./assets/images/All imgs/5.png",
+  HondaEngines: "../assets/images/All imgs/logo/Hondaeng.webp",
+  // Add logos for other brands as needed...
+};
 const usedCar = {
   Captiva: [
     { src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Captiva CR-V 2024", caption: "Captiva "},
@@ -137,7 +147,7 @@ const usedCar = {
         <div className="top-bar">
           <div className="themesflat-container">
             <div className="row">
-              <div className="col-md-9">
+              <div className="col-md-12">
                 <ul className="list-infor-topbar">
                   <li>
                     <Link href="tel:+2250707666660">
@@ -159,7 +169,7 @@ const usedCar = {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-12">
                 <ul className="icon-topbar">
                   <li>
                     <Link href="/#">
@@ -221,9 +231,9 @@ const usedCar = {
                         <li>
                             <Link href="/">Accueil </Link>
                           </li>
-                        <li>
+                        {/* <li>
                             <Link href="/about">A propos de nous </Link>
-                          </li>
+                          </li> */}
                           {/* <li className="dropdown2 current">
                             <Link href="/#">Home</Link>
                             <ul>
@@ -261,14 +271,24 @@ const usedCar = {
 
 <li className="dropdown2">
       <Link href="/#">Nos Marques</Link>
-      <ul style={{ gap: "10px", width: "470%" }}>
+      <ul style={{ gap: "30px", width: "570%",display:"flex",marginLeft:'-200px'}}>
         {Object.keys(imageData).map((brand) => (
           <li
             key={brand}
             onClick={() => handleClick(brand)}
             style={{ color: selectedBrand === brand ? 'red' : 'black',cursor: 'pointer',  }} // Apply color based on selected brand
           >
-            <p>{brand}</p>
+            {/* <p>{brand}</p> */}
+
+            <img
+          src={brandLogos[brand]}
+          alt={`${brand} logo`}
+          style={{
+            width: '100%',
+            height: 'auto',
+            
+          }}
+        />
           </li>
         ))}
 
@@ -278,7 +298,7 @@ const usedCar = {
             {imageData[selectedBrand].map((image, index) => (
               <figure
                 key={index}
-                style={{ marginLeft: "60px", marginTop: "-90px", margin: "2px" }}
+                style={{ marginLeft: "60px", marginTop: "40px", margin: "2px" }}
               >
                 {image.url ? (
                   <Link href={image.url}>
@@ -299,7 +319,7 @@ const usedCar = {
                     onMouseLeave={(e) => (e.target.style.border = 'none')}
                   />
                 )}
-                <figcaption style={{ textAlign: 'center', marginTop: '5px',fontFamily:'serif',color:"black"}}>
+                <figcaption style={{ textAlign: 'center', marginTop: '5px',color:"black"}}>
                   {image.caption}
                 </figcaption>
               </figure>
@@ -309,6 +329,9 @@ const usedCar = {
       </ul>
     </li>
 
+    <li>
+                            <Link href="/about">A propos de nous </Link>
+                          </li>
 
 
 
@@ -327,9 +350,8 @@ const usedCar = {
 
 
 
-
-
-    <li className="dropdown2">
+{/* used car */}
+    {/* <li className="dropdown2">
       <Link href="/#">Voitures d'occasion</Link>
       <ul style={{ gap: "10px", width: "1%" ,marginLeft:"-200px",marginTop:"-30px",backgroundColor:"none"}}>
         {Object.keys(usedCar).map((brand) => (
@@ -374,12 +396,17 @@ const usedCar = {
           </li>
         ))}
 
-        {/* Conditionally render the image section based on currentBrand */}
         
       </ul>
-    </li>
+    </li> */}
+{/* used car */}
 
-    <li className="dropdown2">
+
+
+
+
+{/* rent car */}
+    {/* <li className="dropdown2">
       <Link href="/#">location De Voitures</Link>
       <ul style={{ gap: "10px", width: "1%" ,marginLeft:"-200px",marginTop:"-30px",backgroundColor:"none"}}>
         {Object.keys(usedCar).map((brand) => (
@@ -424,11 +451,10 @@ const usedCar = {
           </li>
         ))}
 
-        {/* Conditionally render the image section based on currentBrand */}
         
       </ul>
-    </li>
-
+    </li> */}
+{/* rent car */}
 
     {/* use fulll */}
     {/* <li className="dropdown2">

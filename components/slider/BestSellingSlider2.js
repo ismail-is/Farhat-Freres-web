@@ -23,7 +23,7 @@ const swiperOptions = {
             slidesPerView: 2,
         },
         991: {
-            slidesPerView: 3,
+            slidesPerView: 1,
         },
     },
 }
@@ -33,7 +33,31 @@ export default function BestSellingSlider2() {
         <>
             <div className="swiper mybest-selling2">
                 <Swiper {...swiperOptions} className="best-selling swiper-wrapper">
+                    <SwiperSlide className="item swiper-slide" >
+                        <div className="images">
+                            <img src="./assets/images/All imgs/Home/homebanner.webp" alt="image" />
+                        </div>
+                        <h5 className="name">
+                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
+                        </h5>
+                    </SwiperSlide>
+                    <SwiperSlide className="item swiper-slide" >
+                        <div className="images">
+                            <img src="./assets/images/All imgs/Home/homebanner.webp" alt="image" />
+                        </div>
+                        <h5 className="name">
+                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
+                        </h5>
+                    </SwiperSlide>
                     <SwiperSlide className="item swiper-slide">
+                        <div className="images">
+                            <img src="https://motorx-six.vercel.app/assets/images/car-list/sl1.png" alt="image" />
+                        </div>
+                        <h5 className="name">
+                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
+                        </h5>
+                    </SwiperSlide>
+                    {/* <SwiperSlide className="item swiper-slide">
                         <div className="images">
                             <img src="./assets/images/car-list/sl1.png" alt="image" />
                         </div>
@@ -48,39 +72,15 @@ export default function BestSellingSlider2() {
                         <h5 className="name">
                             <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
                         </h5>
-                    </SwiperSlide>
-                    <SwiperSlide className="item swiper-slide">
+                    </SwiperSlide> */}
+                    {/* <SwiperSlide className="item swiper-slide">
                         <div className="images">
                             <img src="./assets/images/car-list/sl3.png" alt="image" />
                         </div>
                         <h5 className="name">
                             <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
                         </h5>
-                    </SwiperSlide>
-                    <SwiperSlide className="item swiper-slide">
-                        <div className="images">
-                            <img src="./assets/images/car-list/sl1.png" alt="image" />
-                        </div>
-                        <h5 className="name">
-                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
-                        </h5>
-                    </SwiperSlide>
-                    <SwiperSlide className="item swiper-slide">
-                        <div className="images">
-                            <img src="./assets/images/car-list/sl2.png" alt="image" />
-                        </div>
-                        <h5 className="name">
-                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
-                        </h5>
-                    </SwiperSlide>
-                    <SwiperSlide className="item swiper-slide">
-                        <div className="images">
-                            <img src="./assets/images/car-list/sl3.png" alt="image" />
-                        </div>
-                        <h5 className="name">
-                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
-                        </h5>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
                 <div className="swiper-pagination" />
             </div>

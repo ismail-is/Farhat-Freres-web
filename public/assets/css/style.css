@@ -595,7 +595,7 @@ input[type=checkbox]:checked + label:after {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  width: 1380px;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -985,7 +985,7 @@ body.modal-open {
 }
 .top-bar .list-infor-topbar {
   display: flex;
-  align-items: center;
+  justify-content: end;
 }
 .top-bar .list-infor-topbar li:not(:last-child) {
   margin-right: 22px;
@@ -2247,11 +2247,11 @@ body.modal-open {
 .icon-topbar {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   height: 100%;
 }
 .icon-topbar li:not(:first-child) {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .icon-topbar li a > i {
   color: #ffffff;
@@ -6074,9 +6074,9 @@ ul.social-icon li a i:hover {
   content: "";
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 100%;
   border-radius: 10px;
-  background-color: #121212;
+  background-color: #a4262600;
   bottom: 0;
   left: 0;
   right: 0;
@@ -6102,7 +6102,7 @@ ul.social-icon li a i:hover {
   position: relative;
 }
 .best-selling .item .name a {
-  color: #ffffff;
+  color: #c71e1e;
 }
 .best-selling .swiper-slide-active {
   height: 428px;

@@ -1,9 +1,11 @@
 import Layout from "@/components/layout/Layout"
+import BestsellingCar from "@/components/sections/BestsellingCar"
 import BrowseByMode from "@/components/sections/BrowseByMode"
 import CarBannerV1 from "@/components/sections/CarBannerV1"
 import CarBlogV1 from "@/components/sections/CarBlogV1"
 import CarListV2 from "@/components/sections/CarListV2"
 import CounterCar from "@/components/sections/CounterCar"
+import FeatureCar2 from "@/components/sections/FeatureCar2"
 import FeaturesCar from "@/components/sections/FeaturesCar"
 import IconBox from "@/components/sections/IconBox"
 import Logo from "@/components/sections/Logo"
@@ -21,6 +23,8 @@ export default function Home() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <SlideForm/>
+                {/* <BestsellingCar/> */}
+                {/* <BestSellingSlider2 /> */}
                 {/* <Slide /> */}
                 {/* <SlideSearchCar /> */}
                 <IconBox />
@@ -32,7 +36,7 @@ export default function Home() {
                 {/* <SellingCar /> */}
                 <CounterCar />
                 {/* <TestimonialCar /> */}
-                {/* <FeaturesCar />add */}
+                <FeatureCar2 />
                 {/* <BrowseByMode/> */}
                 <SellingCar/>
                 {/* <CarBannerV1 /> */}

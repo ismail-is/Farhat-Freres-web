@@ -4,13 +4,13 @@ import CounterUp from "../elements/CounterUp"
 export default function CounterCar() {
     return (
         <>
-            <div className="widget-counter-car">
-                <div className="themesflat-container">
+            <div className="widget-counter-car" >
+                <div className="themesflat-container" style={{backgroundColor:"#D01818",marginTop:"-120px"}}>
                     <div className="counter-car">
                         <div className="counter-car-header-wrap">
                             <div className="counter-car-header">
                                 {/* <span className="sub-heading wow fadeInUp">Find your car by car brand</span> */}
-                                <h2 className="title wow fadeInUp">Pourquoi choisir <br/>notre entreprise ?</h2>
+                                <h2 className="title wow fadeInUp mt-20">Pourquoi choisir notre entreprise ?</h2>
                             </div>
                             <div className="counter-car-content">
                                 {/* <p className="description wow fadeInUp">There are many variations of simply free text

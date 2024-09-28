@@ -116,8 +116,8 @@ const imageData = {
     { id: "Kaiyi", src: "./assets/images/All imgs/navbar/Wave 110.webp", alt: "Chevrolet Groove", caption: "Wave 110" ,url: "/Wave110" },
     // Add other Chevrolet images here
   ], HondaEngines: [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators ",url: "/Generators" },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps ",url: "/WaterPumps" },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators " },
+    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps " },
     // Add other Chevrolet images here
   ], 
 };
@@ -933,7 +933,7 @@ const usedCar = {
                             </ul>
                           </li> */}
                           <li>
-                            <Link href="/contact-us">Contact us </Link>
+                            <Link href="/contact-us">Contactez nous </Link>
                           </li>
                         </ul>
                       </div>

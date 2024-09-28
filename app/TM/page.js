@@ -64,7 +64,7 @@ export default function TM() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Foton  <span style={{color:"red"}}>TM</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"-10px",fontWeight:"600",fontSize:'40px'}}>Foton  <span style={{color:"red"}}>TM</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -167,7 +167,7 @@ export default function TM() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Type de carburant:</span>
-                                                                <p className="listing-info-value">essence</p>
+                                                                <p className="listing-info-value">diesel</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -215,7 +215,7 @@ export default function TM() {
                                                             </div>
                                                         </div>
                                                     </div> */}
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-dashboard-2" />
@@ -225,7 +225,7 @@ export default function TM() {
                                                                 <p className="listing-info-value"> 12.12 to 14.6 kmpl</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
@@ -233,7 +233,7 @@ export default function TM() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Sièges:</span>
-                                                                <p className="listing-info-value">7</p>
+                                                                <p className="listing-info-value">5</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -244,7 +244,7 @@ export default function TM() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Transmission :</span>
-                                                                <p className="listing-info-value">Automatique</p>
+                                                                <p className="listing-info-value">Manuel</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -266,7 +266,7 @@ export default function TM() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Taille du moteur</span>
-                                                                <p className="listing-info-value">1.5L   </p>
+                                                                <p className="listing-info-value">2.0L   </p>
                                                             </div>
                                                         </div>
                                                     </div>

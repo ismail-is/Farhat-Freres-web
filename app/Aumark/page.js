@@ -65,7 +65,7 @@ export default function Aumark() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Foton  <span style={{color:"red"}}>Aumark</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"-10px",fontWeight:"600",fontSize:'40px'}}>Foton  <span style={{color:"red"}}>Aumark</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -168,7 +168,7 @@ export default function Aumark() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Type de carburant:</span>
-                                                                <p className="listing-info-value">essence</p>
+                                                                <p className="listing-info-value">Diesel</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -190,7 +190,7 @@ export default function Aumark() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Portes:</span>
-                                                                <p className="listing-info-value">4</p>
+                                                                <p className="listing-info-value"> 2</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -216,7 +216,7 @@ export default function Aumark() {
                                                             </div>
                                                         </div>
                                                     </div> */}
-                                                    <div className="col-xl-6 col-md-6 item">
+                                                    {/* <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
                                                                 <i className="icon-dashboard-2" />
@@ -226,7 +226,7 @@ export default function Aumark() {
                                                                 <p className="listing-info-value"> 12.12 to 14.6 kmpl</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div className="col-xl-6 col-md-6 item">
                                                         <div className="inner listing-infor-box">
                                                             <div className="icon">
@@ -234,7 +234,7 @@ export default function Aumark() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Sièges:</span>
-                                                                <p className="listing-info-value">7</p>
+                                                                <p className="listing-info-value">3</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -245,7 +245,7 @@ export default function Aumark() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Transmission :</span>
-                                                                <p className="listing-info-value">Automatique</p>
+                                                                <p className="listing-info-value">Manual </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -267,7 +267,7 @@ export default function Aumark() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Taille du moteur</span>
-                                                                <p className="listing-info-value">1.5L   </p>
+                                                                <p className="listing-info-value"> Moteur diesel 2.8L turbocompressé   </p>
                                                             </div>
                                                         </div>
                                                     </div>

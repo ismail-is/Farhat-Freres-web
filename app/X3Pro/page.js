@@ -63,7 +63,7 @@ export default function X3Pro() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Kaiyi <span style={{color:"red"}}>X3 Pro</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"-10px",fontWeight:"600",fontSize:'40px'}}>Kaiyi <span style={{color:"red"}}>X3 Pro</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -798,7 +798,7 @@ export default function X3Pro() {
                                                 <div className="wrap-hover-listing">
                                                     <div className="listing-item active" title="Lexus LC Hybrid 2024">
                                                         <div className="images">
-                                                            <img src="" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                            <img src="./assets/images/All imgs/v3/6.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
                                                     {/* <div className="listing-item" title="Lexus LC Hybrid 2024">

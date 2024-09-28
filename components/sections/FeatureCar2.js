@@ -43,7 +43,7 @@ export default function FeatureCar2() {
                             </div> */}
                         </div>
                         <div className="feature-car-video video-wrap">
-                            <img src="" alt="" />
+                            <img src="./assets/images/All imgs/mainView/Farhat freresall.webp" alt="" />
                             {/* <VideoPopup style={1}/> */}
                         </div>
                     </div>

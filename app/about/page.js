@@ -11,7 +11,7 @@ export default function Blog() {
     return (
         <>
 
-<Layout headerStyle={3} footerStyle={1} breadcrumbTitle="À propos de nous"  >
+<Layout headerStyle={3} footerStyle={1}   >
 
     {/* <TestimonialV2/> */}
     <FeaturesCar/>

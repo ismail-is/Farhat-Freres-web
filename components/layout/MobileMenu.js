@@ -207,7 +207,7 @@ export default function MobileMenu() {
                     <div className="dropdown2-btn" />
                 </li> */}
               
-                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us" target="_target">Contact us </Link>
+                <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us" target="_target">Contactez nous</Link>
                 </li>
                
             </ul>

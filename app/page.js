@@ -16,14 +16,16 @@ import SlideForm from "@/components/sections/SlideForm"
 import SlideSearchCar from "@/components/sections/SlideSearchCar"
 import TabCarService from "@/components/sections/TabCarService"
 import TestimonialCar from "@/components/sections/TestimonialCar"
+import BestSellingSlider2 from "@/components/slider/BestSellingSlider2"
 export default function Home() {
 
     return (
         <>
 
             <Layout headerStyle={3} footerStyle={1}>
-                <SlideForm/>
+                {/* <SlideForm/> */}
                 {/* <BestsellingCar/> */}
+                <BestSellingSlider2 />
                 {/* <BestSellingSlider2 /> */}
                 {/* <Slide /> */}
                 {/* <SlideSearchCar /> */}

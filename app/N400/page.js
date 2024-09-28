@@ -63,7 +63,7 @@ export default function N400() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Chevrolet  <span style={{color:"red"}}>N400</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"-10px",fontWeight:"600",fontSize:'40px'}}>Chevrolet  <span style={{color:"red"}}>N400</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">

@@ -5,6 +5,14 @@ import VideoPopup from '../elements/VideoPopup'
 export default function FeaturesCar() {
     return (
         <>
+          <div className="widget-banner-car-listing banner-car-listing-list1">
+                        <div className="themesflat-container full">
+                            <div className="banner-car-listing">
+                                {/* <span className="sub-title">Save up to 15%</span> */}
+                                <h1 className="title text-white">A propos  <span className="text-red">de nous</span> </h1>
+                            </div>
+                        </div>
+                    </div>
             <div className="widget-feature-car">
                 <div className="themesflat-container full">
                     <div className="feature-car">

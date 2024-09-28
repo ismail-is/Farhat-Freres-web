@@ -64,7 +64,7 @@ export default function Tohano() {
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>Foton  <span style={{color:"red"}}>Tohano</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"-10px",fontWeight:"600",fontSize:'40px'}}>Foton  <span style={{color:"red"}}>Tohano</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">
@@ -167,7 +167,7 @@ export default function Tohano() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Type de carburant:</span>
-                                                                <p className="listing-info-value">essence</p>
+                                                                <p className="listing-info-value">Diesel</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -222,7 +222,7 @@ export default function Tohano() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Kilométrage: </span>
-                                                                <p className="listing-info-value"> 12.12 to 14.6 kmpl</p>
+                                                                <p className="listing-info-value"> 10-12 km/l</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -244,7 +244,7 @@ export default function Tohano() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Transmission :</span>
-                                                                <p className="listing-info-value">Automatique</p>
+                                                                <p className="listing-info-value">Manuel / Automatique</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -266,7 +266,7 @@ export default function Tohano() {
                                                             </div>
                                                             <div className="content-listing-info">
                                                                 <span className="listing-info-title">Taille du moteur</span>
-                                                                <p className="listing-info-value">1.5L   </p>
+                                                                <p className="listing-info-value"> Moteur diesel 2.0L turbocompressé   </p>
                                                             </div>
                                                         </div>
                                                     </div>

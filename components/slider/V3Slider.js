@@ -23,25 +23,20 @@ export default function V3Slider() {
                     }}
                     className="swiper-wrapper">
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/1.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 1.webp" alt="Image" />
                     </SwiperSlide>
                    
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/6.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 2.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/5.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 3.webp" alt="Image" />
                     </SwiperSlide>
                     
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/4.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 4.webp" alt="Image" />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/2.webp" alt="Image" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/3.webp" alt="Image" />
-                    </SwiperSlide>
+                   
                    
                     
                   
@@ -66,28 +61,23 @@ export default function V3Slider() {
                             slidesPerView: 3,
                         },
                         767: {
-                            slidesPerView: 5,
+                            slidesPerView: 4,
                         },
                     }}
                     className="swiper-wrapper">
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/1.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 1.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/6.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 2.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/5.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 3.webp" alt="Image" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/4.webp" alt="Image" />
+                        <img src="./assets/images/All imgs/mainView/Foton View 4.webp" alt="Image" />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/2.webp" alt="Image" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assets/images/All imgs/v3/3.webp" alt="Image" />
-                    </SwiperSlide>
+                   
                     
                     
                     {/* <SwiperSlide>

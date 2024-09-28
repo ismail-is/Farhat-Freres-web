@@ -2225,12 +2225,12 @@ body.modal-open {
   right: 0;
 }
 .swiper-pagination .swiper-pagination-bullet {
-  background: #C1C3C6 !important;
+  background: transparent !important;
   opacity: 1 !important;
   margin: 0 10px !important;
 }
 .swiper-pagination .swiper-pagination-bullet-active {
-  background: #D01818 !important;
+  background: transparent !important;
   position: relative;
 }
 .swiper-pagination .swiper-pagination-bullet-active:before {
@@ -2243,7 +2243,7 @@ body.modal-open {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 100%;
-  border: 1px solid #D01818;
+  border: 1px solid transparent;
 }
 
 /*------------ Social Icon ---------------- */
@@ -5674,7 +5674,11 @@ ul.social-icon li a i:hover {
   padding-bottom: 84px;
   background-color: #F2F5FB;
 }
-
+@media (max-width: 768px) { /* Adjust the max-width based on your design */
+  #widget-icon-boxId {
+    margin-top: -150px;
+  }
+}
 /*------------ Widget icon-box ---------------- */
 /*------------ Widget car service ---------------- */
 .widget-car-service {
@@ -6056,7 +6060,7 @@ ul.social-icon li a i:hover {
 .widget-best-selling-car {
   padding-top: 135px;
   padding-bottom: 154px;
-  background-image: url(../images/page/bg7.jpg);
+  background-image: url(https://www.socida-ci.com/_images/slider/homepage/new_banniere_geely.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -6108,8 +6112,8 @@ ul.social-icon li a i:hover {
   color: #c71e1e;
 }
 .best-selling .swiper-slide-active {
-  height: 428px;
-  border-bottom: 2px solid #D01818;
+  /* height: 2428px; */
+  /* border-bottom: 2px solid #D01818; */
 }
 .best-selling .swiper-slide-active::after {
   width: 100%;
@@ -6125,7 +6129,7 @@ ul.social-icon li a i:hover {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 10px solid #D01818;
+  /* border-bottom: 10px solid #D01818; */
   z-index: 1;
 }
 
@@ -6870,6 +6874,7 @@ a.mapboxgl-ctrl-logo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .widget-banner-car-listing::before {
   top: 0;
@@ -6888,7 +6893,12 @@ a.mapboxgl-ctrl-logo {
 }
 
 .banner-car-listing-list {
-  background-image: url(../images/banner/banner-list1.jpg);
+  /* background-image: url(https://motorx-six.vercel.app/_next/static/media/banner-list1.25e9a3f7.jpg); */
+}
+.banner-car-listing-list1 {
+  background-image: url(../images/Home/homebanner.webp);
+  height: 100%;
+  object-fit: cover;
 }
 
 .banner-car-listing-grid {
@@ -8155,7 +8165,7 @@ a.mapboxgl-ctrl-logo {
   padding-bottom: 130px;
 }
 .widget-contact-us .contact-us .contact-us-box {
-  background-color: #F8F8F8;
+  background-color: #D01818;
   border-radius: 15px;
   border: 1px solid #DFDFDF;
   padding: 46px;
@@ -8168,14 +8178,14 @@ a.mapboxgl-ctrl-logo {
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
-  color: #000000;
+  color: #F8F8F8;
   margin-bottom: 16px;
 }
 .widget-contact-us .contact-us .contact-us-box .des {
   font-size: 18px;
   font-weight: 500;
-  line-height: 33px;
-  color: #696A6F;
+  line-height: 23px;
+  color:#F8F8F8;
 }
 .widget-contact-us .contact-us .form-contact-us-page {
   text-align: center;

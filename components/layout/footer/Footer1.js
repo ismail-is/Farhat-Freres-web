@@ -87,7 +87,7 @@ export default function Footer1() {
                     </div>
                     <div className="row footer-bottom" >
                         <div className="col-12 col-md- col-lg- col-xl-8 col-xxl-4">
-                            <p className="coppy-right">© 2024 Farhat Freres  Designed By  <Link href="https://brightmedia.tech/" style={{color:'red '}} target="blank">Bright Media</Link></p>
+                            <p className="coppy-right">© 2024 Farhat Freres Conçu par   <Link href="https://brightmedia.tech/" style={{color:'red '}} target="blank">Bright Media</Link></p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                             <ul className="social-icon">

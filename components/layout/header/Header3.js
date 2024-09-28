@@ -127,7 +127,7 @@ const brandLogos = {
   Kaiyi: "./assets/images/All imgs/logo/Kaiyilogo.webp",
   Foton: "./assets/images/All imgs/logo/Fotonlogo.webp",
   HondaBikes: "./assets/images/All imgs/5.png",
-  HondaEngines: "../assets/images/All imgs/logo/Hondaeng.webp",
+  HondaEngines: "./assets/images/All imgs/logo/Hondaeng.webp",
   // Add logos for other brands as needed...
 };
 const usedCar = {

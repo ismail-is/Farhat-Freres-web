@@ -47,7 +47,7 @@ export default function Captiva() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
-                    <div className="widget-breakcrumb">
+                    {/* <div className="widget-breakcrumb">
                         <div className="themesflat-container">
                             <div className="breakcrumb">
                                 <div className="title-breakcrumb">
@@ -56,7 +56,7 @@ export default function Captiva() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Breakcrumb */}
                     {/* property-detail */}
                     <div className="widget-property-detail">

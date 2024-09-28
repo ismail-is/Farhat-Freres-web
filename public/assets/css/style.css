@@ -599,6 +599,7 @@ input[type=checkbox]:checked + label:after {
   max-width: 100%;
 }
 
+
 .themesflat-container.full {
   width: 100%;
   padding-left: 0px;
@@ -1002,20 +1003,22 @@ body.modal-open {
 }
 
 #header3 {
-  position: fixed;
+  position: relative;
+  /* position: fixed; */
+  /* width: 100%; */
 }
 #header3.main-header {
   background-color: transparent;
 }
 #header3.main-header .header-style2 {
   background-color: #ffffff;
-  padding: 0px 25px;
-  border-radius: 0px 0px 10px 10px;
+  padding: 0px 25px ;
+  /* border-radius: 0px 0px 10px 10px; */
   box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.07);
 }
 
 .inner-container {
-  padding: 0 19px;
+  padding: 0 9px;
 }
 
 .header-account .register {
@@ -2247,7 +2250,7 @@ body.modal-open {
 .icon-topbar {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   height: 100%;
 }
 .icon-topbar li:not(:first-child) {
@@ -5256,16 +5259,16 @@ ul.social-icon li a i:hover {
   color: #ffffff;
 }
 .selling-car .selling-carpart .item-dot.dot-1 {
-  right: 17.5% !important;
-  top: 54% !important;
+  right: 47.5% !important;
+  top: 34% !important;
 }
 .selling-car .selling-carpart .item-dot.dot-2 {
   left: 23.5% !important;
   top: 28% !important;
 }
 .selling-car .selling-carpart .item-dot.dot-3 {
-  left: 5.5% !important;
-  top: 59% !important;
+  left: 75.5% !important;
+  top: 39% !important;
 }
 .selling-car .selling-carpart .right .inner {
   right: 52px !important;

@@ -40,16 +40,17 @@ export default function MobileMenu() {
                     </ul>
                     <div className="dropdown2-btn" />
                 </li> */}
-                <li className={pathname == "/" ? "current" : ""}><Link href="/">Accueil
-                </Link></li>
-                <li className={pathname == "/about" ? "current" : ""}><Link href="/about" target="_target">A propos de nous
+                <li className={pathname == "/" ? "current" : ""}><Link href="/" target="_target"> Accueil
                 </Link></li>
                 <li className={pathname == "/Brands" ? "current" : ""}><Link href="/Brands" target="_target">Nos Marques
                 </Link></li>
-                <li className={pathname == "/userCar" ? "current" : ""}><Link href="/userCar" target="_target">Voitures d'occasion
+                <li className={pathname == "/about" ? "current" : ""}><Link href="/about" target="_target">A propos de nous
+                </Link></li>
+               
+                {/* <li className={pathname == "/userCar" ? "current" : ""}><Link href="/userCar" target="_target">Voitures d'occasion
                 </Link></li>
                 <li className={pathname == "/carRental" ? "current" : ""}><Link href="/carRental" target="_target">location De Voitures
-                </Link></li>
+                </Link></li> */}
                 {/* <li className={pathname == "/about" ? "current" : ""}><Link href="/about" target="_target">A propos de nous
                 </Link></li> */}
                 {/* <p style={{textAlign:'center',fontWeight:"bolder",color:"red"}}>Brand</p> */}
@@ -208,7 +209,25 @@ export default function MobileMenu() {
               
                 <li className={pathname == "/contact-us" ? "current" : ""}><Link href="/contact-us" target="_target">Contact us </Link>
                 </li>
+               
             </ul>
+            {/* <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4" style={{backgroundColor:"black"}}>
+                            <ul className="social-icon">
+                                <li>
+                                    <Link href="/#"><i className="icon-6" /></Link>
+                                </li>
+                                <li>
+                                    <Link href="/#"><i className="icon-9" /></Link>
+                                </li>
+                                <li>
+                                    <Link href="/#"><i className="icon-11" /></Link>
+                                </li>
+                                <li>
+                                    <Link href="/#"><i className="icon-8" /></Link>
+                                </li>
+                            </ul>
+                        </div> */}
+           
         </>
     )
 }

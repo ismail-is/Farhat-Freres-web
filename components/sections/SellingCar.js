@@ -33,12 +33,12 @@ export default function SellingCar() {
                                         <div className="inner" >
                                             <div className="group-title">
                                                 <div className="title">
-                                                  car
+                                                ABS (système de freinage antiblocage)
                                                 </div>
                                             </div>
-                                            <div className="description">
+                                            {/* <div className="description">
                                                 <p>Lorem ipsum dolor sit amet ectetur adipisicing elit</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </Link>
                                 </div>
@@ -47,12 +47,12 @@ export default function SellingCar() {
                                         <div className="inner">
                                             <div className="group-title">
                                                 <div className="title">
-                                                    Car Suspension Disc
+                                                Phares LED
                                                 </div>
                                             </div>
-                                            <div className="description">
+                                            {/* <div className="description">
                                                 <p>Lorem ipsum dolor sit amet ectetur adipisicing elit</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </Link>
                                 </div>
@@ -70,17 +70,17 @@ export default function SellingCar() {
                                         </div>
                                     </Link>
                                 </div>
-                                <div className={`item-dot dot-3 ${4 === activeItem ? 'active' : ''}`} onMouseOver={() => handleMouseOver(4)}>
+                                <div className={`item-dot dot-3 right ${4 === activeItem ? 'active' : ''}`} onMouseOver={() => handleMouseOver(4)}>
                                     <Link href="/#">
                                         <div className="inner">
                                             <div className="group-title">
                                                 <div className="title">
-                                                    Car Suspension Disc
+                                                Keyless entry
                                                 </div>
                                             </div>
-                                            <div className="description">
+                                            {/* <div className="description">
                                                 <p>Lorem ipsum dolor sit amet ectetur adipisicing elit</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </Link>
                                 </div>

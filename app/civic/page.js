@@ -46,7 +46,7 @@ export default function civic() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
-                    <div className="widget-breakcrumb">
+                    {/* <div className="widget-breakcrumb">
                         <div className="themesflat-container">
                             <div className="breakcrumb">
                                 <div className="title-breakcrumb">
@@ -55,7 +55,7 @@ export default function civic() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Breakcrumb */}
                     {/* property-detail */}
                     <div className="widget-property-detail">

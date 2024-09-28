@@ -45,7 +45,7 @@ export default function crv() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
-                    <div className="widget-breakcrumb">
+                    {/* <div className="widget-breakcrumb">
                         <div className="themesflat-container">
                             <div className="breakcrumb">
                                 <div className="title-breakcrumb">
@@ -54,14 +54,14 @@ export default function crv() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Breakcrumb */}
                     {/* property-detail */}
                     <div className="widget-property-detail">
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"12px",fontWeight:"600"}}>HONDA <span style={{color:"red"}}>CR-V</span>  2024</h3></div>
+                                    <div><h3 style={{textAlign:'center',fontFamily:'initial',marginTop:"-10px",fontWeight:"600",fontSize:'40px'}}>HONDA <span style={{color:"red"}}>CR-V</span>  2024</h3></div>
                                     <div className="wrap-property-car flex">
                                         <div className="box-1">
                                             <div className="icon-box-info flex">

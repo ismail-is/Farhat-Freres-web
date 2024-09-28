@@ -58,7 +58,7 @@ export default function Footer1() {
                                     <li><Link href="/Kaiyi"> Kaiyi</Link></li>
                                     <li><Link href="/Foton">Foton </Link></li>
                                     <li><Link href="/Honda-Bikes">Honda Bikes</Link></li>
-                                    <li><Link href="/Honda-Engines">Honda Engines</Link></li>
+                                    <li><Link href="/Honda-Engines">Honda Power Products</Link></li>
                                 </ul>
                             </div>
                         </div>

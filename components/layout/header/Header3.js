@@ -43,7 +43,7 @@ export default function Header3({
  // Inline styles for the image card
  const imageCardStyles = {
   position: "absolute",
-  top: "100px",
+  top: "90px",
   left: "0px",
   width: "100%",
   padding: "10px",
@@ -147,7 +147,28 @@ const usedCar = {
         <div className="top-bar">
           <div className="themesflat-container">
             <div className="row">
-              <div className="col-md-12">
+            <div className="col-md-4">
+                <ul className="icon-topbar">
+                  <li>
+                    <Link href="/#">
+                      <i className="icon-6" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#">
+                      <i className="icon-4" />
+                    </Link>
+                  </li>
+                 
+                  <li>
+                    <Link href="/#">
+                      <i className="icon-11" />
+                    </Link>
+                  </li>
+                 
+                </ul>
+              </div>
+              <div className="col-md-8">
                 <ul className="list-infor-topbar">
                   <li>
                     <Link href="tel:+2250707666660">
@@ -169,7 +190,7 @@ const usedCar = {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-12">
+              {/* <div className="col-md-12">
                 <ul className="icon-topbar">
                   <li>
                     <Link href="/#">
@@ -181,28 +202,15 @@ const usedCar = {
                       <i className="icon-4" />
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link href="/#">
-                      <i className="icon-9" />
-                    </Link>
-                  </li> */}
+                 
                   <li>
                     <Link href="/#">
                       <i className="icon-11" />
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link href="/#">
-                      <i className="icon-5" />
-                    </Link>
-                  </li> */}
-                  {/* <li>
-                    <Link href="/#">
-                      <i className="icon-7" />
-                    </Link>
-                  </li> */}
+                 
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

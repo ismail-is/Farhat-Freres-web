@@ -6894,6 +6894,8 @@ a.mapboxgl-ctrl-logo {
 
 .banner-car-listing-list {
   /* background-image: url(https://motorx-six.vercel.app/_next/static/media/banner-list1.25e9a3f7.jpg); */
+  /* background: linear-gradient(120deg, red 50%, white 20%) */
+ 
 }
 .banner-car-listing-list1 {
   background-image: url(../images/Home/homebanner.webp);

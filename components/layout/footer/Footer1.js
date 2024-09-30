@@ -92,16 +92,17 @@ export default function Footer1() {
                         <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                             <ul className="social-icon">
                                 <li>
-                                    <Link href="/#"><i className="icon-6" /></Link>
+                                    <Link href="https://www.facebook.com/FarhatFreresCoteDivoire/"><i className="icon-6" /></Link>
                                 </li>
                                 <li>
-                                    <Link href="/#"><i className="icon-9" /></Link>
+                                    <Link href="https://www.instagram.com/farhat_freres_ci/"><i className="icon-11" /></Link>
                                 </li>
                                 <li>
-                                    <Link href="/#"><i className="icon-11" /></Link>
+                                    <Link href="mailto:Info@farhatfreres.com"><i className="icon-9" /></Link>
                                 </li>
+                               
                                 <li>
-                                    <Link href="/#"><i className="icon-8" /></Link>
+                                    <Link href="tel:+2250707666660"><i className="icon-Group-14" /></Link>
                                 </li>
                             </ul>
                         </div>

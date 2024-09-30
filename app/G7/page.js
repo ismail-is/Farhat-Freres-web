@@ -798,17 +798,17 @@ export default function G7() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/E5/Foton G5 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -902,17 +902,17 @@ export default function G7() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/v3/6.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -1006,17 +1006,17 @@ export default function G7() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/TM/Foto TM 1..webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -1110,17 +1110,17 @@ export default function G7() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/Tonano/Toano 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -1218,17 +1218,17 @@ export default function G7() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/Aumark/Aumark 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">

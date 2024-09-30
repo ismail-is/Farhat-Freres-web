@@ -6883,7 +6883,7 @@ a.mapboxgl-ctrl-logo {
   bottom: 0;
   position: absolute;
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.3); */
 }
 .widget-banner-car-listing .sub-title {
   font-size: 16px;
@@ -6897,11 +6897,22 @@ a.mapboxgl-ctrl-logo {
   /* background: linear-gradient(120deg, red 50%, white 20%) */
  
 }
+@media (min-width: 1024px) {
+  .banner-car-listing-list-car {
+    height: 80vh;
+  }}
+
 .banner-car-listing-list1 {
   background-image: url(../images/Home/homebanner.webp);
   height: 100%;
   object-fit: cover;
 }
+/* .banner-car-listing-list-honda {
+  background-image: url(../images/brandBanner/Hondabanner.webp);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
 
 .banner-car-listing-grid {
   background-image: url(../images/banner/banner-list2.jpg);
@@ -7053,11 +7064,12 @@ a.mapboxgl-ctrl-logo {
 .listing-grid-item:hover {
   box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.06);
 }
-.listing-grid-item .listing-item-image {
+.listing-grid-item .-image {
   position: relative;
 }
 .listing-grid-item .listing-item-image .hover-listing-image {
-  min-height: 212px;
+  min-height: 250px;
+  /* min-height: 212px; */
 }
 .listing-grid-item .listing-item-image .icon-favorite {
   position: absolute;
@@ -8201,14 +8213,14 @@ a.mapboxgl-ctrl-logo {
 .widget-contact-us .contact-us .form-contact-us-page input,
 .widget-contact-us .contact-us .form-contact-us-page textarea {
   background-color: #F8F8F8;
-  border: 1px solid #DFDFDF;
+  border: 1px solid #D01818;
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   color: #83827F;
 }
 .widget-contact-us .contact-us .form-contact-us-page textarea {
-  height: 394px;
+  height: 194px;
   margin-bottom: 40px;
 }
 .widget-contact-us .contact-us .form-contact-us-page button {

@@ -35,12 +35,12 @@ export default function Chevrolet() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
-                    <div className="widget-banner-car-listing banner-car-listing-list">
+                    <div className="widget-banner-car-listing banner-car-listing-list-car" style={{backgroundImage: "url('/assets/images/brandBanner/Chevroletbanner.webp')"}}>
                         <div className="themesflat-container full" style={{marginTop:'30px'}}>
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}
                                 {/* <h1 className="title text-white">HONDA <span className="text-red">Rental</span> Car</h1> */}
-                                <h1 className="title text-white"> <span className="text-red">Chevrolet</span> </h1>
+                                {/* <h1 className="title text-white"> <span className="text-red">Chevrolet</span> </h1> */}
                             </div>
                         </div>
                     </div>
@@ -97,126 +97,22 @@ export default function Chevrolet() {
                                     <div className="tab-content" id="nav-listing-car">
                                         <div className={activeIndex == 1 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <div className="listing-list-car-grid ">
-                                            <Link href='/Captiva'>
+                                            <Link href='/Groove'>
                                                 <div className="listing-grid-item">
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
-                                                                <div className="listing-item active" title="Lexus LC Hybrid 2024">
-                                                                    <div className="images">
-                                                                        <img src="./assets/images/All imgs/Captiva/Captiva.webp" className="swiper-image tfcl-light-gallery" alt="images" />
-                                                                    </div>
-                                                                </div>
-                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
-                                                                    <div className="images">
-                                                                        <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
-                                                                    </div>
-                                                                </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
-                                                                    <div className="images">
-                                                                        <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
-                                                                        <div className="overlay-limit">
-                                                                            <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
-                                                                            <p>2 more photos</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div> */}
-                                                                <div className="bullet-hover-listing">
-                                                                    <div className="bl-item active" />
-                                                                    {/* <div className="bl-item" />
-                                                                    <div className="bl-item" /> */}
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <a href="#" className="icon-favorite">
-                                                            {/* <i className="icon-heart-1-1" /> */}
-                                                        </a>
-                                                        <span className="feature">Featured</span>
-                                                    </div>
-                                                    <div className="listing-item-content">
-                                                        <div className="listing-top-content">
-                                                            <h6 className="title"> <Link href="/Captiva" >Captiva  </Link></h6>
-                                                            {/* <div className="review-wrap">
-                                                                <div className="rating">
-                                                                    <i className="icon-Vector3" />
-                                                                    <i className="icon-Vector3" />
-                                                                    <i className="icon-Vector3" />
-                                                                    <i className="icon-Vector3" />
-                                                                    <i className="icon-Vector3" />
-                                                                </div>
-                                                                <span className="review">( 2 Reviews )</span>
-                                                            </div> */}
-                                                            {/* <div className="description">
-                                                                <ul>
-                                                                    <li className="listing-information fuel">
-                                                                        <i className="icon-gasoline-pump-1" />
-                                                                        <div className="inner">
-                                                                            <span>Fuel type</span>
-                                                                            <p>Petrol</p>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li className="listing-information size-engine">
-                                                                        <i className="icon-Group1" />
-                                                                        <div className="inner">
-                                                                            <span>Mileage</span>
-                                                                            <p>90 k.m</p>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li className="listing-information transmission">
-                                                                        <i className="icon-gearbox-1" />
-                                                                        <div className="inner">
-                                                                            <span>Transmission</span>
-                                                                            <p>Auto</p>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                            </div> */}
-                                                            {/* <ul className="list-controller">
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i className="icon-heart-1-1" />
-                                                                        <span>Favorite</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <i className="icon-shuffle-2-11" />
-                                                                        <span>Compare</span>
-                                                                    </a>
-                                                                </li>
-                                                            </ul> */}
-                                                        </div>
-                                                        <div className="bottom-price-wrap">
-                                                            {/* <div className="price-wrap">
-                                                                <p className="price">$489</p>
-                                                                <p className="price-sale">$399</p>
-                                                            </div> */}
-                                                            {/* <div className="btn-read-more">
-                                                                <Link className="more-link" href="/listing-details">
-                                                                    <span>View details</span>
-                                                                    <i className="icon-arrow-right2" />
-                                                                </Link>
-                                                            </div> */}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </Link>
-                                                <Link href='/Groove'>
-                                                <div className="listing-grid-item">
-                                                    <div className="listing-item-image">
-                                                        <div className="hover-listing-image">
-                                                            <div className="wrap-hover-listing">
-                                                                <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item active" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/All imgs/groove/Groove 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item view-gallery" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">
@@ -305,6 +201,111 @@ export default function Chevrolet() {
                                                     </div>
                                                 </div>
                                                 </Link>
+                                            <Link href='/Captiva'>
+                                                <div className="listing-grid-item">
+                                                    <div className="listing-item-image">
+                                                        <div className="hover-listing-image">
+                                                            <div className="wrap-hover-listing">
+                                                                <div className="listing-item active" title="">
+                                                                    <div className="images">
+                                                                        <img src="./assets/images/All imgs/Captiva/Captiva.webp" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                    </div>
+                                                                </div>
+                                                                {/* <div className="listing-item" title="">
+                                                                    <div className="images">
+                                                                        <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
+                                                                    </div>
+                                                                </div>
+                                                                <div className="listing-item view-gallery" title="">
+                                                                    <div className="images">
+                                                                        <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <div className="overlay-limit">
+                                                                            <img src="./assets/images/car-list/img.png" className="icon-img" alt="icon-map" />
+                                                                            <p>2 more photos</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div> */}
+                                                                <div className="bullet-hover-listing">
+                                                                    <div className="bl-item active" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" className="icon-favorite">
+                                                            {/* <i className="icon-heart-1-1" /> */}
+                                                        </a>
+                                                        <span className="feature">Featured</span>
+                                                    </div>
+                                                    <div className="listing-item-content">
+                                                        <div className="listing-top-content">
+                                                            <h6 className="title"> <Link href="/Captiva" >Captiva  </Link></h6>
+                                                            {/* <div className="review-wrap">
+                                                                <div className="rating">
+                                                                    <i className="icon-Vector3" />
+                                                                    <i className="icon-Vector3" />
+                                                                    <i className="icon-Vector3" />
+                                                                    <i className="icon-Vector3" />
+                                                                    <i className="icon-Vector3" />
+                                                                </div>
+                                                                <span className="review">( 2 Reviews )</span>
+                                                            </div> */}
+                                                            {/* <div className="description">
+                                                                <ul>
+                                                                    <li className="listing-information fuel">
+                                                                        <i className="icon-gasoline-pump-1" />
+                                                                        <div className="inner">
+                                                                            <span>Fuel type</span>
+                                                                            <p>Petrol</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li className="listing-information size-engine">
+                                                                        <i className="icon-Group1" />
+                                                                        <div className="inner">
+                                                                            <span>Mileage</span>
+                                                                            <p>90 k.m</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li className="listing-information transmission">
+                                                                        <i className="icon-gearbox-1" />
+                                                                        <div className="inner">
+                                                                            <span>Transmission</span>
+                                                                            <p>Auto</p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div> */}
+                                                            {/* <ul className="list-controller">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i className="icon-heart-1-1" />
+                                                                        <span>Favorite</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i className="icon-shuffle-2-11" />
+                                                                        <span>Compare</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul> */}
+                                                        </div>
+                                                        <div className="bottom-price-wrap">
+                                                            {/* <div className="price-wrap">
+                                                                <p className="price">$489</p>
+                                                                <p className="price-sale">$399</p>
+                                                            </div> */}
+                                                            {/* <div className="btn-read-more">
+                                                                <Link className="more-link" href="/listing-details">
+                                                                    <span>View details</span>
+                                                                    <i className="icon-arrow-right2" />
+                                                                </Link>
+                                                            </div> */}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </Link>
+                                              
                                                
 
 
@@ -313,17 +314,17 @@ export default function Chevrolet() {
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
-                                                                <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item active" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/All imgs/N400/N400 1.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                {/* <div className="listing-item" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item view-gallery" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">

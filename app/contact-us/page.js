@@ -88,7 +88,7 @@ export default function ContactUs() {
                                                 <input aria-required="true" aria-invalid="false" placeholder="Sujet" type="text" />
                                             </fieldset>
                                         </div>
-                                        <textarea cols={40} rows={10} aria-invalid="false" defaultValue={"Message d'écriture....."} />
+                                        <textarea cols={10} rows={10} aria-invalid="false" defaultValue={"Message d'écriture....."} />
                                         <button type="submit">Envoyer un message</button>
                                     </form>
                                 </div>

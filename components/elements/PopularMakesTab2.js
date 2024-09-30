@@ -47,17 +47,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -137,17 +137,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car2.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -228,17 +228,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car18.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -319,17 +319,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -410,17 +410,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -501,17 +501,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car3.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -607,17 +607,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -698,17 +698,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car2.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -789,17 +789,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car18.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -880,17 +880,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -971,17 +971,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -1062,17 +1062,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car3.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -1168,17 +1168,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -1259,17 +1259,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car2.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -1350,17 +1350,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car18.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -1441,17 +1441,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -1532,17 +1532,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">
@@ -1623,17 +1623,17 @@ export default function PopularMakesTab2() {
                                 <div className="listing-images">
                                     <div className="hover-listing-image">
                                         <div className="wrap-hover-listing">
-                                            <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item active" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car3.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                 </div>
                                             </div>
-                                            <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                            <div className="listing-item view-gallery" title="">
                                                 <div className="images">
                                                     <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                     <div className="overlay-limit">

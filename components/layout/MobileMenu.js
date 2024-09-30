@@ -228,6 +228,28 @@ export default function MobileMenu() {
                             </ul>
                         </div> */}
            
+
+
+
+
+
+
+           <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4" style={{backgroundColor:'red',borderRadius:'10px',marginTop:'450px'}}>
+                            <ul className="social-icon">
+                                <li>
+                                    <Link href="https://www.facebook.com/FarhatFreresCoteDivoire/"><i className="icon-6" /></Link>
+                                </li>
+                                <li>
+                                    <Link href="https://www.instagram.com/farhat_freres_ci/"><i className="icon-11" /></Link>
+                                </li>
+                                <li>
+                                    <Link href="mailto:Info@farhatfreres.com"><i className="icon-9" /></Link>
+                                </li>
+                                <li>
+                                <Link href="tel:+2250707666660"><i className="icon-Group-14" /></Link>
+                                </li>
+                            </ul>
+                        </div>
         </>
     )
 }

@@ -39,7 +39,7 @@ export default function HondaEngines() {
                         <div className="themesflat-container full" style={{marginTop:'30px'}}>
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}
-                                <h1 className="title text-white"> <span className="text-red">Honda</span> Engines</h1>
+                                <h1 className="title text-white"> Honda<span className="text-red">Power</span>   Products</h1>
                                 {/* <h1 className="title text-white"> <span className="text-red">Honda</span> </h1> */}
                             </div>
                         </div>
@@ -101,17 +101,17 @@ export default function HondaEngines() {
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
-                                                                <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item active" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item view-gallery" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">
@@ -203,17 +203,17 @@ export default function HondaEngines() {
                                                     <div className="listing-item-image">
                                                         <div className="hover-listing-image">
                                                             <div className="wrap-hover-listing">
-                                                                <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item active" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                                <div className="listing-item view-gallery" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                         <div className="overlay-limit">

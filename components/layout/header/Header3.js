@@ -116,8 +116,8 @@ const imageData = {
     { id: "Kaiyi", src: "./assets/images/All imgs/navbar/Wave 110.webp", alt: "Chevrolet Groove", caption: "Wave 110" ,url: "/Wave110" },
     // Add other Chevrolet images here
   ], HondaEngines: [
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/HR-V 2024.png", alt: "Chevrolet Captiva", caption: "2 Generators " },
-    { id: "Kaiyi", src: "./assets/images/All imgs/Brands/CR-V 2024.png", alt: "Chevrolet Groove", caption: "2 Water pumps " },
+    { id: "Kaiyi", src: "./assets/images/All imgs/engin/Engine 1.webp", alt: "Chevrolet Captiva", caption: "2 Generators " },
+    { id: "Kaiyi", src: "./assets/images/All imgs/engin/Engine 2.webp", alt: "Chevrolet Groove", caption: "2 Water pumps " },
     // Add other Chevrolet images here
   ], 
 };
@@ -150,18 +150,14 @@ const usedCar = {
             <div className="col-md-4">
                 <ul className="icon-topbar">
                   <li>
-                    <Link href="/#">
+                    <Link  href="https://www.facebook.com/FarhatFreresCoteDivoire/">
                       <i className="icon-6" />
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/#">
-                      <i className="icon-4" />
-                    </Link>
-                  </li>
+                 
                  
                   <li>
-                    <Link href="/#">
+                    <Link href="https://www.instagram.com/farhat_freres_ci/">
                       <i className="icon-11" />
                     </Link>
                   </li>

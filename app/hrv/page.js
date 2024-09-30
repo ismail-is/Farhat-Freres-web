@@ -800,17 +800,17 @@ export default function crv() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/cvr/crv 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -906,17 +906,17 @@ export default function crv() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/piolet/Pilot 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -1009,17 +1009,17 @@ export default function crv() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/Accord/Accord 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -1113,17 +1113,17 @@ export default function crv() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/civic/Civic.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">
@@ -1221,17 +1221,17 @@ export default function crv() {
                                         <div className="listing-item-image">
                                             <div className="hover-listing-image">
                                                 <div className="wrap-hover-listing">
-                                                    <div className="listing-item active" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item active" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/All imgs/city/City 2.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    {/* <div className="listing-item" title="Lexus LC Hybrid 2024">
+                                                    {/* <div className="listing-item" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                         </div>
                                                     </div>
-                                                    <div className="listing-item view-gallery" title="Lexus LC Hybrid 2024">
+                                                    <div className="listing-item view-gallery" title="">
                                                         <div className="images">
                                                             <img src="./assets/images/car-list/car12.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                             <div className="overlay-limit">

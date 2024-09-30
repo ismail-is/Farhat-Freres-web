@@ -16,9 +16,9 @@ export default function Brands() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/honda" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="assets/images/All imgs/1.png" alt=""  />
+                                    <img src="assets/images/All imgs/logo/Hondalogo.webp" alt=""  />
                                 </div>
-                                <span className="title-icon">Honda</span>
+                                {/* <span className="title-icon">Honda</span> */}
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -29,7 +29,7 @@ export default function Brands() {
                                 <div className="image-box-wrap">
                                     <img src="assets/images/All imgs/2.png" alt="" />
                                 </div>
-                                <span className="title-icon">Chevrolet</span>
+                                {/* <span className="title-icon">Chevrolet</span> */}
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -38,9 +38,9 @@ export default function Brands() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/Kaiyi" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="assets/images/All imgs/3.png" alt="" />
+                                    <img src="assets/images/All imgs/logo/Kaiyilogo.webp" alt="" />
                                 </div>
-                                <span className="title-icon">Kaiyi</span>
+                                {/* <span className="title-icon">Kaiyi</span> */}
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -49,9 +49,9 @@ export default function Brands() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/Foton" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="assets/images/All imgs/4.png" alt="" />
+                                    <img src="assets/images/All imgs/logo/Fotonlogo.webp" alt="" />
                                 </div>
-                                <span className="title-icon">Foton</span>
+                                {/* <span className="title-icon">Foton</span> */}
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -62,7 +62,7 @@ export default function Brands() {
                                 <div className="image-box-wrap">
                                     <img src="assets/images/All imgs/5.png" alt="" />
                                 </div>
-                                <span className="title-icon">Honda Bikes</span>
+                                {/* <span className="title-icon">Honda Bikes</span> */}
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>
@@ -71,9 +71,9 @@ export default function Brands() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/Honda-Engines" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="assets/images/All imgs/6.png" alt="" />
+                                    <img src="assets/images/All imgs/logo/Hondaeng.webp" alt="" />
                                 </div>
-                                <span className="title-icon">Honda Engines</span>
+                                {/* <span className="title-icon">Honda Engines</span> */}
                                 <div className="btn-con-box">
                                     <i className="icon-arrow-right2" />
                                 </div>

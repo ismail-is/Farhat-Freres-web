@@ -36,7 +36,7 @@ export default function Foton () {
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
                     {/* <div className="widget-banner-car-listing banner-car-listing-list"> */}
-                    <div className="widget-banner-car-listing banner-car-listing-list-car" style={{backgroundImage: "url('/assets/images/brandBanner/Fotonbanner.webp')"}}>
+                    <div className="widget-banner-car-listing banner-car-listing-list-car" style={{backgroundImage: "url('./assets/images/brandBanner/Fotonbanner.webp')"}}>
                         <div className="themesflat-container full" style={{marginTop:'30px'}}>
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}

@@ -35,7 +35,7 @@ export default function honda() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
-                <div className="widget-banner-car-listing banner-car-listing-list-car"  style={{backgroundImage: "url('/assets/images/brandBanner/Honda2.webp')"}}>
+                <div className="widget-banner-car-listing banner-car-listing-list-car"  style={{backgroundImage: "url('./assets/images/brandBanner/Honda2.webp')"}}>
 
                         <div className="themesflat-container  " >
                             <div className="banner-car-listing full">

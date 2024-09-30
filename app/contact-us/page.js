@@ -11,7 +11,7 @@ export default function ContactUs() {
             <Layout headerStyle={3} footerStyle={1}>
                 <div >
                 {/* <SlideFormV2/> */}
-                <div className="widget-banner-car-listing banner-car-listing-list">
+                <div className="widget-banner-car-listing banner-car-listing-list" style={{backgroundColor:"gray"}}>
                         <div className="themesflat-container full">
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}

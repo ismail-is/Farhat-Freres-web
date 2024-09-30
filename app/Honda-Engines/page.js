@@ -35,11 +35,11 @@ export default function HondaEngines() {
 
             <Layout headerStyle={3} footerStyle={1}>
                 <div>
-                    <div className="widget-banner-car-listing banner-car-listing-list">
+                    <div className="widget-banner-car-listing banner-car-listing-list-car" style={{backgroundImage: "url('/assets/images/brandBanner/last.webp')"}}>
                         <div className="themesflat-container full" style={{marginTop:'30px'}}>
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}
-                                <h1 className="title text-white"> Honda<span className="text-red">Power</span>   Products</h1>
+                                {/* <h1 className="title text-white"> Honda<span className="text-red">Power</span>   Products</h1> */}
                                 {/* <h1 className="title text-white"> <span className="text-red">Honda</span> </h1> */}
                             </div>
                         </div>
@@ -106,7 +106,7 @@ export default function HondaEngines() {
                                                                         <img src="./assets/images/car-list/car5.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="">
+                                                                {/* <div className="listing-item" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
@@ -119,11 +119,11 @@ export default function HondaEngines() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -145,7 +145,7 @@ export default function HondaEngines() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -183,19 +183,19 @@ export default function HondaEngines() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                         <div className="bottom-price-wrap">
                                                             {/* <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -208,7 +208,7 @@ export default function HondaEngines() {
                                                                         <img src="./assets/images/car-list/car16.jpg" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="listing-item" title="">
+                                                                {/* <div className="listing-item" title="">
                                                                     <div className="images">
                                                                         <img src="./assets/images/car-list/car11.jpg" className="swiper-image lazy tfcl-light-gallery" alt="images" />
                                                                     </div>
@@ -221,11 +221,11 @@ export default function HondaEngines() {
                                                                             <p>2 more photos</p>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 <div className="bullet-hover-listing">
                                                                     <div className="bl-item active" />
-                                                                    <div className="bl-item" />
-                                                                    <div className="bl-item" />
+                                                                    {/* <div className="bl-item" />
+                                                                    <div className="bl-item" /> */}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -247,7 +247,7 @@ export default function HondaEngines() {
                                                                 </div>
                                                                 <span className="review">( 2 Reviews )</span>
                                                             </div> */}
-                                                            <div className="description">
+                                                            {/* <div className="description">
                                                                 <ul>
                                                                     <li className="listing-information fuel">
                                                                         <i className="icon-gasoline-pump-1" />
@@ -285,19 +285,19 @@ export default function HondaEngines() {
                                                                         <span>Compare</span>
                                                                     </a>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> */}
                                                         </div>
                                                         <div className="bottom-price-wrap">
                                                             {/* <div className="price-wrap">
                                                                 <p className="price">$489</p>
                                                                 <p className="price-sale">$399</p>
                                                             </div> */}
-                                                            <div className="btn-read-more">
+                                                            {/* <div className="btn-read-more">
                                                                 <Link className="more-link" href="/listing-details">
                                                                     <span>View details</span>
                                                                     <i className="icon-arrow-right2" />
                                                                 </Link>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
                                                 </div>

@@ -5,8 +5,8 @@ import VideoPopup from '../elements/VideoPopup'
 export default function FeatureCar2() {
     return (
         <>
-            <div className="widget-feature-car">
-                <div className="themesflat-container full">
+            <div className="widget-feature-car" >
+                <div className="themesflat-container full" >
                     <div className="feature-car">
                         <div className="feature-car-content">
                             <div className="heading-section">

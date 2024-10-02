@@ -35,7 +35,7 @@ const swiperOptions = {
             slidesPerView: 3,
         },
         1024: {
-            slidesPerView: 4,
+            slidesPerView: 3,
         },
     },
 }

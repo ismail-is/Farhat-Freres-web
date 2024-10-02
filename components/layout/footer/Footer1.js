@@ -43,7 +43,7 @@ export default function Footer1() {
                                 <ul className="box-menu">
                                     <li><Link href="/#">Accueil </Link></li>
                                     <li><Link href="/about">A propos de nous   </Link></li>
-                                    <li><Link href="/#">Notre marque</Link></li>
+                                    <li><Link href="/Brands">Notre marque</Link></li>
                                     <li><Link href="/contact-us">Contactez nous</Link></li>
                                     
                                 </ul>

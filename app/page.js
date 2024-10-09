@@ -36,7 +36,7 @@ export default function Home() {
                 {/* <CarListV2 /> */}
                 {/* <Quote /> */}
                 {/* <SellingCar /> */}
-                <CounterCar />
+                {/* <CounterCar /> */}
                 {/* <TestimonialCar /> */}
                 <SellingCar/>
                 <FeatureCar2 />

@@ -122,7 +122,7 @@ const imageData = {
   ], 
 };
 const brandLogos = {
-  Honda: "./assets/images/All imgs/logo/Hondalogo.webp",
+  Honda: "./assets/images/All imgs/1.png",
   Chevrolet: "./assets/images/All imgs/2.png",
   Kaiyi: "./assets/images/All imgs/logo/Kaiyilogo.webp",
   Foton: "./assets/images/All imgs/logo/Fotonlogo.webp",
@@ -144,29 +144,54 @@ const usedCar = {
     <>
       <header id="header3" className="main-header header header-fixed">
         {/* Header Lower */}
-        <div className="top-bar">
+        <div className="top-bar" style={{backgroundColor:"white"}}>
           <div className="themesflat-container">
             <div className="row">
             <div className="col-md-4">
                 <ul className="icon-topbar">
-                  <li>
+                <div className="logo-box flex">
+                    <div className="logo">
+                      <Link href="/">
+                        <img src="./assets/images/All imgs/Logo.png" alt="Logo" />
+                      </Link>
+                    </div>
+                  </div>
+                  {/* <li>
                     <Link  href="https://www.facebook.com/FarhatFreresCoteDivoire/">
                       <i className="icon-6" />
                     </Link>
-                  </li>
+                  </li> */}
                  
                  
-                  <li>
+                  {/* <li>
                     <Link href="https://www.instagram.com/farhat_freres_ci/">
                       <i className="icon-11" />
                     </Link>
-                  </li>
+                  </li> */}
                  
                 </ul>
               </div>
               <div className="col-md-8">
                 <ul className="list-infor-topbar">
-                  <li>
+
+                <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                            <ul className="social-icon1">
+                                <li>
+                                    <Link href="https://www.facebook.com/FarhatFreresCoteDivoire/"><i className="icon-6" /></Link>
+                                </li>
+                                <li>
+                                    <Link href="https://www.instagram.com/farhat_freres_ci/"><i className="icon-11" /></Link>
+                                </li>
+                                <li>
+                                    <Link href="mailto:Info@farhatfreres.com"><i className="icon-9" /></Link>
+                                </li>
+                               
+                                <li>
+                                    <Link href="tel:+2250707666660"><i className="icon-Group-14" /></Link>
+                                </li>
+                            </ul>
+                        </div>
+                  {/* <li>
                     <Link href="tel:+2250707666660">
                       <i className="icon-Group-11" />
                       <p>
@@ -183,7 +208,9 @@ const usedCar = {
                         </Link>
                       </p>
                     </Link>
-                  </li>
+                  </li> */}
+
+
                 </ul>
               </div>
               {/* <div className="col-md-12">
@@ -210,23 +237,23 @@ const usedCar = {
             </div>
           </div>
         </div>
-        <div className="header-lower">
-          <div className="themesflat-container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="header-style2 flex justify-space align-center">
+        <div className="header-lower" >
+          <div className="themesflat-container" id="mobilecolor">
+            <div className="row" >
+              <div className="col-lg-12" >
+                <div className="header-style2 flex justify-space align-center" id="mobilecolor">
                   {/* Logo Box */}
-                  <div className="logo-box flex">
-                    <div className="logo">
-                      <Link href="/">
-                        <img src="./assets/images/All imgs/Logo.png" alt="Logo" />
-                      </Link>
-                    </div>
-                  </div>
+                  <div className="logo-box flex" > 
+  <div className="logo" id="mobilelog">
+    <Link href="/">
+      <img src="./assets/images/All imgs/Logo.png" alt="Logo" />
+    </Link>
+  </div>
+</div>
 
-                  <div className="nav-outer flex align-center">
+                  <div className="nav-outer flex align-center " >
                     {/* Main Menu */}
-                    <nav className="main-menu show navbar-expand-md">
+                    <nav className="main-menu show navbar-expand-md" >
                       <div
                         className="navbar-collapse collapse clearfix"
                         id="navbarSupportedContent"

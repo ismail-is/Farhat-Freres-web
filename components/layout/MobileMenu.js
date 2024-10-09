@@ -234,9 +234,9 @@ export default function MobileMenu() {
 
 
 
-           <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4" style={{backgroundColor:'red',borderRadius:'10px',marginTop:'450px'}}>
+           <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4" style={{borderRadius:'10px',marginTop:'450px'}}>
                             <ul className="social-icon">
-                                <li>
+                                <li >
                                     <Link href="https://www.facebook.com/FarhatFreresCoteDivoire/"><i className="icon-6" /></Link>
                                 </li>
                                 <li>

@@ -2,7 +2,7 @@
     "name": "motorx",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://ismail-is.github.io/Farhat-Freres-web",
+    "homepage": "https://ismail-is.github.io/Next-js-bright-media-github",
     "scripts": {
         "dev": "next dev",
         "build": "next build",

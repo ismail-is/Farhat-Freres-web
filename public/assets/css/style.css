@@ -1103,7 +1103,7 @@ body.modal-open {
 }
 
 .logo-box .logo img {
-  width: 123px;
+  width: 163px;
   height: auto;
 }
 
@@ -2312,7 +2312,7 @@ ul.social-icon li a i {
   transition: all 0.3s ease;
 }
 ul.social-icon li a i:hover {
-  background-color: #D01818;
+  background-color: white;
 }
 
 
@@ -2322,11 +2322,12 @@ ul.social-icon1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 ul.social-icon1 li a i {
   color: red;
   font-size: 16px;
-  width: 40px;
+  width: 10px;
   height: 40px;
   background-color:white;
   text-align: center;
@@ -2341,7 +2342,8 @@ ul.social-icon1 li a i {
   transition: all 0.3s ease;
 }
 ul.social-icon1 li a i:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  /* color: white; */
 }
 
 
@@ -6771,7 +6773,8 @@ a.mapboxgl-ctrl-logo {
   gap: 24px;
   align-items: center;
   position: absolute;
-  right: 10%;
+  right: 40%;
+  top: 650px;
   bottom: 0%;
   z-index: 1;
 }
@@ -6957,6 +6960,12 @@ a.mapboxgl-ctrl-logo {
   background-size: cover;
   
 }
+/* @media (max-width: 768px) {
+  .widget-banner-car-listing {
+    margin-bottom:0 !important;
+    
+  }
+} */
 .widget-banner-car-listing::before {
   top: 0;
   right: 0;

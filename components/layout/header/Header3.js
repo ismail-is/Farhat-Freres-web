@@ -152,7 +152,7 @@ const usedCar = {
                 <div className="logo-box flex">
                     <div className="logo">
                       <Link href="/">
-                        <img src="./assets/images/All imgs/Logo.png" alt="Logo" />
+                        <img src="./assets/images/All imgs/Logo.png" alt="Logo"  />
                       </Link>
                     </div>
                   </div>

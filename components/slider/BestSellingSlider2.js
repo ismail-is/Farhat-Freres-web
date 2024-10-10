@@ -20,8 +20,8 @@ const swiperOptions = {
         clickable: true,
     },
     navigation: { 
-        nextEl: '.swiper-button-next', 
-        prevEl: '.swiper-button-prev', 
+        nextEl: '.swiper-button-next-tes', 
+        prevEl: '.swiper-button-prev-tes', 
     },
     breakpoints: {
         0: {
@@ -45,31 +45,28 @@ export default function BestSellingSlider2() {
                         <div className="images">
                             <img src="./assets/images/Home/Banner 1.webp" alt="image" style={{ width: '100%', height: '100%' }} />
                         </div>
-                        {/* <h5 className="name">
-                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
-                        </h5> */}
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="images">
                             <img src="./assets/images/Home/Banner 2.webp" alt="image" />
                         </div>
-                        {/* <h5 className="name">
-                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
-                        </h5> */}
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="images">
                             <img src="./assets/images/Home/Banner 3.webp" alt="image" />
                         </div>
-                        {/* <h5 className="name">
-                            <Link href="/#" /><Link href="/dealer-details">Chevrolet Suburban 2021 mo</Link>
-                        </h5> */}
                     </SwiperSlide>
                 </Swiper>
                 <div className="swiper-pagination" />
                 {/* Add Navigation Buttons */}
-                <div className="swiper-button-prev" style={{backgroundColor:'red',marginTop:'100px'}}></div>
-                <div className="swiper-button-next" style={{backgroundColor:'red',marginTop:'100px'}}></div>
+                <div className="btn-next-prev">
+                    <div className="swiper-button-next-tes next" style={{backgroundColor:"white"}}>
+                        <i className="icon-Vector-11" style={{color:'red'}}></i>
+                    </div>
+                    <div className="swiper-button-prev-tes prev" style={{backgroundColor:"white"}}>
+                        <i className="icon-Vector-2" style={{color:'red'}}></i>
+                    </div>
+                </div>
             </div>
         </>
     );

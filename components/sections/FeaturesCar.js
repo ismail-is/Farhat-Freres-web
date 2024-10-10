@@ -6,7 +6,7 @@ export default function FeaturesCar() {
     return (
         <>
           {/* <div className="widget-banner-car-listing banner-car-listing-list1"> old*/}
-          <div className="widget-banner-car-listing banner-car-listing-list-car"  style={{backgroundImage: "url('./assets/images/brandBanner/aboutus banner.webp')"}}>
+          <div className="widget-banner-car-listing banner-car-listing-list-car"  style={{backgroundImage: "url('./assets/images/brandBanner/aboutus banner.webp')",marginBottom:'10px'}}>
                         <div className="themesflat-container full">
                             <div className="banner-car-listing">
                                 {/* <span className="sub-title">Save up to 15%</span> */}
@@ -18,7 +18,7 @@ export default function FeaturesCar() {
                 <div className="themesflat-container full">
                     <div className="feature-car">
                         <div className="feature-car-content">
-                            <div className="heading-section">
+                            <div className="heading-section" style={{marginTop:'-70px'}}>
                                 <span className="sub-title mb-6 wow fadeInUp">A propos de Farhat Frères</span>
                                 <h2 className="title mb-40 wow fadeInUp">Qui sommes-nous </h2>
                                 <p className="description wow fadeInUp " style={{color:'black',lineHeight:

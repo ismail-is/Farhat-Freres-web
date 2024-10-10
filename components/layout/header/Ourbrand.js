@@ -14,7 +14,7 @@ export default function Ourbrand() {
                         <div className="col-6 col-md-4 col-lg-4 col-xl-2">
                             <Link href="/honda" className="icon-box border-line">
                                 <div className="image-box-wrap">
-                                    <img src="./assets/images/All imgs/logo/Hondalogo.webp" alt=""  />
+                                    <img src="assets/images/All imgs/1.png" alt=""  />
                                 </div>
                                 {/* <span className="title-icon">Honda</span> */}
                                 <div className="btn-con-box">

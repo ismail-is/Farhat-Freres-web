@@ -1137,6 +1137,7 @@ body.modal-open {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   margin-right: 50px;
+ 
 }
 
 .main-header .sticky-header .nav-outer .options-box {
@@ -1206,7 +1207,8 @@ body.modal-open {
   padding: 31px 0px;
   letter-spacing: 0px;
   color: #23272D;
-  font-size: 17px;
+  font-size: 19px;
+  font-weight: 700;
   text-transform: capitalize;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -3866,7 +3868,8 @@ ul.social-icon1 li a i:hover {
   left: 0;
   height: 2px;
   width: 100%;
-  background: rgba(208, 24, 24, 0.19);
+  background: white;
+  /* background: rgba(255, 255, 255, 0.19); */
 }
 
 .title-section-main {
@@ -3905,8 +3908,9 @@ ul.social-icon1 li a i:hover {
   text-align: center;
   position: relative;
   transition: all 0.2s ease;
-  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 14px 17px 0px rgba(226, 10, 10, 0.06);
   display: block;
+  border-radius: 10px;
 }
 .icon-box .image-box-wrap {
   height: 111px;
@@ -3929,7 +3933,8 @@ ul.social-icon1 li a i:hover {
 }
 .icon-box .btn-con-box {
   padding: 12px;
-  background-color: #D01818;
+  background-color: #ff0000;
+  border: solid 2px rgb(255, 255, 255);
   border-radius: 100px;
   position: absolute;
   bottom: -17px;
@@ -3944,7 +3949,7 @@ ul.social-icon1 li a i:hover {
   transition: all 0.3s ease;
 }
 .icon-box .btn-con-box:hover {
-  background-color: #000000;
+  background-color: rgb(2, 2, 2);
   transition: all 0.3s ease;
 }
 .icon-box .btn-con-box i {
@@ -5202,6 +5207,7 @@ ul.social-icon1 li a i:hover {
 .widget-selling-car {
   background-color: #F8F8F8;
   padding-top: 184px;
+  margin-top: -100px;
 }
 
 .selling-car {
@@ -5670,14 +5676,14 @@ ul.social-icon1 li a i:hover {
   margin-bottom: 29px;
 }
 .list-icon-check ul i {
-  color: #D01818;
+  color: #f7f7f7;
   font-size: 32px;
 }
 .list-icon-check ul p {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
-  color: #26232A;
+  color: #ffffff;
 }
 
 /*------------ Widget Feature car ---------------- */
@@ -5734,7 +5740,7 @@ ul.social-icon1 li a i:hover {
 /*------------ Widget icon-box ---------------- */
 .widget-icon-box {
   padding-top: 80px;
-  padding-bottom: 84px;
+  padding-bottom: 184px;
   background-color: #F2F5FB;
 }
 @media (max-width: 768px) { /* Adjust the max-width based on your design */
@@ -6132,6 +6138,16 @@ ul.social-icon1 li a i:hover {
 .mybest-selling2 {
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .images img {
+    /* width: 100%; */
+    height: auto; /* Adjusts the height automatically based on the image aspect ratio */
+    min-height: 300px; /* Minimum height for the image, making it larger on mobile */
+    object-fit: fill; /* Ensures the image covers the container without stretching */
+  }
+}
+
+
 .swiper-button-prev1,
 .swiper-button-next1 {
   margin-top: 50px;
@@ -6770,13 +6786,25 @@ a.mapboxgl-ctrl-logo {
 /*------------------- Widget next-prev ----------------- */
 .btn-next-prev {
   display: flex;
-  gap: 24px;
-  align-items: center;
+  gap: 1124px;
+  align-items: start;
   position: absolute;
-  right: 40%;
-  top: 650px;
+  margin: 10px;
+  top: 80%;
   bottom: 0%;
   z-index: 1;
+ 
+}
+.btn-next-prevs {
+  display: flex;
+  /* gap: 214px; */
+  align-items: end;
+  position: absolute;
+  margin: 10px;
+  top: 80%;
+  bottom: 0%;
+  z-index: 1;
+ 
 }
 .btn-next-prev .next,
 .btn-next-prev .prev {
@@ -6805,6 +6833,9 @@ a.mapboxgl-ctrl-logo {
   font-size: 14px;
   color: #000000;
 }
+
+
+
 
 /*------------------- Widget next-prev ----------------- */
 /*------------------- Widget add car ----------------- */

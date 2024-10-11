@@ -17,6 +17,7 @@ import SlideSearchCar from "@/components/sections/SlideSearchCar"
 import TabCarService from "@/components/sections/TabCarService"
 import TestimonialCar from "@/components/sections/TestimonialCar"
 import BestSellingSlider2 from "@/components/slider/BestSellingSlider2"
+import HomeBanne from "@/components/slider/HomeBanne"
 export default function Home() {
 
     return (
@@ -25,7 +26,18 @@ export default function Home() {
             <Layout headerStyle={3} footerStyle={1}>
                 {/* <SlideForm/> */}
                 {/* <BestsellingCar/> */}
-                <BestSellingSlider2 />
+                <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="gallary-property-details">
+                                    <HomeBanne/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                {/* <BestSellingSlider2 />    */}
+
+
                 {/* <BestSellingSlider2 /> */}
                 {/* <Slide /> */}
                 {/* <SlideSearchCar /> */}

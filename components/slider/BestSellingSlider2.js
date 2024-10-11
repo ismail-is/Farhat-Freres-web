@@ -43,7 +43,7 @@ export default function BestSellingSlider2() {
                 <Swiper {...swiperOptions} className="best-selling swiper-wrapper">
                     <SwiperSlide>
                         <div className="images">
-                            <img src="./assets/images/Home/Banner 1.webp" alt="image" style={{ width: '100%', height: '100%' }} />
+                            <img src="./assets/images/Home/Banner 1.webp" alt="image" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -59,6 +59,7 @@ export default function BestSellingSlider2() {
                 </Swiper>
                 <div className="swiper-pagination" />
                 {/* Add Navigation Buttons */}
+                
                 <div className="btn-next-prev">
                     <div className="swiper-button-next-tes next" style={{backgroundColor:"white"}}>
                         <i className="icon-Vector-11" style={{color:'red'}}></i>

@@ -26,10 +26,10 @@ export default function HomeBanne() {
                         <img src="./assets/images/Home/Banner 1.webp" alt="Image" style={{borderRadius:'0%',backgroundSize:'cover'}}/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 2.webp" alt="Image" style={{borderRadius:'0%'}} />
+                        <img src="./assets/images/Home/Banner 2.webp" alt="Image" style={{borderRadius:'0%'}} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/All imgs/Hrv1/HRV 2024 3.webp" alt="Image" style={{borderRadius:'0%'}}/>
+                        <img src="./assets/images/Home/Banner 3.webp" alt="Image" style={{borderRadius:'0%'}}/>
                     </SwiperSlide>
                     
                     

@@ -1013,6 +1013,7 @@ body.modal-open {
 @media (min-width: 769px) {
   #mobilecolor {
     background-color: #ccd2de  !important;
+    height: 60px;
   }
 }
 

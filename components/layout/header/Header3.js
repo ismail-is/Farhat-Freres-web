@@ -61,6 +61,7 @@ export default function Header3({
 const imgStyles = {
   width: "100px",
   height: "auto",
+  
  
   // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
   zIndex: -1, // This moves the image behind other content
@@ -238,10 +239,10 @@ const usedCar = {
           </div>
         </div>
         <div className="header-lower" >
-          <div className="themesflat-container" id="mobilecolor">
+          <div className="themesflat-container" id="mobilecolor" >
             <div className="row" >
               <div className="col-lg-12" >
-                <div className="header-style2 flex justify-space align-center" id="mobilecolor">
+                <div className="header-style2 flex justify-space align-center " id="mobilecolor" >
                   {/* Logo Box */}
                   <div className="logo-box flex" > 
   <div className="logo" id="mobilelog">
@@ -253,7 +254,7 @@ const usedCar = {
 
                   <div className="nav-outer flex align-center " >
                     {/* Main Menu */}
-                    <nav className="main-menu show navbar-expand-md" >
+                    <nav className="main-menu show navbar-expand-md"  >
                       <div
                         className="navbar-collapse collapse clearfix"
                         id="navbarSupportedContent"
@@ -302,7 +303,7 @@ const usedCar = {
 
 <li className="dropdown2">
       <Link href="/#">Nos Marques</Link>
-      <ul style={{ gap: "30px", width: "570%",display:"flex",marginLeft:'-200px'}}>
+      <ul style={{ gap: "30px", width: "570%",display:"flex",marginLeft:'-200px',marginTop:'-10px'}}>
         {Object.keys(imageData).map((brand) => (
           <li
             key={brand}

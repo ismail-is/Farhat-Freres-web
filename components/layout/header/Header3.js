@@ -328,7 +328,7 @@ const usedCar = {
         {selectedBrand && (
           <div style={imageCardStyles} >
             {imageData[selectedBrand].map((image, index) => (
-              <figure
+              <figure 
                 key={index}
                 style={{ marginLeft: "60px", marginTop: "40px", margin: "2px" }}
               >
@@ -340,7 +340,7 @@ const usedCar = {
                       alt={image.alt}
                       onMouseEnter={(e) => (e.target.style.border = '1px solid red')}
                       onMouseLeave={(e) => (e.target.style.border = 'none')}
-                    />
+                      className="wow fadeInUp" data-wow-delay="0.4s"/>
                   </Link>
                 ) : (
                   <img

@@ -105,7 +105,7 @@ export default function Foton () {
                                                             <div className="wrap-hover-listing">
                                                                 <div className="listing-item active" title="">
                                                                     <div className="images">
-                                                                        <img src="./assets/images/All imgs/G7/Foton 1.webp" className="swiper-image tfcl-light-gallery" alt="images" />
+                                                                        <img src="./assets/images/All imgs/G7/Foton 3.webp" className="swiper-image tfcl-light-gallery" alt="images" />
                                                                     </div>
                                                                 </div>
                                                                 {/* <div className="listing-item" title="">

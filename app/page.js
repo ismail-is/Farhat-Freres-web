@@ -27,7 +27,7 @@ export default function Home() {
                 {/* <SlideForm/> */}
                 {/* <BestsellingCar/> */}
                 <div className="row">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12" style={{marginBottom:'-130px'}}>
                                     <div className="gallary-property-details">
                                     <HomeBanne/>
                                     </div>

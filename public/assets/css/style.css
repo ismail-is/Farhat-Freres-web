@@ -599,7 +599,11 @@ input[type=checkbox]:checked + label:after {
   max-width: 100%;
 }
 
-
+@media (max-width: 768px) {
+  #themesflat-container1 {
+    margin-bottom: -140px;
+  }
+}
 .themesflat-container.full {
   width: 100%;
   padding-left: 0px;
@@ -4559,7 +4563,9 @@ ul.social-icon1 li a i:hover {
 .hover-listing-image .wrap-hover-listing .listing-item.active .images img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit:cover;
+  
+  
 }
 .hover-listing-image .wrap-hover-listing .view-gallery {
   cursor: pointer;
@@ -6368,7 +6374,17 @@ ul.social-icon1 li a i:hover {
 .widget-new-cars .new-cars-wrap .new-cars .swiper-wrapper {
   margin-bottom: 20px;
 }
-
+@media (min-width: 769px) {
+  #mainbanner {
+      height:600px  !important;/* Height for laptop and desktop screens */
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      
+      
+  }
+}
 /*------------ widget-new-cars ---------------- */
 /*------------ widget our ealers ---------------- */
 .widget-our-ealers {
@@ -9758,7 +9774,9 @@ a.mapboxgl-ctrl-logo {
 }
 @media only screen and (max-width: 575px) {
   .listing-list-car-grid {
-    grid-template-columns:  1fr;
+    grid-template-columns:  1fr ;
+    
+   
   }
   .col-12:not(:last-child) .tf-car-service-v2 {
     margin-bottom: 30px;

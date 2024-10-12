@@ -15,7 +15,7 @@ export default function FeaturesCar() {
                         </div>
                     </div>
             <div className="widget-feature-car">
-                <div className="themesflat-container full">
+                <div className="themesflat-container full" id='themesflat-container1'>
                     <div className="feature-car">
                         <div className="feature-car-content">
                             <div className="heading-section" style={{marginTop:'-70px'}}>

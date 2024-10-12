@@ -23,13 +23,13 @@ export default function HomeBanne() {
                     }}
                     className="swiper-wrapper" >
                     <SwiperSlide >
-                        <img src="./assets/images/Home/Banner 1.webp" alt="Image" style={{borderRadius:'0%',backgroundSize:'cover'}}/>
+                        <img src="./assets/images/All imgs/mobile/mobilebanner2.webp" alt="Image" style={{borderRadius:'0%',backgroundSize:'cover'}} id='mainbanner'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/Home/Banner 2.webp" alt="Image" style={{borderRadius:'0%'}} />
+                        <img src="./assets/images/All imgs/mobile/Farhat2.webp" alt="Image" style={{borderRadius:'0%'}} id='mainbanner'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assets/images/Home/Banner 3.webp" alt="Image" style={{borderRadius:'0%'}}/>
+                        <img src="../assets/images/All imgs/mobile/Farhat3.webp" alt="Image" style={{borderRadius:'0%'}} id='mainbanner'/>
                     </SwiperSlide>
                     
                     

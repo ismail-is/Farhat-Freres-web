@@ -128,7 +128,7 @@ export default function HondaEngines() {
                                                             </div>
                                                         </div>
                                                         <a href="#" className="icon-favorite">
-                                                            <i className="icon-heart-1-1" />
+                                                            {/* <i className="icon-heart-1-1" /> */}
                                                         </a>
                                                         <span className="feature">Featured</span>
                                                     </div>
@@ -229,9 +229,9 @@ export default function HondaEngines() {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a href="#" className="icon-favorite">
+                                                        {/* <a href="#" className="icon-favorite">
                                                             <i className="icon-heart-1-1" />
-                                                        </a>
+                                                        </a> */}
                                                         <span className="feature">Featured</span>
                                                     </div>
                                                     <div className="listing-item-content">

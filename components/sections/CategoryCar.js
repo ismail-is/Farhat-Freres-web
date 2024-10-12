@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function CategoryCar() {
     return (
         <>
-            <div className="widget-category-car " style={{marginBottom:'400px',marginTop:'-130px'}}>
+            <div className="widget-category-car " style={{marginBottom:'350px',marginTop:'-180px'}}>
                 <div className="themesflat-container">
                     <div className="category-car-wrap mb--280">
                         <div className="heading-section t-al-center">

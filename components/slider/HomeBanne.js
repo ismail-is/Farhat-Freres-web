@@ -29,7 +29,7 @@ export default function HomeBanne() {
                         <img src="./assets/images/All imgs/mobile/Farhat2.webp" alt="Image" style={{borderRadius:'0%'}} id='mainbanner'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="../assets/images/All imgs/mobile/Farhat3.webp" alt="Image" style={{borderRadius:'0%'}} id='mainbanner'/>
+                        <img src="./assets/images/All imgs/mobile/Farhat3.webp" alt="Image" style={{borderRadius:'0%'}} id='mainbanner'/>
                     </SwiperSlide>
                     
                     

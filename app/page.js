@@ -26,13 +26,9 @@ export default function Home() {
             <Layout headerStyle={3} footerStyle={1}>
                 {/* <SlideForm/> */}
                 {/* <BestsellingCar/> */}
-                <div className="row">
-                                <div className="col-lg-12" style={{marginBottom:'-130px'}}>
-                                    <div className="gallary-property-details">
+                                    <div className="gallary-property-details" id="gallery-property-details1" >
                                     <HomeBanne/>
                                     </div>
-                                </div>
-                            </div>
 
 
                 {/* <BestSellingSlider2 />    */}

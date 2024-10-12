@@ -6380,7 +6380,7 @@ ul.social-icon1 li a i:hover {
       object-fit: cover;
       background-size: cover;
       background-position: center;
-      width: 100%;
+      width: 100% !important;
       
       
   }
@@ -7593,6 +7593,16 @@ a.mapboxgl-ctrl-logo {
 .gallary-property-details {
   overflow: hidden;
   margin-bottom: 74px;
+}
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+  #gallery-property-details1 {
+      margin-bottom: -130px;
+  }
+}
+@media (min-width: 769px) { /* Adjust the min-width as needed */
+  #gallery-property-details1 {
+      margin-bottom: -70px; /* Set the margin as needed for larger screens */
+  }
 }
 .gallary-property-details .property-gallary2 {
   margin-bottom: 34px;
